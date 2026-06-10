@@ -1,0 +1,41 @@
+# CocktailBerry MK III
+
+The **MK III** is the successor to the MK II and the current reference build for
+CocktailBerry. By moving the wiring onto the
+[CocktailBerryBoard](../../pcbas/cocktailberry-board.md), it achieves a noticeably
+smaller footprint while keeping the full feature set of its predecessor.
+
+It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
+print bed.
+
+!!! warning "Alpha"
+    The MK III is in **alpha** and will eventually be succeeded by the **MK IV**,
+    which is built around the CocktailBerry **v2** software. Designs are subject to
+    change.
+
+## Specifications
+
+| Property   | Value                                            |
+| ---------- | ------------------------------------------------ |
+| Dispensers | 8 × peristaltic pumps                            |
+| Display    | 7" integrated LED touchscreen                    |
+| Controller | Raspberry Pi 3 Model B+ (newer models also work) |
+| Power      | 12 V input; internal transformer powers the Pi   |
+| Software   | CocktailBerry v1 (Qt); also runs v2              |
+| Enclosure  | Fully 3D-printed (fits a 250 × 250 bed)          |
+| Dimensions | ⌀ ~240 mm × ~550 mm (H)                          |
+| Status     | Alpha                                            |
+
+Because the touchscreen is built in, the **v1** app is the natural fit, but the
+machine can also be run with **v2**.
+
+!!! note "Base build"
+    The MK III documented here is the base machine. Optional CocktailBerry
+    capabilities — WS281x LEDs, RFID/NFC payment, scale/weight sensing, and
+    carriages — are **not** part of this build.
+
+## Build Guide
+
+1. [Needed Parts](needed-parts.md) — what to print, buy, and have ready.
+2. [Preparation](preparation.md) — printing, post-processing, and prep work.
+3. [Assembly](assembly.md) — putting it all together.
