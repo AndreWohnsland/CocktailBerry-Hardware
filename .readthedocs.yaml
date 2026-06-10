@@ -1,0 +1,23 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html
+
+# Required
+version: 2
+
+# Build the Zensical site and hand it to Read the Docs.
+# Zensical is not a native RTD builder, so we run it ourselves and copy the
+# generated `site/` into the directory RTD serves from.
+build:
+  os: ubuntu-24.04
+  tools:
+    python: '3.13'
+  jobs:
+    install:
+      - pip install -r docs/requirements.txt
+    build:
+      html:
+        - zensical build
+    post_build:
+      - mkdir -p $READTHEDOCS_OUTPUT/html/
+      - cp --recursive site/* $READTHEDOCS_OUTPUT/html/

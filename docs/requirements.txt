@@ -1,0 +1,3 @@
+# Dependencies for building the docs on Read the Docs.
+# Local development uses uv (see pyproject.toml, `docs` group); keep these in sync.
+zensical>=0.0.45

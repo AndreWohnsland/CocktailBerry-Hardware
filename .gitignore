@@ -1,0 +1,19 @@
+# Zensical / build output
+site/
+.cache/
+
+# Python (zensical tooling, optional local venvs)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp

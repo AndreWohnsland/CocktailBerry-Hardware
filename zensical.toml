@@ -1,12 +1,24 @@
 [project]
-site_name = "CocktailBerry: Official Hardware Documentation"
+site_name = "CocktailBerry: Official Hardware"
 site_description = "Official CocktailBerry Hardware Documentation: Open Source Software to easily build your own automated cocktail machine."
 site_author = "Andre Wohnsland"
 copyright = "&copy; Copyright 2026, Andre Wohnsland & contributors"
-repo_url = "https://github.com/AndreWohnsland/CocktailBerry-Hardware"
-repo_name = "GitHub Cocktailberry-Hardware"
 
 nav = [
+  { "Home" = "index.md" },
+  { "PCBAs" = [
+    "pcbas/index.md",
+    { "CocktailBerryBoard" = "pcbas/cocktailberry-board.md" },
+  ]},
+  { "Machines" = [
+    "machines/index.md",
+    { "CocktailBerry MK III" = [
+      "machines/mk-iii/index.md",
+      { "Needed Parts" = "machines/mk-iii/needed-parts.md" },
+      { "Preparation" = "machines/mk-iii/preparation.md" },
+      { "Assembly" = "machines/mk-iii/assembly.md" },
+    ]},
+  ]},
 ]
 
 extra_css = ["stylesheets/extra.css"]
@@ -22,6 +34,7 @@ custom_dir = "docs/overrides"
 logo = "img/berry.svg"
 favicon = "img/favicon.ico"
 features = [
+  "navigation.sections",
   "navigation.footer",
   "content.code.copy",
   "content.code.annotate",
@@ -42,6 +55,17 @@ scheme = "slate"
 primary = "custom"
 toggle.icon = "material/weather-night"
 toggle.name = "Switch to light mode"
+
+# Footer links to the main CocktailBerry project and its documentation.
+[[project.extra.social]]
+icon = "material/web"
+link = "https://cocktailberry.org"
+name = "CocktailBerry"
+
+[[project.extra.social]]
+icon = "material/book-open-variant"
+link = "https://docs.cocktailberry.org"
+name = "CocktailBerry Documentation"
 
 # Since we customize superfences and tabbed, we must explicitly define all extensions
 # https://zensical.org/docs/setup/extensions/#default-configuration-zensicaltoml
