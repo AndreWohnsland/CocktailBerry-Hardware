@@ -48,6 +48,15 @@ any device that can be controlled from a GPIO output.
 
 ## Files
 
-- Schematic: _to be published_
-- Gerbers / production artifacts (JLCPCB): _to be published_
-- BOM: _to be published_
+Production files are attached to each [release][releases] as a single archive,
+generated with KiKit:
+
+- **Fabrication package (JLCPCB):**
+  [`cbb-gpio.zip`](https://github.com/AndreWohnsland/CocktailBerry-Hardware/releases/latest/download/cbb-gpio.zip)
+  — Gerbers, drill, BOM, and CPL (pick-and-place).
+
+!!! info
+    The link always points to the **latest release** and will 404 until the
+    first release is published.
+
+[releases]: https://github.com/AndreWohnsland/CocktailBerry-Hardware/releases

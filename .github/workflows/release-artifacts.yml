@@ -1,0 +1,84 @@
+name: Release Artifacts
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch: {} # allow manual test runs
+
+permissions:
+  contents: write # required for `gh release upload`
+
+jobs:
+  cad:
+    runs-on: ubuntu-latest
+    env:
+      QT_QPA_PLATFORM: offscreen # let headless freecadcmd satisfy Qt without xvfb
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install FreeCAD
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends freecad
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.2.0
+
+      - name: Export CAD artifacts
+        run: uv run python scripts/build_artifacts.py
+
+      - name: Attach to release
+        if: github.event_name == 'release'
+        run: |
+          for f in dist/*.zip; do
+            gh release upload "${{ github.event.release.tag_name }}" "$f" --clobber
+          done
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Upload as workflow artifact (manual runs)
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v7
+        with:
+          name: cad-artifacts
+          path: dist/*.zip
+          if-no-files-found: error
+
+  board:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install KiCad + KiKit
+        # Pinned matching pair: KiKit 1.8.0 added KiCad 10 support (and dropped
+        # < v9), so it pairs with KiCad from the official 10.0 release PPA.
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
+          # KiKit must live in the same Python as KiCad's pcbnew module, and on
+          # PATH for the orchestrator -- install system-wide with sudo.
+          sudo python3 -m pip install --break-system-packages "kikit==1.8.0"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.2.0
+
+      - name: Generate JLCPCB fabrication files
+        run: uv run python scripts/build_fab.py
+
+      - name: Attach to release
+        if: github.event_name == 'release'
+        run: |
+          for f in dist/*.zip; do
+            gh release upload "${{ github.event.release.tag_name }}" "$f" --clobber
+          done
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Upload as workflow artifact (manual runs)
+        if: github.event_name != 'release'
+        uses: actions/upload-artifact@v7
+        with:
+          name: board-artifacts
+          path: dist/*.zip
+          if-no-files-found: error

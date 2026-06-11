@@ -1,0 +1,12 @@
+# Object export overrides for the MK III.
+#
+# Files with a single result body do NOT need an entry here — they are detected
+# automatically. Only list files that contain multiple export candidates.
+#
+# Key = .FCStd file name without extension. Objects are matched by their Label.
+
+# Example: the main body forks from a shared base into several variants, so the
+# base is skipped and the alterations are exported explicitly. Uncomment and
+# adjust the labels once main_body.FCStd exists.
+# [main_body]
+# objects = ["MainBodyStandard", "MainBodyTall", "MainBodyCompact"]
