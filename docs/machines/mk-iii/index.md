@@ -34,6 +34,21 @@ machine can also be run with **v2**.
     capabilities — WS281x LEDs, RFID/NFC payment, scale/weight sensing, and
     carriages — are **not** part of this build.
 
+## Downloads
+
+The printable and CAD files are attached to each [release][releases] as a single
+archive:
+
+- **3D files:**
+  [`mk3.zip`](https://github.com/AndreWohnsland/CocktailBerry-Hardware/releases/latest/download/mk3.zip)
+  — STL (print-ready) and STEP (CAD) for every part.
+
+!!! info
+    The link always points to the **latest release** and will 404 until the
+    first release is published.
+
+[releases]: https://github.com/AndreWohnsland/CocktailBerry-Hardware/releases
+
 ## Build Guide
 
 1. [Needed Parts](needed-parts.md) — what to print, buy, and have ready.

@@ -2,6 +2,9 @@
 site/
 .cache/
 
+# CAD artifact build output
+dist/
+
 # Python (zensical tooling, optional local venvs)
 __pycache__/
 *.py[cod]
