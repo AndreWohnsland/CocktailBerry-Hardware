@@ -1,0 +1,2 @@
+[DripTray]
+objects = ["DripTrayNoScale", "DripTrayWithScale"]
