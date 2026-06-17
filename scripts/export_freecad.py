@@ -37,6 +37,13 @@ LINEAR_DEFLECTION = 0.1  # STL resolution in mm; smaller = finer mesh / bigger f
 ANGULAR_DEFLECTION = 0.5
 
 
+def log(msg: str = "") -> None:
+    # Our progress goes to stderr; FreeCAD's verbose console chatter stays on
+    # stdout. That lets build_artifacts.py capture the two separately and hide
+    # the chatter on a successful run (see its subprocess handling).
+    print(msg, file=sys.stderr, flush=True)
+
+
 def sanitize(name: str) -> str:
     keep = "-_.() "
     return "".join(c if c.isalnum() or c in keep else "_" for c in name).strip()
@@ -65,7 +72,11 @@ def export_object(obj: DocObject, out_dir: str, name: str) -> None:
         Relative=False,
     )
     mesh.write(base + ".stl")
-    print(f"  exported {obj.Label} -> {os.path.basename(base)}.{{step,stl}}")
+    stem = os.path.basename(base)
+    step_kb = os.path.getsize(base + ".step") / 1024
+    stl_kb = os.path.getsize(base + ".stl") / 1024
+    # Sizes are a cheap sanity signal: a near-empty file means a broken export.
+    log(f"      wrote {stem}.step ({step_kb:,.0f} KB) + {stem}.stl ({stl_kb:,.0f} KB)")
 
 
 def load_manifest(machine_dir: str) -> dict[str, Any]:
@@ -92,13 +103,13 @@ def main() -> None:
         if f.lower().endswith(".fcstd") and os.path.isfile(os.path.join(machine_dir, f))
     )
     if not files:
-        print(f"no .FCStd files in {machine_dir}")
+        log(f"no .FCStd files in {machine_dir}")
         return
 
     errors = []
     for fname in files:
         stem = os.path.splitext(fname)[0]
-        print(f"{fname}:")
+        log(f"\n{fname}")
         doc = FreeCAD.openDocument(os.path.join(machine_dir, fname))
         try:
             wanted = manifest.get(stem, {}).get("objects")
@@ -127,14 +138,19 @@ def main() -> None:
                     continue
                 targets = [(cands[0], stem)]
             for obj, name in targets:
+                # Header per part BEFORE the work, so if an export crashes the
+                # last line printed names the part that broke. Show the source
+                # object only when it differs from the export name (mapped case).
+                src = "" if obj.Label == name else f" (object: {obj.Label})"
+                log(f"  -> exporting {name}{src}")
                 export_object(obj, out_dir, name)
         finally:
             FreeCAD.closeDocument(doc.Name)
 
     if errors:
-        print("\nERRORS:")
+        log("\nERRORS:")
         for e in errors:
-            print(f"  - {e}")
+            log(f"  - {e}")
         sys.exit(1)
 
 

@@ -64,13 +64,14 @@ def main(argv: list[str]) -> None:
         board_dir = PCB_DIR / board
         if not board_dir.is_dir():
             sys.exit(f"board folder not found: {board_dir}")
+        # Banner before the .kicad_pcb check so the log names the board even when
+        # that check is what fails.
+        print(f"\n{f'  BOARD: {board}  ':=^60}", flush=True)
         pcb = single_pcb(board_dir)
         out_dir = DIST_DIR / board
         if out_dir.exists():
             shutil.rmtree(out_dir)
         out_dir.mkdir(parents=True)
-
-        print(f"== {board} ==")
         # --no-drc keeps an already-validated board from being blocked by a CI
         # DRC quirk; drop it to enforce DRC at release time.
         cmd = [kikit, "fab", "jlcpcb", "--no-drc"]
@@ -79,12 +80,15 @@ def main(argv: list[str]) -> None:
         sch = pcb.with_suffix(".kicad_sch")
         if sch.exists():
             cmd += ["--assembly", "--schematic", str(sch), "--field", LCSC_FIELD]
+            print(f"  -> kikit fab jlcpcb [{pcb.name}] -- with assembly (BOM + CPL)", flush=True)
+        else:
+            print(f"  -> kikit fab jlcpcb [{pcb.name}] -- board only (no schematic)", flush=True)
         cmd += [str(pcb), str(out_dir)]
         subprocess.run(cmd, check=True)
 
         zip_path = DIST_DIR / f"{board}.zip"
         zip_dir(out_dir, zip_path)
-        print(f"packaged {zip_path.relative_to(ROOT)}")
+        print(f"  packaged -> {zip_path.relative_to(ROOT)}", flush=True)
 
 
 if __name__ == "__main__":

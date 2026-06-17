@@ -59,14 +59,28 @@ def main(argv: list[str]) -> None:
             shutil.rmtree(out_dir)
         out_dir.mkdir(parents=True)
 
-        print(f"== {machine} ==")
-        subprocess.run(
+        proc = subprocess.run(
             [freecadcmd, str(EXPORT_SCRIPT), str(machine_dir), str(out_dir)],
-            check=True,
+            capture_output=True,
+            text=True,
         )
+        # Fold each machine into a collapsible GH Actions group. export_freecad.py
+        # writes our progress to stderr (always shown); FreeCAD's verbose console
+        # chatter lands on stdout and is only worth surfacing when the run failed,
+        # so a green build stays readable.
+        print(f"::group::{f'  MACHINE: {machine}  ':=^60}", flush=True)
+        if proc.stderr:
+            print(proc.stderr, end="", flush=True)
+        if proc.returncode != 0 and proc.stdout:
+            print("\n--- freecadcmd console output ---", flush=True)
+            print(proc.stdout, end="", flush=True)
+        print("::endgroup::", flush=True)
+        if proc.returncode != 0:
+            sys.exit(f"freecadcmd failed for {machine} (exit code {proc.returncode})")
+
         zip_path = DIST_DIR / f"{machine}.zip"
         zip_dir(out_dir, zip_path)
-        print(f"packaged {zip_path.relative_to(ROOT)}")
+        print(f"  packaged -> {zip_path.relative_to(ROOT)}", flush=True)
 
 
 if __name__ == "__main__":
