@@ -4,6 +4,7 @@ site/
 
 # CAD artifact build output
 dist/
+*.FCBak
 
 # Python (zensical tooling, optional local venvs)
 __pycache__/
