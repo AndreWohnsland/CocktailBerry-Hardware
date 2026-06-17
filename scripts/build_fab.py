@@ -27,6 +27,14 @@ DIST_DIR = ROOT / "dist"
 # this project stores it in "MPN".
 LCSC_FIELD = "MPN"
 
+# Optional per-board placement corrections. KiKit reports each part at the
+# footprint ORIGIN (footprint.GetPosition()); JLCPCB expects the pad CENTRE.
+# For SMD those coincide, but THT footprints (terminal blocks, headers, fuse)
+# anchor at pin 1, so they land shifted by the origin->centre offset. This CSV
+# supplies that offset (footprint-local mm, KiKit rotates it per placement):
+#   footprint-regex, part-regex, X, Y, Rotation   (matched on "Lib:Footprint").
+CORRECTIONS_FILE = "corrections.csv"
+
 
 def find_kikit() -> str:
     path = shutil.which("kikit")
@@ -80,6 +88,10 @@ def main(argv: list[str]) -> None:
         sch = pcb.with_suffix(".kicad_sch")
         if sch.exists():
             cmd += ["--assembly", "--schematic", str(sch), "--field", LCSC_FIELD]
+            # Apply placement corrections if the board ships a table (see above).
+            corrections = board_dir / CORRECTIONS_FILE
+            if corrections.exists():
+                cmd += ["--correctionpatterns", str(corrections)]
             print(f"  -> kikit fab jlcpcb [{pcb.name}] -- with assembly (BOM + CPL)", flush=True)
         else:
             print(f"  -> kikit fab jlcpcb [{pcb.name}] -- board only (no schematic)", flush=True)

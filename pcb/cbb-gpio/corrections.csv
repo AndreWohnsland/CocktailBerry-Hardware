@@ -1,0 +1,6 @@
+"Footprint regex","Part regex","X","Y","Rotation"
+".*PinSocket_2x06.*",".*",-1.27,6.35,90
+".*MKDS-1,5-4_1x04.*",".*",7.5,0,0
+".*MKDS-1,5-6_1x06.*",".*",12.5,0,0
+".*MKDS-1,5-8_1x08.*",".*",17.5,0,0
+".*Fuse_Littelfuse_395Series.*",".*",2.54,0,0
