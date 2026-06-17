@@ -16,10 +16,32 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install FreeCAD
+      - name: Install FreeCAD 1.1
+        # ubuntu-latest has no FreeCAD in apt on 24.04, and the stable PPA lags at
+        # 0.21 -- too old to load our 1.1-authored files correctly (0.21 silently
+        # drops newer features on open and exports wrong geometry). Use the
+        # official AppImage so CI matches the version the CAD files are designed in.
+        #
+        # We unpack the AppImage's squashfs directly (its byte offset is the end of
+        # the runtime ELF) rather than `--appimage-extract`, which must EXECUTE the
+        # AppImage runtime -- that fails under `act` on Apple Silicon (amd64
+        # emulation can't exec the runtime). The inner freecadcmd is an ordinary
+        # binary, so this keeps the job runnable both on CI and locally via act.
+        env:
+          FREECAD_VERSION: "1.1.1"
         run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends freecad
+          set -euo pipefail
+          curl -fSL -o /tmp/freecad.AppImage \
+            "https://github.com/FreeCAD/FreeCAD/releases/download/${FREECAD_VERSION}/FreeCAD_${FREECAD_VERSION}-Linux-x86_64-py311.AppImage"
+          sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends squashfs-tools
+          offset=$(python3 -c 'import struct;d=open("/tmp/freecad.AppImage","rb").read(64);print(struct.unpack_from("<Q",d,0x28)[0]+struct.unpack_from("<H",d,0x3a)[0]*struct.unpack_from("<H",d,0x3c)[0])')
+          unsquashfs -o "$offset" -d /tmp/freecad /tmp/freecad.AppImage >/dev/null
+          # Symlink into /usr/local/bin (already on PATH) so build_artifacts.py's
+          # shutil.which finds it. NOT $GITHUB_PATH: under act that clobbers PATH
+          # and the next JS action loses `node`. $ORIGIN resolves through the
+          # symlink, so the AppImage's bundled libs still load.
+          sudo ln -sf "$(find /tmp/freecad -type f -name freecadcmd | head -1)" /usr/local/bin/freecadcmd
+          freecadcmd --version
 
       - name: Install uv
         uses: astral-sh/setup-uv@v8.2.0

@@ -7,8 +7,10 @@ For each machine folder under cad/machines/, this calls FreeCAD's headless
 ``freecadcmd`` (see scripts/export_freecad.py) to export STEP + STL, then zips
 the results to dist/<machine>.zip.
 
-FreeCAD is NOT a uv dependency -- it must be installed separately (e.g.
-``apt-get install freecad`` on CI). Only the orchestration runs under uv.
+FreeCAD is NOT a uv dependency -- ``freecadcmd`` (FreeCAD >= 1.1, matching the
+version the .FCStd files are authored in) must be on PATH separately. CI unpacks
+the official 1.1 AppImage; locally use your FreeCAD install. Only the
+orchestration runs under uv.
 """
 
 import shutil

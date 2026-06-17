@@ -13,6 +13,11 @@ Conventions (see cad/README.md):
       - Otherwise the single "result" body is auto-detected. If a file has more
         than one candidate (e.g. a base that forks into variants), the run fails
         and lists the candidates so you can add an export.toml entry.
+  * Output naming:
+      - Auto-detected single body -> named after the FILE (e.g. DrainingRack.step).
+        Bodies are conventionally labelled "Body", so naming by Label would make
+        every single-body file collide in the shared out_dir.
+      - export.toml-mapped objects -> named after each object's Label.
 """
 
 import os
@@ -50,8 +55,8 @@ def candidates(doc: Document) -> list[DocObject]:
     return out
 
 
-def export_object(obj: DocObject, out_dir: str) -> None:
-    base = os.path.join(out_dir, sanitize(obj.Label))
+def export_object(obj: DocObject, out_dir: str, name: str) -> None:
+    base = os.path.join(out_dir, sanitize(name))
     Part.export([obj], base + ".step")
     mesh = MeshPart.meshFromShape(
         Shape=obj.Shape,
@@ -72,9 +77,12 @@ def load_manifest(machine_dir: str) -> dict[str, Any]:
 
 
 def main() -> None:
-    if len(sys.argv) != 3:
+    # freecadcmd runs as `freecadcmd <script> <args...>`, so sys.argv[0] is the
+    # freecadcmd binary and sys.argv[1] is THIS script -- unlike plain Python.
+    # Our two real arguments are therefore always the last two entries.
+    if len(sys.argv) < 3:
         sys.exit("usage: freecadcmd export_freecad.py <machine_dir> <out_dir>")
-    machine_dir, out_dir = sys.argv[1], sys.argv[2]
+    machine_dir, out_dir = sys.argv[-2], sys.argv[-1]
     os.makedirs(out_dir, exist_ok=True)
     manifest = load_manifest(machine_dir)
 
@@ -95,13 +103,20 @@ def main() -> None:
         try:
             wanted = manifest.get(stem, {}).get("objects")
             if wanted:
+                # Explicitly mapped objects: a file forks into several named
+                # variants, so each export is named by its object Label to keep
+                # them distinct (e.g. DripTrayNoScale, DripTrayWithScale).
                 by_label = {o.Label: o for o in doc.Objects}
                 missing = [w for w in wanted if w not in by_label]
                 if missing:
                     errors.append(f"{fname}: objects not found by Label: {missing}")
                     continue
-                targets = [by_label[w] for w in wanted]
+                targets = [(by_label[w], w) for w in wanted]
             else:
+                # Single result body: name the export after the FILE, not the
+                # body Label. Bodies are conventionally labelled "Body", so
+                # naming by Label would collide across files in the same machine
+                # (all writing Body.step/Body.stl into the shared out_dir).
                 cands = candidates(doc)
                 if len(cands) != 1:
                     names = [o.Label for o in cands]
@@ -110,9 +125,9 @@ def main() -> None:
                         f"add a [{stem}] entry to export.toml to pick objects"
                     )
                     continue
-                targets = cands
-            for obj in targets:
-                export_object(obj, out_dir)
+                targets = [(cands[0], stem)]
+            for obj, name in targets:
+                export_object(obj, out_dir, name)
         finally:
             FreeCAD.closeDocument(doc.Name)
 
