@@ -86,6 +86,12 @@ def main(argv: list[str]) -> None:
         cmd += [str(pcb), str(out_dir)]
         subprocess.run(cmd, check=True)
 
+        # KiKit emits both the raw gerber folder and a zip of it. JLCPCB only
+        # needs the zip, so drop the redundant unzipped copy before packaging.
+        for gerber_dir in (out_dir / "gerber", out_dir / "gerbers"):
+            if gerber_dir.is_dir():
+                shutil.rmtree(gerber_dir)
+
         zip_path = DIST_DIR / f"{board}.zip"
         zip_dir(out_dir, zip_path)
         print(f"  packaged -> {zip_path.relative_to(ROOT)}", flush=True)

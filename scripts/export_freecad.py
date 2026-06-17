@@ -112,7 +112,15 @@ def main() -> None:
         log(f"\n{fname}")
         doc = FreeCAD.openDocument(os.path.join(machine_dir, fname))
         try:
-            wanted = manifest.get(stem, {}).get("objects")
+            entry = manifest.get(stem)
+            wanted = entry.get("objects") if entry is not None else None
+            if entry is not None and not wanted:
+                # Entry present but lists no objects: a non-geometry helper file
+                # (e.g. shared Parameters) that other docs reference but that has
+                # nothing to export itself. Explicit empty -> skip, don't auto-
+                # detect (which would error with 0 candidates).
+                log("  -> skipped (export.toml lists no objects)")
+                continue
             if wanted:
                 # Explicitly mapped objects: a file forks into several named
                 # variants, so each export is named by its object Label to keep
