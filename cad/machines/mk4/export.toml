@@ -1,2 +1,6 @@
 [DripTray]
 objects = ["DripTrayNoScale", "DripTrayWithScale"]
+
+# This is the parameter file, it does not contain any objects, but it is required for the export to work.
+[Parameters]
+objects = []
