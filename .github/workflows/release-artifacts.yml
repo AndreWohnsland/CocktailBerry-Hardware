@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       QT_QPA_PLATFORM: offscreen # let headless freecadcmd satisfy Qt without xvfb
+    # On manual runs the split job below fans each zip out into its own artifact;
+    # it needs the list of zip stems the build produced.
+    outputs:
+      items: ${{ steps.list.outputs.items }}
     steps:
       - uses: actions/checkout@v6
 
@@ -58,16 +62,50 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
-      - name: Upload as workflow artifact (manual runs)
+      # Manual runs: stage the zips once for the split job (one bundled handoff),
+      # and emit the per-zip stems so the split job can fan them out individually.
+      - name: Stage zips for split (manual runs)
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v7
         with:
-          name: cad-artifacts
+          name: _cad-dist
           path: dist/*.zip
+          if-no-files-found: error
+
+      - name: List produced zips (manual runs)
+        id: list
+        if: github.event_name != 'release'
+        run: |
+          shopt -s nullglob
+          items=$(for f in dist/*.zip; do basename "$f" .zip; done | jq -R . | jq -cs .)
+          echo "items=$items" >> "$GITHUB_OUTPUT"
+
+  cad-split:
+    # One artifact per machine on manual runs, mirroring how a release uploads one
+    # asset per zip. Build-once: this only re-uploads what the `cad` job staged.
+    needs: cad
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        item: ${{ fromJSON(needs.cad.outputs.items) }}
+    steps:
+      - name: Download staged zips
+        uses: actions/download-artifact@v7
+        with:
+          name: _cad-dist
+          path: dist
+      - name: Upload ${{ matrix.item }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.item }}
+          path: dist/${{ matrix.item }}.zip
           if-no-files-found: error
 
   board:
     runs-on: ubuntu-latest
+    outputs:
+      items: ${{ steps.list.outputs.items }}
     steps:
       - uses: actions/checkout@v6
 
@@ -97,10 +135,38 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
-      - name: Upload as workflow artifact (manual runs)
+      - name: Stage zips for split (manual runs)
         if: github.event_name != 'release'
         uses: actions/upload-artifact@v7
         with:
-          name: board-artifacts
+          name: _board-dist
           path: dist/*.zip
+          if-no-files-found: error
+
+      - name: List produced zips (manual runs)
+        id: list
+        if: github.event_name != 'release'
+        run: |
+          shopt -s nullglob
+          items=$(for f in dist/*.zip; do basename "$f" .zip; done | jq -R . | jq -cs .)
+          echo "items=$items" >> "$GITHUB_OUTPUT"
+
+  board-split:
+    needs: board
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        item: ${{ fromJSON(needs.board.outputs.items) }}
+    steps:
+      - name: Download staged zips
+        uses: actions/download-artifact@v7
+        with:
+          name: _board-dist
+          path: dist
+      - name: Upload ${{ matrix.item }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.item }}
+          path: dist/${{ matrix.item }}.zip
           if-no-files-found: error
