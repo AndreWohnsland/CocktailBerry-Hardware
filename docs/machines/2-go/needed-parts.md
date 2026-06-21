@@ -24,3 +24,7 @@ See also the [PCBAs](../../pcbas/index.md) section.
 
 | Item | Qty | Notes |
 | ---- | --- | ----- |
+
+--8<-- "inserted_threads.md"
+
+--8<-- "additional_parts.md"

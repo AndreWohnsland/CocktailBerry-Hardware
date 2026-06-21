@@ -137,7 +137,7 @@ repo_url = "https://github.com/AndreWohnsland/CocktailBerry-Hardware"
 # Markdown link, so a page renders a clickable link from just the macro, e.g.
 #   Grab a {{extra.pi_5_link}} and a {{extra.sd_card_link}}.
 # The macros plugin (Jinja2) expands these before Markdown parses the page.
-# Keep in sync with the hardware overview at https://cocktailberry.org/hardware.
+
 # Raspberry Pi
 pi_3bplus_link = "[Raspberry Pi 3B+](https://amzn.to/48bhCBc)"
 pi_4_link = "[Raspberry Pi 4](https://amzn.to/4pqSH3v)"
@@ -149,25 +149,30 @@ touch_7in_teams_link = "[7\" Touchscreen (Teams)](https://amzn.to/47SVAnN)"
 touch_official_link = "[Official Touchscreen](https://amzn.to/4pnDPmj)"
 display_casing_link = "[Display Casing](https://amzn.to/49sLPOt)"
 # Storage
-sd_card_link = "[Micro SD Card (16–32 GB)](https://amzn.to/3JY3Dqn)"
+sd_card_link = "[Micro SD Card (16-32 GB)](https://amzn.to/3JY3Dqn)"
 # Controller boards
 relay_board_link = "[8-Channel Relay Board](https://amzn.to/49ya120)"
 motor_shield_azdelivery_link = "[Motor Shield (AZDelivery)](https://amzn.to/3SbQiOE)"
 motor_shield_adafruit_link = "[Motor Shield (Adafruit)](https://amzn.to/4vE6uaf)"
 # Power supplies
+power_jack_2_5_mm_link = "[2.5mm Power Jack](https://amzn.to/4uTvkC1)"
 pi3_power_supply_link = "[5V Power Supply (Raspberry Pi 3)](https://amzn.to/3XbImwj)"
 pi4_power_supply_link = "[5V Power Supply (Raspberry Pi 4)](https://amzn.to/48axtjp)"
 pi5_power_supply_link = "[5V Power Supply (Raspberry Pi 5)](https://amzn.to/4885zEN)"
-pump_power_supply_link = "[Pump Power Supply](https://amzn.to/49w0fgP)"
+power_supply_12v_link = "[12V Power Supply](https://amzn.to/49w0fgP)"
 voltage_converter_link = "[Voltage Converter](https://amzn.to/4qT18oW)"
 # Tubing, cables & fasteners
-tubing_link = "[Food-Safe Tubing (5–10 m)](https://amzn.to/4ppufj3)"
+tubing_link = "[Food-Safe Tubing (5-10 m)](https://amzn.to/4ppufj3)"
 jumper_wires_link = "[Jumper Wires (F-F)](https://amzn.to/47TY7yc)"
 hex_standoffs_link = "[Hex Standoffs](https://amzn.to/4oRQBd0)"
 hdmi_cable_link = "[HDMI Cable](https://amzn.to/4ra7Wzo)"
 usb_cable_link = "[USB Cable](https://amzn.to/48n4NF7)"
 usb_c_open_cable_link = "[USB-C Open Cable](https://amzn.to/3X9I7lw)"
 micro_usb_open_cable_link = "[Micro USB Open Cable](https://amzn.to/4oQDCIu)"
+inserted_thread_link = "[Inserted Threads](https://amzn.to/4xFULJX)"
+inserted_thread_small_link = "[Inserted Threads](https://amzn.to/4oJ0DOu)"
+cnc_kitchen_inserts_link = "[CNC Kitchen Inserts](https://cnckitchen.store/collections/threaded-inserts)"
+hexa_nut_link = "[Hex Nuts](https://amzn.to/4uPTbT5)"
 # Payment hardware
 rfid_reader_link = "[USB RFID Reader](https://amzn.to/4p75hVZ)"
 nfc_tags_link = "[NFC Tags (MIFARE)](https://amzn.to/43ZPcsC)"
@@ -175,3 +180,5 @@ nfc_tags_link = "[NFC Tags (MIFARE)](https://amzn.to/43ZPcsC)"
 membrane_pump_link = "[Membrane Pump](https://amzn.to/4ocmw6S)"
 membrane_pump_alt_link = "[Membrane Pump (alt.)](https://amzn.to/4a6PfXl)"
 peristaltic_pump_link = "[Peristaltic Pump](https://amzn.to/3LSyTrh)"
+# LEDS
+ring_led_12_link = "[12-LED Ring](https://amzn.to/4xIfQTQ)"

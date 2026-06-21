@@ -1,12 +1,9 @@
 # CocktailBerry MK III
 
-The **MK III** is the successor to the MK II and the current reference build for
-CocktailBerry. By moving the wiring onto the
-[CocktailBerryBoard](../../pcbas/cocktailberry-board.md), it achieves a noticeably
-smaller footprint while keeping the full feature set of its predecessor.
+The **MK III** is the successor to the MK II and the current reference build for CocktailBerry.
+By moving the wiring onto the [CocktailBerryBoard](../../pcbas/cocktailberry-board.md), it achieves a noticeably smaller footprint while keeping the full feature set of its predecessor.
 
-It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
-print bed.
+It is fully 3D-printed and designed to be produced on a common **250 × 250 mm** print bed.
 
 --8<-- "machine/beta.md"
 
@@ -22,8 +19,7 @@ print bed.
 | Enclosure  | Fully 3D-printed (fits a 250 × 250 bed)          |
 | Dimensions | ⌀ ~240 mm × ~550 mm (H)                          |
 
-Because the touchscreen is built in, the **v1** app is the natural fit, but the
-machine can also be run with **v2**.
+Because the touchscreen is built in, the **v1** app is the natural fit, but the machine can also be run with **v2**.
 
 !!! note "Base build"
     The MK III documented here is the base machine. Optional CocktailBerry
@@ -32,16 +28,11 @@ machine can also be run with **v2**.
 
 ## Downloads
 
-The printable and CAD files are attached to each [release]({{extra.repo_url}}/releases) as a single
-archive:
+The printable and CAD files are attached to each [release]({{extra.repo_url}}/releases) as a single archive:
 
 - **3D files:**
   [`mk3.zip`]({{extra.repo_url}}/releases/latest/download/mk3.zip)
   — STL (print-ready) and STEP (CAD) for every part.
-
-!!! info
-    The link always points to the **latest release** and will 404 until the
-    first release is published.
 
 ## Build Guide
 
