@@ -8,9 +8,7 @@ It is currently available as a **GPIO-based** board (CBB-GPIO), driving its outp
 directly from the Raspberry Pi's GPIO pins. An I²C-based variant may follow in the
 future.
 
-!!! success "Released"
-    This board is **released**. Full production artifacts (ready to order at JLCPCB)
-    are available.
+--8<-- "board/released.md"
 
 ## Overview
 
@@ -52,11 +50,13 @@ Production files are attached to each [release][releases] as a single archive,
 generated with KiKit:
 
 - **Fabrication package (JLCPCB):**
-  [`cbb-gpio.zip`](https://github.com/AndreWohnsland/CocktailBerry-Hardware/releases/latest/download/cbb-gpio.zip)
+  [`cbb-gpio.zip`]({{extra.repo_url}}/releases/latest/download/cbb-gpio.zip)
   — Gerbers, drill, BOM, and CPL (pick-and-place).
 
 !!! info
     The link always points to the **latest release** and will 404 until the
     first release is published.
 
-[releases]: https://github.com/AndreWohnsland/CocktailBerry-Hardware/releases
+[releases]: {{extra.repo_url}}/releases
+
+--8<-- "disclaimer.md"

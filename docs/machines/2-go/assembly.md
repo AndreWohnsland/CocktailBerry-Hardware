@@ -1,6 +1,6 @@
 # Assembly
 
-Step-by-step assembly of the CocktailBerry MK III.
+Step-by-step assembly of the CocktailBerry 2-Go.
 
 ## Step 1 — TBD
 

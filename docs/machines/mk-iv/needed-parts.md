@@ -1,6 +1,6 @@
 # Needed Parts
 
-Everything required to build the CocktailBerry MK III.
+Everything required to build the CocktailBerry MK IV.
 
 ## Printed Parts (STLs)
 
@@ -11,9 +11,9 @@ Everything required to build the CocktailBerry MK III.
 
 See also the [PCBAs](../../pcbas/index.md) section.
 
-| Component | Qty | Notes                       |
-| --------- | --- | --------------------------- |
-| CBB-GPIO  | 1   | I2C Variant is fine as well |
+| Component | Qty | Notes                            |
+| --------- | --- | -------------------------------- |
+| CBB-I2C   | 1   | GPIO Variant is fine if no scale |
 
 ## Hardware & Fasteners
 
