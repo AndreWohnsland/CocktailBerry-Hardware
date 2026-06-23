@@ -65,14 +65,17 @@ You can also already go with step 9 here (GPIO connections) and then mount the R
 
 ## Step 9 - Connect Signals
 
-TODO: add the exact GPIO pins to connect for the pumps and the power.
-
 Connect the GPIO pins with the GND and pump 1-8 pins of the board using jumper wires.
+Some RPi pins have a high signal pulse at startup, or a pull-up (default high) pin, try to avoid these.
+Common used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and probably much more working ones).
+If you experience issues with some GPIO, try another one first.
 Connect the HDMI and USB cables from the touchscreen to the Raspberry Pi.
 
 ## Step 10 - Installation of Software
 
 Follow the instructions in the [CocktailBerry docs](https://docs.cocktailberry.org/installation/) to install the software on the Raspberry Pi.
+Be sure that you uncheck the pins inverted option at the first program start, since the board is inverted to a normal relay board.
+This will cause all pumps to run at first program start.
 
 ## Final Checks
 
