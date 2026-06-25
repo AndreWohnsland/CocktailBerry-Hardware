@@ -5,7 +5,7 @@ By moving the wiring onto the [CocktailBerryBoard](../../pcbas/cocktailberry-boa
 
 It is fully 3D-printed and designed to be produced on a common **250 × 250 mm** print bed.
 
---8<-- "machine/beta.md"
+--8<-- "machine/released.md"
 
 ## Specifications
 

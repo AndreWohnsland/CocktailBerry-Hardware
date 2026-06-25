@@ -63,6 +63,18 @@ Following threads are required for the assembly of the machine:
 | 4      | 3   |
 | 5      | 1   |
 
+While the screw length might allow slight variations, stay within the size +5mm max.
+Following screws are recommended for the assembly of the machine:
+
+| Metric | Type       | l (mm) | Qty |
+| ------ | ---------- | ------ | --- |
+| 2.5    | socket cap | 10     | 5   |
+| 3      | flat       | 15     | 2   |
+| 3      | flat       | 10     | 2   |
+| 3      | grub screw | ~5     | 8   |
+| 4      | socket cap | 10     | 3   |
+| 5      | flat       | 25     | 2   |
+
 --8<-- "inserted_threads.md"
 
 --8<-- "additional_parts.md"

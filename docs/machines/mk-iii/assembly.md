@@ -6,7 +6,7 @@ Step-by-step assembly of the CocktailBerry MK III.
 
 ## Step 1 - Prepare the Base Plate
 
-You need to drill one 5 (+0.1)mm hole into the center of the base plate.
+You need to drill one 5 (+0.1)mm hole into the center of the base plate and one 15mm away from the center in direction to the back of the plate.
 
 ## Step 2 - Assemble the Tower
 
