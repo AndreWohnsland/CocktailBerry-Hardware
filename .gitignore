@@ -21,7 +21,3 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
-
-# KiCad
-fp-info-cache
-mk1-cbb-backups/
