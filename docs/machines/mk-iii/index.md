@@ -1,7 +1,7 @@
 # CocktailBerry MK III
 
 The **MK III** is the successor to the MK II and the current reference build for CocktailBerry.
-By moving the wiring onto the [CocktailBerryBoard](../../pcbas/cocktailberry-board.md), it achieves a noticeably smaller footprint while keeping the full feature set of its predecessor.
+By moving the wiring onto the [CocktailBerryBoard](../../pcbas/cocktailberry-board-gpio.md), it achieves a noticeably smaller footprint while keeping the full feature set of its predecessor.
 
 It is fully 3D-printed and designed to be produced on a common **250 × 250 mm** print bed.
 

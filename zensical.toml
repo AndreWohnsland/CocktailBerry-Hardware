@@ -8,7 +8,7 @@ nav = [
   { "Home" = "index.md" },
   { "PCBAs" = [
     "pcbas/index.md",
-    { "CocktailBerryBoard" = "pcbas/cocktailberry-board.md" },
+    { "CocktailBerryBoard GPIO" = "pcbas/cocktailberry-board-gpio.md" },
   ]},
   { "Machines" = [
     "machines/index.md",
@@ -162,7 +162,7 @@ pi5_power_supply_link = "[5V Power Supply (Raspberry Pi 5)](https://amzn.to/4885
 power_supply_12v_link = "[12V Power Supply](https://amzn.to/49w0fgP)"
 voltage_converter_link = "[Voltage Converter](https://amzn.to/4qT18oW)"
 # Tubing, cables & fasteners
-tubing_link = "[Food-Safe Tubing (5-10 m)](https://amzn.to/4ppufj3)"
+tubing_link = "[Food-Safe Tubing](https://amzn.to/4ppufj3)"
 jumper_wires_link = "[Jumper Wires (F-F)](https://amzn.to/47TY7yc)"
 hex_standoffs_link = "[Hex Standoffs](https://amzn.to/4oRQBd0)"
 hdmi_cable_link = "[HDMI Cable](https://amzn.to/4ra7Wzo)"
@@ -172,7 +172,7 @@ micro_usb_open_cable_link = "[Micro USB Open Cable](https://amzn.to/4oQDCIu)"
 inserted_thread_link = "[Inserted Threads](https://amzn.to/4xFULJX)"
 inserted_thread_small_link = "[Inserted Threads](https://amzn.to/4oJ0DOu)"
 cnc_kitchen_inserts_link = "[CNC Kitchen Inserts](https://cnckitchen.store/collections/threaded-inserts)"
-hexa_nut_link = "[Hex Nuts](https://amzn.to/4uPTbT5)"
+magnet_10x3_link = "[10x3 mm Magnets](https://amzn.to/43SCMlQ)"
 # Payment hardware
 rfid_reader_link = "[USB RFID Reader](https://amzn.to/4p75hVZ)"
 nfc_tags_link = "[NFC Tags (MIFARE)](https://amzn.to/43ZPcsC)"
@@ -182,3 +182,8 @@ membrane_pump_alt_link = "[Membrane Pump (alt.)](https://amzn.to/4a6PfXl)"
 peristaltic_pump_link = "[Peristaltic Pump](https://amzn.to/3LSyTrh)"
 # LEDS
 ring_led_12_link = "[12-LED Ring](https://amzn.to/4xIfQTQ)"
+strip_led_link = "[LED Strip 10mm wide](https://amzn.to/4eCU2Ap)"
+led_3pin_connector_link = "[3-Pin LED Connector](https://amzn.to/4oX3uU3)"
+# scale
+load_cell_link = "[Load Cell (1kg)](https://amzn.to/3R5eKBf)"
+nau7802_link = "[Nau7802 ADC](https://amzn.to/4vxqLOY)"

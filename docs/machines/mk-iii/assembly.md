@@ -6,9 +6,12 @@ Step-by-step assembly of the CocktailBerry MK III.
 
 ## Step 1 - Prepare the Base Plate
 
-You need to screw one 5 (+0.1)mm hole into the center of the base plate.
+You need to drill one 5 (+0.1)mm hole into the center of the base plate.
 
 ## Step 2 - Assemble the Tower
+
+Solder the power jack to some wires long enough to reach from the middle back hole for the jack into the middle of the top tower.
+Mount the jack into the middle tower, put the wires through the top hole into the tower.
 
 Start by screwing the Tower Bottom to the base plate using the M5 insert and a M5 screw.
 Then stack the Tower Middle and screw it to the bottom part using M3 screws.
@@ -18,28 +21,27 @@ Insert the Bundler from top into the top tower using its profile and glue it in 
 ## Step 3 - Mount the Pumps
 
 Cut the tubing for the pump inlet, it should be a little longer than the distance from the base plate to the socket of the pump socket.
-Connect the pumpt with the tubing, insert the tubing into one pump socket.
+Connect the pump with the tubing, insert the tubing into one pump socket.
 Push another tube through the outlet and connect it to the pump.
 Place the pump into the socket, guide the outlet tube through the bundler.
 Cut the outlet tube, leaving some distance to the end of the bundler.
 Repeat this for all pumps, try to order outlet tube path to the position in the bundler, so they don't cross each other.
+
 When the tubes do not lay snugly, you can use the optional pump fixer to fix them in place, parallel to the bottom of the tower.
+You can use some tape to fix all tubes together at the machine outlet, so the can' slip back.
+Put the funnel to the bundler and use one screw to fix it in place, so it doesn't move.
 
 ## Step 4 - Mount Electronics
 
-Solder the power jack to some wires long enough to reach from the middle back hole for the jack into the middle of the top tower.
-You need to disconnect the middle and bottom part to be able to get inside the tower.
-Screw the jack into the middle tower, put the wires through the top hole into the tower.
-Now you can put the tower back together and screw it in place.
-
 Mount the CocktailBerry Board on the top tower (middle) using M2.5 nuts.
+Use as many distance as you need to not collide with the tubes.
 Fix the board with more M2.5 nuts on the top, so it doesn't move.
 Do not use screws, since we add the Raspberry Pi on top of the board later.
 Do the same with the converter on the inner back side of the tower.
 
 ## Step 5 - Solder the Pumps
 
-If your pump is not soldered to the wires, you need to solder them now, otherwise you can skip this step.
+If the pump is not soldered to the wires, they need to be soldered, otherwise skip this step.
 Make sure the wire from each pump is long enough to reach the board, and solder the wires to the according pump socket on the board.
 
 ## Step 6 - Wiring of Electronics

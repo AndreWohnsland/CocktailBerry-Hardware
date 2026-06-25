@@ -4,6 +4,8 @@ Everything required to build the CocktailBerry MK III.
 
 ## Printed Parts (STLs)
 
+--8<-- "machine/variants.md"
+
 | Part                 | Qty | File Name          | Notes           |
 | -------------------- | --- | ------------------ | --------------- |
 | Bundler              | 1   | Bundler            |                 |
@@ -42,17 +44,24 @@ See also the [PCBAs](../../pcbas/index.md) section.
 | {{extra.membrane_pump_link}}        | 8      | {{extra.membrane_pump_alt_link}} is also fine |
 | {{extra.tubing_link}}               | 5-10 m | 5x8mm                                         |
 | {{extra.jumper_wires_link}}         | 1      | 10cm is long enough                           |
-| {{extra.hex_standoffs_link}}        | 1      | can use other height                          |
+| {{extra.hex_standoffs_link}}        | 16     | can use other height                          |
 | {{extra.hdmi_cable_link}}           | 1      | need to be slim                               |
 | {{extra.usb_cable_link}}            | 1      | need to be slim                               |
 | {{extra.micro_usb_open_cable_link}} | 1      |                                               |
-| {{extra.hexa_nut_link}}             | 16     |                                               |
 | (Wooden) Base Plate ~40x40 cm       | 1      |                                               |
-| Insert M2.5                         | 8      | See below                                     |
-| Insert M3                           | 4      | See below                                     |
-| Insert M4                           | 3      | See below                                     |
-| Insert M5                           | 1      | See below                                     |
-| {{extra.ring_led_12_link}}          | 2      | Optional if using led tower                   |
+| {{extra.ring_led_12_link}}          | 2      | *Optional* if using led tower                 |
+
+## Fasteners
+
+For more information on the inserted threads, see also according section below.
+Following threads are required for the assembly of the machine:
+
+| Metric | Qty |
+| ------ | --- |
+| 2.5    | 8   |
+| 3      | 4   |
+| 4      | 3   |
+| 5      | 1   |
 
 --8<-- "inserted_threads.md"
 
