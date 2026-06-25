@@ -5,5 +5,5 @@ its capabilities, specifications, and (where available) design and production fi
 
 ## Available PCBAs
 
-- [CocktailBerryBoard](cocktailberry-board.md) — GPIO-based control board that
+- [CocktailBerryBoard](cocktailberry-board-gpio.md) — GPIO-based control board that
   replaces relay arrays, switching up to 10 circuits via MOSFETs.

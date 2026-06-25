@@ -1,4 +1,4 @@
-# CocktailBerryBoard
+# CocktailBerryBoard GPIO
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.
 It replaces the loose jumper wires and generic relay arrays normally used to switch
@@ -52,10 +52,6 @@ generated with KiKit:
 - **Fabrication package (JLCPCB):**
   [`cbb-gpio.zip`]({{extra.repo_url}}/releases/latest/download/cbb-gpio.zip)
   — Gerbers, drill, BOM, and CPL (pick-and-place).
-
-!!! info
-    The link always points to the **latest release** and will 404 until the
-    first release is published.
 
 [releases]: {{extra.repo_url}}/releases
 
