@@ -1,25 +1,17 @@
 # CocktailBerryBoard GPIO
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.
-It replaces the loose jumper wires and generic relay arrays normally used to switch
-the pumps, giving you clean, repeatable wiring on a single board.
-
-It is currently available as a **GPIO-based** board (CBB-GPIO), driving its outputs
-directly from the Raspberry Pi's GPIO pins. An I²C-based variant may follow in the
-future.
+It replaces the loose jumper wires and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
+It is driving its outputs directly from the Raspberry Pi's GPIO pins.
 
 --8<-- "board/released.md"
 
 ## Overview
 
-The board switches up to **10 circuits** through the Raspberry Pi's GPIO pins and
-on-board **MOSFETs**, replacing relay arrays with a quieter, more compact, and more
-reliable solution. Each output carries a built-in **flyback (backflow) diode**, and
-the 12 V supply can be **daisy-chained** onward, which keeps wiring across the
-machine simple.
+The board switches up to **10 circuits** through the Raspberry Pi's GPIO pins and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
+Each output carries a built-in **flyback (backflow) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
 
-Although it was designed for the [MK III](../machines/mk-iii/index.md), it works with
-any device that can be controlled from a GPIO output.
+Although it was designed for the [MK III](../machines/mk3/index.md), it works with any device that can be controlled from a GPIO output.
 
 ## Specifications
 
@@ -34,7 +26,6 @@ any device that can be controlled from a GPIO output.
 | Dispenser outputs | One (+/–) connector per dispenser — no voltage conversion |
 | Protection        | Input fuse and per-channel flyback diodes                 |
 | Indication        | On/off status LED                                         |
-| Status            | Released — production-ready (JLCPCB artifacts)            |
 
 ## Mechanical
 
@@ -46,12 +37,13 @@ any device that can be controlled from a GPIO output.
 
 ## Files
 
-Production files are attached to each [release][releases] as a single archive,
-generated with KiKit:
+Production files are attached to each [release][releases] as a single archive, generated with KiKit:
 
 - **Fabrication package (JLCPCB):**
   [`cbb-gpio.zip`]({{extra.repo_url}}/releases/latest/download/cbb-gpio.zip)
-  — Gerbers, drill, BOM, and CPL (pick-and-place).
+  — Gerbers, BOM, and positions (pick-and-place).
+
+All parts (SMD, THT) are included in the package, so you can order the board and all parts from JLCPCB directly.
 
 [releases]: {{extra.repo_url}}/releases
 

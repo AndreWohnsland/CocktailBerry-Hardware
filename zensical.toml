@@ -13,16 +13,16 @@ nav = [
   { "Machines" = [
     "machines/index.md",
     { "CocktailBerry MK III" = [
-      "machines/mk-iii/index.md",
-      { "Needed Parts" = "machines/mk-iii/needed-parts.md" },
-      { "Preparation" = "machines/mk-iii/preparation.md" },
-      { "Assembly" = "machines/mk-iii/assembly.md" },
+      "machines/mk3/index.md",
+      { "Needed Parts" = "machines/mk3/needed-parts.md" },
+      { "Preparation" = "machines/mk3/preparation.md" },
+      { "Assembly" = "machines/mk3/assembly.md" },
     ]},
     { "CocktailBerry MK IV" = [
-      "machines/mk-iv/index.md",
-      { "Needed Parts" = "machines/mk-iv/needed-parts.md" },
-      { "Preparation" = "machines/mk-iv/preparation.md" },
-      { "Assembly" = "machines/mk-iv/assembly.md" },
+      "machines/mk4/index.md",
+      { "Needed Parts" = "machines/mk4/needed-parts.md" },
+      { "Preparation" = "machines/mk4/preparation.md" },
+      { "Assembly" = "machines/mk4/assembly.md" },
     ]},
     { "CocktailBerry 2-Go" = [
       "machines/2-go/index.md",
