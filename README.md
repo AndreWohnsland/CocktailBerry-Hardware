@@ -5,7 +5,7 @@
 [![Support CocktailBerry](https://img.shields.io/badge/Support%20CocktailBerry-donate-yellow)](https://www.buymeacoffee.com/AndreWohnsland)
 
 CocktailBerry Hardware is the **official hardware repository** for the [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry) project.
-It features machine designs, custom PCB(A)s, STL files for 3D-printed parts, and bills of materials — everything you need to build your very own CocktailBerry machine.
+It features machine designs, custom PCB(A)s, STL files for 3D-printed parts, and bills of materials - everything you need to build your very own CocktailBerry machine.
 
 <a href="https://cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/websitebutton.png" alt="website" height="70"/></a>
 <a href="https://docs.cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/docbutton.png" alt="documentation" height="70"/></a>

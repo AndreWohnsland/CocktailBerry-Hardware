@@ -1,7 +1,7 @@
 # CAD sources
 
 FreeCAD sources for the machines. Manufacturing artifacts (STEP + STL) are
-generated headlessly — on release by CI, or locally — via
+generated headlessly - on release by CI, or locally - via
 [`scripts/export_freecad.py`](../scripts/export_freecad.py) (runs under FreeCAD's
 `freecadcmd`) and [`scripts/build_artifacts.py`](../scripts/build_artifacts.py)
 (the uv-driven orchestrator that zips per machine).
@@ -11,7 +11,7 @@ generated headlessly — on release by CI, or locally — via
 ```shell
 cad/machines/<machine>/
   *.FCStd        # exported  (files in the folder ROOT)
-  lib/           # helpers / imported sources — NOT exported (any subfolder)
+  lib/           # helpers / imported sources - NOT exported (any subfolder)
   export.toml    # optional: pin which objects to export per file
 ```
 
@@ -26,7 +26,7 @@ cad/machines/<machine>/
     [main_body]
     objects = ["MainBodyStandard", "MainBodyTall", "MainBodyCompact"]
     ```
-  - Output files are named after each object's **Label** — name objects
+  - Output files are named after each object's **Label** - name objects
     meaningfully.
 
 ## Running

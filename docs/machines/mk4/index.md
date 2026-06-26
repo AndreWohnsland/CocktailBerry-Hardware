@@ -29,10 +29,10 @@ The printable and CAD files are attached to each [release]({{extra.repo_url}}/re
 
 - **3D files:**
   [`mk4.zip`]({{extra.repo_url}}/releases/latest/download/mk4.zip)
-  — STL (print-ready) and STEP (CAD) for every part.
+  - STL (print-ready) and STEP (CAD) for every part.
 
 ## Build Guide
 
-1. [Needed Parts](needed-parts.md) — what to print, buy, and have ready.
-2. [Preparation](preparation.md) — printing, post-processing, and prep work.
-3. [Assembly](assembly.md) — putting it all together.
+1. [Needed Parts](needed-parts.md) - what to print, buy, and have ready.
+2. [Preparation](preparation.md) - printing, post-processing, and prep work.
+3. [Assembly](assembly.md) - putting it all together.

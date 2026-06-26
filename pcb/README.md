@@ -2,7 +2,7 @@
 
 KiCad projects for the CocktailBerry boards (and room for other PCB-related
 components later). JLCPCB fabrication files (Gerbers, drill, BOM, CPL) are
-generated headlessly — on release by CI, or locally — with
+generated headlessly - on release by CI, or locally - with
 [KiKit](https://github.com/yaqwsx/KiKit) via
 [`scripts/build_fab.py`](../scripts/build_fab.py).
 
@@ -20,7 +20,7 @@ pcb/<board>/
   project, no matter how many schematic sheets exist).
 - **Hierarchical schematics are fine.** Only the **root** sheet (named after the
   project, like the `.kicad_pcb`) is passed to KiKit; it walks the hierarchy and
-  pulls in all sub-sheets — so a pump circuit reused 10× flattens into the
+  pulls in all sub-sheets - so a pump circuit reused 10× flattens into the
   BOM/CPL automatically.
 - Components to be assembled need their **LCSC part number** in the `MPN`
   schematic field (see `LCSC_FIELD` in `scripts/build_fab.py`). Parts without it

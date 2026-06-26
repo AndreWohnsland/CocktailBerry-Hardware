@@ -4,7 +4,7 @@ Step-by-step assembly of the CocktailBerry 2-Go.
 
 --8<-- "machine/image_support.md"
 
-## Step 1 — Drill Holes in Casing
+## Step 1 - Drill Holes in Casing
 
 The casing needs some holes for the parts to be mounted inside.
 There is no exact measurement for the holes, the parts should be placed and then the hole position marked and drilled.
@@ -13,13 +13,13 @@ Two holes (4mm) on the back side and one (3mm) on the front side for the pump gr
 Rectangle cut out and holes for monitor (2.5mm) in the front, if a monitor is used.
 Drill a hole on the back side for the power jack (12V), at the side where the converter will be placed.
 
-## Step 2 — Mount the Pumps
+## Step 2 - Mount the Pumps
 
 Put all 8 pumps in the pump grid, power connection facing to the extensions with the M4 threads.
 Use the M3 grub screws to fix the pumps in the grid.
 Both of the power supply connections should be parallel to the long side of the grid.
 
-## Step 3 — Mount the Main Board
+## Step 3 - Mount the Main Board
 
 The main board is mounted on the top of the pump grid with two M3 screws.
 the long part should look into the direction of the pump outlet.
@@ -33,14 +33,14 @@ Try to use the right numbers of the inlets to the inlet of the according pump.
 Connect the outlet tubes to the pump outlets.
 You can use some tape to fix all tubes together at the machine outlet, so they can't slip back.
 
-## Step 5 — Mount the PCBAs + SBC
+## Step 5 - Mount the PCBAs + SBC
 
 Mount 8 hex standoffs (M2.5) on the main board, forming two rectangles, one for the CocktailBerry Slim board and one for the Raspberry Pi.
 Mount the CocktailBerry Slim board on the main board, screw only two inner corners.
 To the same with the Raspberry Pi, mount it on the main board with 4 hex standoffs (M2.5) and screw only two inner corners.
 Mount the converter onto the leg holder with the inserted threads.
 
-## Step 6 — Connect the Pumps
+## Step 6 - Connect the Pumps
 
 Solder the pump wires to the CocktailBerry Slim board, red to + and black to -.
 Connect the GPIO pins of the Raspberry Pi to the CocktailBerry Slim board with jumper wires.
@@ -54,7 +54,7 @@ Connect the power jack to the 12V input of the CocktailBerry Slim board.
 The 12V output of the board should be connected to the input of the voltage converter, and the 5V output of the converter should be connected to Raspberry Pi.
 Keep the wires long enough that they can be routed inside the casing, once mounted.
 
-## Step 8 — Mount the Parts in the Casing
+## Step 8 - Assemble the Casing
 
 Mount the pump grid + main board combination into the casing, also both sides of the leg holders.
 Use the according screws from the outside of the casing to fix the parts in place.

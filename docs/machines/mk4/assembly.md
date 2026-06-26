@@ -4,7 +4,7 @@ Step-by-step assembly of the CocktailBerry MK IV.
 
 --8<-- "machine/image_support.md"
 
-## Step 1 — Prepare the Base Plate
+## Step 1 - Prepare the Base Plate
 
 You need to drill two M5 (+0.1)mm holes along a line to the center of the base plate.
 If you use a scale, you need to drill two additional M5 (+0.1)mm holes for the scale mounting.

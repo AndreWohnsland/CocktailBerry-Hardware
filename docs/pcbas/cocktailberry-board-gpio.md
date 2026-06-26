@@ -23,7 +23,7 @@ Although it was designed for the [MK III](../machines/mk3/index.md), it works wi
 | Per-channel diode | Built-in flyback / backflow protection                    |
 | Wiring            | One signal header pin per channel + 2 × GND               |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
-| Dispenser outputs | One (+/–) connector per dispenser — no voltage conversion |
+| Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |
 | Protection        | Input fuse and per-channel flyback diodes                 |
 | Indication        | On/off status LED                                         |
 
@@ -31,7 +31,7 @@ Although it was designed for the [MK III](../machines/mk3/index.md), it works wi
 
 - Shares the **Raspberry Pi mounting-hole pattern**, so the board and a Pi can be
   stacked / co-mounted.
-- It is **not** a HAT — it does not plug onto the Pi's 40-pin header. Connections are
+- It is **not** a HAT - it does not plug onto the Pi's 40-pin header. Connections are
   made via **pin headers**: one signal pin per channel, plus 2 × GND, wired to the
   Pi's GPIO.
 
@@ -41,7 +41,7 @@ Production files are attached to each [release][releases] as a single archive, g
 
 - **Fabrication package (JLCPCB):**
   [`cbb-gpio.zip`]({{extra.repo_url}}/releases/latest/download/cbb-gpio.zip)
-  — Gerbers, BOM, and positions (pick-and-place).
+  - Gerbers, BOM, and positions (pick-and-place).
 
 All parts (SMD, THT) are included in the package, so you can order the board and all parts from JLCPCB directly.
 

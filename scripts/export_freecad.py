@@ -1,6 +1,6 @@
 """Export STEP + STL from FreeCAD documents for one machine.
 
-Run with FreeCAD's bundled interpreter (NOT uv — uv cannot ``import FreeCAD``):
+Run with FreeCAD's bundled interpreter (NOT uv - uv cannot ``import FreeCAD``):
 
     freecadcmd scripts/export_freecad.py <machine_dir> <out_dir>
 

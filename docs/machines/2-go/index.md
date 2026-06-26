@@ -27,10 +27,10 @@ archive:
 
 - **3D files:**
   [`2go.zip`]({{extra.repo_url}}/releases/latest/download/2go.zip)
-  — STL (print-ready) and STEP (CAD) for every part.
+  - STL (print-ready) and STEP (CAD) for every part.
 
 ## Build Guide
 
-1. [Needed Parts](needed-parts.md) — what to print, buy, and have ready.
-2. [Preparation](preparation.md) — printing, post-processing, and prep work.
-3. [Assembly](assembly.md) — putting it all together.
+1. [Needed Parts](needed-parts.md) - what to print, buy, and have ready.
+2. [Preparation](preparation.md) - printing, post-processing, and prep work.
+3. [Assembly](assembly.md) - putting it all together.
