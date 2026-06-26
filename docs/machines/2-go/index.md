@@ -6,7 +6,7 @@ It uses a Euro Box enclosure and 3D printed parts to hold everything together, a
 You can also use a normal 12V power supply if you don't need to take it on the road.
 The legs can be detached for easier transport, and the whole thing can be stored in a backpack or small case.
 
---8<-- "machine/beta.md"
+--8<-- "machine/released.md"
 
 ## Specifications
 
@@ -18,7 +18,7 @@ The legs can be detached for easier transport, and the whole thing can be stored
 | Power      | 12 V input; internal transformer powers the Pi   |
 | Software   | CocktailBerry v1 or v2 (no Touch)                |
 | Enclosure  | Using a Euro Box, 3D printed inside              |
-| Dimensions | 30x20x12 (box) or h=50 with legs                 |
+| Dimensions | 30x20x12 cm (box) or h=50 with legs              |
 
 ## Downloads
 
