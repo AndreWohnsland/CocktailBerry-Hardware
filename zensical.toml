@@ -9,6 +9,8 @@ nav = [
   { "PCBAs" = [
     "pcbas/index.md",
     { "CocktailBerryBoard GPIO" = "pcbas/cocktailberry-board-gpio.md" },
+    { "CocktailBerryBoard Slim" = "pcbas/cocktailberry-board-slim.md" },
+    { "CocktailBerryBoard I²C" = "pcbas/cocktailberry-board-i2c.md" },
   ]},
   { "Machines" = [
     "machines/index.md",
