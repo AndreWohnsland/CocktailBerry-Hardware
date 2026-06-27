@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\FreeFileSync\CAD\KiCad\CocktailBerryBoard\mk1-cbb-slim\mk1-slim\mk1-slim.kicad_sch</source>
+    <date>2024-07-07T09:39:15+0200</date>
+    <tool>Eeschema 8.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mk1-slim.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pump_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_Littelfuse_395Series</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_Littelfuse_395Series</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22b7da55-5e84-4d3a-9004-70e99b533235</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8859e1b2-5461-497a-aa40-ef203f5bce75</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caf12ce2-8939-45f4-a963-e450c7439522</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39ea936f-8f08-4012-aafc-f114d8485c9a</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8a6bd8e-65dd-47e4-ab6d-42bb630d6c5c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eec9bbf9-184a-4692-87f4-a95c34a4d9e9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e624b84-c318-4e27-87b7-254ef19735ac</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x16</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-16_1x16_P5.00mm_Horizontal</footprint>
+      <description>Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-16_1x16_P5.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x16" description="Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9682e5c4-8318-4e9b-81a6-2ce911662494</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Stammblatt"/>
+      <property name="Sheetfile" value="mk1-slim.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0308fa8-e369-4810-95c3-de0bb18ab299</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control6"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control6"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control6"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control6"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control6"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control6"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control6/" tstamps="/e20fc563-9265-4b6e-974d-1e1c5af0841a/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control7"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control7"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control7"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control7"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R10k1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control7"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control7"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control7/" tstamps="/b409209f-5a07-402a-870e-78e3f0f2624f/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control8"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control8"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control8"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control8"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R10k2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control8"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control8"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control8/" tstamps="/ce4550de-2d6e-4de9-8ae3-a8a4478f9cf8/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control5"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control5"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control5"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control5"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R10k5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control5"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control5"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control5/" tstamps="/99c4dd1f-edc0-4b5e-adaf-235bba671840/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control4"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control4"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control4"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control4"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R10k6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control4"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control4"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control4/" tstamps="/c563226e-8cd1-49bd-b792-869651d1ba12/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control3"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control3"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control3"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control3"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R10k7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control3"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control3"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control3/" tstamps="/f4b6b8c6-c9a6-45bc-935b-4ac64dd0ec7b/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control2"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control2"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control2"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control2"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R10k8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control2"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control2"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control2/" tstamps="/7cc63771-6cf2-4dd5-ad5c-76c9c3db36e4/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C2286</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="C2286"/>
+      <property name="Sheetname" value="Pump Control1"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/"/>
+      <tstamps>a67d97af-e2c1-4912-ade0-9380da52f2a4</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C412437</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds16008.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="Vendor" value="C412437"/>
+      <property name="Sheetname" value="Pump Control1"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?323*"/>
+      <sheetpath names="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/"/>
+      <tstamps>1d9a3ac7-e2bf-4e9f-84f0-a36d3d550b4f</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Vendor">C20917</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Vendor" value="C20917"/>
+      <property name="Sheetname" value="Pump Control1"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/"/>
+      <tstamps>e5907ab2-7b7b-43ad-bc50-765c52e864db</tstamps>
+    </comp>
+    <comp ref="R10k9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C25804</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C25804"/>
+      <property name="Sheetname" value="Pump Control1"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/"/>
+      <tstamps>a578c668-42a3-4282-9fa5-f8f3e3deceda</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22775</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22775"/>
+      <property name="Sheetname" value="Pump Control1"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/"/>
+      <tstamps>b39cc8fc-ac0b-4d09-a151-8c2944c1d3cf</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Vendor">C22962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Vendor" value="C22962"/>
+      <property name="Sheetname" value="Pump Control1"/>
+      <property name="Sheetfile" value="pump_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Pump Control1/" tstamps="/3efc0a38-659d-40fd-bced-46685d813a4e/"/>
+      <tstamps>5193bdce-2e42-4d43-a450-d91f2a38c42a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x16">
+      <description>Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x16</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148WS">
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <docs>https://www.vishay.com/docs/85751/1n4148ws.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+        <field name="Description">75V 0.15A Fast switching Diode, SOD-323</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="2" name="/Pump Control1/Pump-">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="3" name="/Pump Control2/Pump-">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="4" name="/Pump Control3/Pump-">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="5" name="/Pump Control4/Pump-">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="/Pump Control5/Pump-">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="7" name="/Pump Control6/Pump-">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="/Pump Control7/Pump-">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="9" name="/Pump Control8/Pump-">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10k1" pin="2" pintype="passive"/>
+      <node ref="R10k2" pin="2" pintype="passive"/>
+      <node ref="R10k5" pin="2" pintype="passive"/>
+      <node ref="R10k6" pin="2" pintype="passive"/>
+      <node ref="R10k7" pin="2" pintype="passive"/>
+      <node ref="R10k8" pin="2" pintype="passive"/>
+      <node ref="R10k9" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D17-A)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D19-A)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J2-Pin_1)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10k1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10k2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q6-G)">
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10k5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q7-G)">
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10k6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q8-G)">
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10k7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q9-G)">
+      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R10k8" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q10-G)">
+      <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10k9" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Pump1">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Pump2">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Pump3">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Pump4">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Pump5">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Pump6">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Pump7">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Pump8">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

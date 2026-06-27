@@ -20191,7 +20191,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CocktailBerryBoard\nv0.4-lite\n05/2025"
+	(gr_text "CocktailBerryBoard\nv0.5\n07/2026"
 		(at 213.233 66.675 0)
 		(layer "B.SilkS")
 		(uuid "04892a6b-08d6-4964-ab28-f1f9e13789d4")
@@ -20228,7 +20228,7 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 188.214 97.79 0)
+		(at 213 70.5 0)
 		(layer "B.SilkS")
 		(uuid "20cd22e5-5216-45ec-9f1a-d4f5c8179b09")
 		(effects
