@@ -27,6 +27,10 @@ DIST_DIR = ROOT / "dist"
 # this project stores it in "MPN".
 LCSC_FIELD = "MPN"
 
+# PCB subfolders that are not standalone boards and should be skipped when
+# auto-selecting all board directories.
+EXCLUDED_FOLDERS = {"shared"}
+
 # Optional per-board placement corrections. KiKit reports each part at the
 # footprint ORIGIN (footprint.GetPosition()); JLCPCB expects the pad CENTRE.
 # For SMD those coincide, but THT footprints (terminal blocks, headers, fuse)
@@ -64,7 +68,11 @@ def main(argv: list[str]) -> None:
     if not PCB_DIR.is_dir():
         sys.exit(f"no pcb directory: {PCB_DIR}")
 
-    selected = argv or [p.name for p in sorted(PCB_DIR.iterdir()) if p.is_dir()]
+    selected = argv or [
+        p.name
+        for p in sorted(PCB_DIR.iterdir())
+        if p.is_dir() and p.name not in EXCLUDED_FOLDERS
+    ]
     if not selected:
         sys.exit(f"no board folders under {PCB_DIR}")
 
@@ -92,9 +100,15 @@ def main(argv: list[str]) -> None:
             corrections = board_dir / CORRECTIONS_FILE
             if corrections.exists():
                 cmd += ["--correctionpatterns", str(corrections)]
-            print(f"  -> kikit fab jlcpcb [{pcb.name}] -- with assembly (BOM + CPL)", flush=True)
+            print(
+                f"  -> kikit fab jlcpcb [{pcb.name}] -- with assembly (BOM + CPL)",
+                flush=True,
+            )
         else:
-            print(f"  -> kikit fab jlcpcb [{pcb.name}] -- board only (no schematic)", flush=True)
+            print(
+                f"  -> kikit fab jlcpcb [{pcb.name}] -- board only (no schematic)",
+                flush=True,
+            )
         cmd += [str(pcb), str(out_dir)]
         subprocess.run(cmd, check=True)
 
