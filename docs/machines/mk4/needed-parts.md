@@ -67,7 +67,7 @@ If you do not use a scale, the GPIO version is still a good fit.
 | {{extra.jumper_wires_link}}       | 1      | 10cm is long enough                           |
 | {{extra.hex_standoffs_link}}      | 16     | can use other height                          |
 | {{extra.usb_c_open_cable_link}}   | 1      |                                               |
-| {{extra.magnet_10x3_link}}        | 2      |                                               |
+| {{extra.magnet_6x3_link}}         | 2      |                                               |
 | (Wooden) Base Plate ~40x40 cm     | 1      |                                               |
 | {{extra.strip_led_link}}          | 1      | *Optional* if using LED                       |
 | {{extra.led_3pin_connector_link}} | 1      | *Optional* if using LED                       |
