@@ -4,6 +4,11 @@ Steps to complete before assembly.
 
 --8<-- "machine/preparation.md"
 
+<figure markdown>
+  ![Plates Position](../../img/mk4/all_parts.jpeg)
+  <figcaption>All parts of the CocktailBerry MK IV</figcaption>
+</figure>
+
 ## Step A - Solder Inserts
 
 First, solder the threaded inserts into the printed parts that require them.
@@ -15,6 +20,11 @@ Here is an overview which insert goes where:
 - Tower Top: eight M2.5 on the electric mounting points, three M3 each side on the pump sockets, two M3 each side on the peristaltic holders (front)
 - Peristaltic holder: two M2.5 on the mounting points in the U-shape for each part
 - Optional Scale: four M2.5 into the scale electrics socket
+
+<figure markdown>
+  ![Plates Position](../../img/mk4/inserts.jpeg)
+  <figcaption>All parts of the CocktailBerry MK IV with inserts soldered</figcaption>
+</figure>
 
 ## Step B - Insert Magnets
 

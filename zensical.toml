@@ -150,6 +150,7 @@ touch_7in_link = "[7\" Touchscreen](https://amzn.to/49sKlnn)"
 touch_7in_teams_link = "[7\" Touchscreen (Teams)](https://amzn.to/47SVAnN)"
 touch_official_link = "[Official Touchscreen](https://amzn.to/4pnDPmj)"
 display_casing_link = "[Display Casing](https://amzn.to/49sLPOt)"
+lenovo_tab_link = "[Lenovo Tab One](https://amzn.to/4eOMHhu)"
 # Storage
 sd_card_link = "[Micro SD Card (16-32 GB)](https://amzn.to/3JY3Dqn)"
 # Controller boards
@@ -175,6 +176,7 @@ inserted_thread_link = "[Inserted Threads](https://amzn.to/4xFULJX)"
 inserted_thread_small_link = "[Inserted Threads](https://amzn.to/4oJ0DOu)"
 cnc_kitchen_inserts_link = "[CNC Kitchen Inserts](https://cnckitchen.store/collections/threaded-inserts)"
 magnet_6x3_link = "[6x3 mm Magnets](https://amzn.to/4xRlROl)"
+screw_shop_link = "[Frantos (Screws)](https://www.frantos.com/de/schrauben)"
 # Payment hardware
 rfid_reader_link = "[USB RFID Reader](https://amzn.to/4p75hVZ)"
 nfc_tags_link = "[NFC Tags (MIFARE)](https://amzn.to/43ZPcsC)"

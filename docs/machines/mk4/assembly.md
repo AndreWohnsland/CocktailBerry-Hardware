@@ -10,7 +10,10 @@ You need to drill two M5 (+0.1)mm holes along a line to the center of the base p
 If you use a scale, you need to drill two additional M5 (+0.1)mm holes for the scale mounting.
 Drill a chamfer for the countersunk heads into the holes.
 
-TODO: Add sketch of the base plate with the holes marked.
+<figure markdown>
+  ![Plates Position](../../img/mk4/plate_holes.png)
+  <figcaption>Position of plate holes, right ones are optional</figcaption>
+</figure>
 
 ## Step 2 - Assemble the Tower
 
@@ -46,6 +49,11 @@ First, screw the peristaltic pump into the pump holder using the M2.5 screws.
 The tubing should look in the opposite direction of the top of the U-shape.
 Then proceed connection input and output tubing as described for the membrane pumps.
 Mount the pump holder into the tower using the M3 screws.
+
+<figure markdown>
+  ![Plates Position](../../img/mk4/peristaltic_pump_assembly.jpeg)
+  <figcaption>Peristaltic pump assembly, top view</figcaption>
+</figure>
 
 ### Wrap-Up
 
@@ -126,7 +134,10 @@ Otherwise you can also use a long enough cable to the top of the tower.
 In each case already put the counter side of the cable on.
 It can be guided through the tower to the top, so it can be connected to the board later.
 
-TODO: Images of the assembly
+<figure markdown>
+  ![Plates Position](../../img/mk4/led_assembly_bottom.jpeg)
+  <figcaption>LED assembly, bottom view</figcaption>
+</figure>
 
 ## Final Checks
 

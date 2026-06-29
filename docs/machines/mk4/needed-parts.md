@@ -67,6 +67,7 @@ If you do not use a scale, the GPIO version is still a good fit.
 | {{extra.jumper_wires_link}}       | 1      | 10cm is long enough                           |
 | {{extra.hex_standoffs_link}}      | 16     | can use other height                          |
 | {{extra.usb_c_open_cable_link}}   | 1      |                                               |
+| {{extra.lenovo_tab_link}}         | 1      | Can use your phone instead                    |
 | {{extra.magnet_6x3_link}}         | 2      |                                               |
 | (Wooden) Base Plate ~40x40 cm     | 1      |                                               |
 | {{extra.strip_led_link}}          | 1      | *Optional* if using LED                       |
@@ -103,6 +104,8 @@ For the scale, following screws are required:
 | Metric | Type | l (mm) | Qty |
 | ------ | ---- | ------ | --- |
 | 5      | Flat | 30     | 2   |
+
+I usually use a one stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
 
 --8<-- "inserted_threads.md"
 
