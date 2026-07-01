@@ -24,8 +24,10 @@ PCB_DIR = ROOT / "pcb"
 DIST_DIR = ROOT / "dist"
 
 # KiCad symbol field that holds the LCSC part number. KiKit defaults to "LCSC";
-# this project stores it in "MPN".
-LCSC_FIELD = "MPN"
+# this project stores it in "MPN". Some boards (cbb-slim) still use lowercase
+# "mpn", and KiKit's field match is case-sensitive, so pass both candidates --
+# KiKit takes a comma-separated list and uses the first field that has a value.
+LCSC_FIELD = "MPN,mpn"
 
 # PCB subfolders that are not standalone boards and should be skipped when
 # auto-selecting all board directories.
