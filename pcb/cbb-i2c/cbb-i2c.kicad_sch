@@ -5846,7 +5846,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C25804"
+		(property "MPN" "C25744"
 			(at 57.15 142.24 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C25804"
+		(property "MPN" "C25744"
 			(at 57.15 157.48 0)
 			(effects
 				(font
@@ -7294,7 +7294,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C25804"
+		(property "MPN" "C25744"
 			(at 57.15 148.59 0)
 			(effects
 				(font
@@ -7664,7 +7664,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C25804"
+		(property "MPN" "C25744"
 			(at 58.42 133.35 0)
 			(effects
 				(font
