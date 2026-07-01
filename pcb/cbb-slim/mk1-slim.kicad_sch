@@ -2739,7 +2739,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "C22396288"
+		(property "MPN" "C22396288"
 			(at 111.76 99.06 90)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "C124379"
+		(property "MPN" "C124379"
 			(at 135.89 46.99 0)
 			(effects
 				(font
@@ -3765,7 +3765,7 @@
 		(at 119.38 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3813,7 +3813,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "C430624"
+		(property "MPN" "C430624"
 			(at 119.38 91.44 90)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "C124379"
+		(property "MPN" "C124379"
 			(at 135.89 62.23 0)
 			(effects
 				(font
