@@ -4372,9 +4372,9 @@
 		)
 		(uuid "aa4d81f0-d1f5-4e80-8e9a-8afd2ef5301e")
 	)
-	(global_label "Pump7"
+	(global_label "Pump9"
 		(shape input)
-		(at 99.06 118.11 0)
+		(at 99.06 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4382,9 +4382,9 @@
 			)
 			(justify left)
 		)
-		(uuid "0f12e182-c877-4482-9a64-ffe7d00918c2")
+		(uuid "009a6f17-5c8b-4d65-82f1-8607a1cc4bf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.516 118.11 0)
+			(at 108.516 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4438,29 @@
 			)
 		)
 	)
-	(global_label "Pump2"
+	(global_label "Pump10"
+		(shape input)
+		(at 99.06 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f54e65b-27e5-4ec4-b44a-2a5045c605e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.7255 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Pump4"
 		(shape input)
 		(at 99.06 140.97 0)
 		(fields_autoplaced yes)
@@ -4482,50 +4504,6 @@
 			)
 		)
 	)
-	(global_label "Pump10"
-		(shape input)
-		(at 99.06 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4bd7933c-5f3b-4a8c-8b82-84e186848ab3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.7255 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Pump6"
-		(shape input)
-		(at 99.06 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c65c09e-dd50-4796-ac63-c3a960b96763")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.516 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 127 80.01 270)
@@ -4548,9 +4526,9 @@
 			)
 		)
 	)
-	(global_label "Pump9"
+	(global_label "Pump8"
 		(shape input)
-		(at 99.06 113.03 0)
+		(at 99.06 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4558,9 +4536,9 @@
 			)
 			(justify left)
 		)
-		(uuid "620fe960-ba63-4d05-988f-6763d0414eb5")
+		(uuid "5a73b9e8-018d-4bcb-a356-add0b2403f31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.516 113.03 0)
+			(at 108.516 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4548,7 @@
 			)
 		)
 	)
-	(global_label "Pump4"
+	(global_label "Pump2"
 		(shape input)
 		(at 99.06 135.89 0)
 		(fields_autoplaced yes)
@@ -4610,28 +4588,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Pump8"
-		(shape input)
-		(at 99.06 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bf6736b-02f4-484c-88bd-8e9f5dfcd289")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.516 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4790,7 +4746,7 @@
 			)
 		)
 	)
-	(global_label "Pump5"
+	(global_label "Pump1"
 		(shape input)
 		(at 99.06 133.35 0)
 		(fields_autoplaced yes)
@@ -4825,6 +4781,28 @@
 		(uuid "9c41be87-46a5-4014-bb69-258078ac0bf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.3441 64.8494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Pump6"
+		(shape input)
+		(at 99.06 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5cc7711-5e6b-4e71-a2ef-bdcdf83ab0fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.516 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4922,7 @@
 			)
 		)
 	)
-	(global_label "Pump1"
+	(global_label "Pump5"
 		(shape input)
 		(at 99.06 143.51 0)
 		(fields_autoplaced yes)
@@ -4984,6 +4962,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Pump7"
+		(shape input)
+		(at 99.06 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f84cfc14-9586-44a4-b705-44273eda4ccd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.516 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

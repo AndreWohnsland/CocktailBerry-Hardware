@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mk1-cbb.kicad_pro",
+    "filename": "cbb-i2c.kicad_pro",
     "version": 1
   },
   "net_settings": {
