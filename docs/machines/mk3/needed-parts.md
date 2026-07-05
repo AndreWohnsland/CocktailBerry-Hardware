@@ -75,6 +75,8 @@ Following screws are recommended for the assembly of the machine:
 | 4      | socket cap | 10     | 3   |
 | 5      | flat       | 25     | 2   |
 
+I usually use a one stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
+
 --8<-- "inserted_threads.md"
 
 --8<-- "additional_parts.md"

@@ -103,6 +103,7 @@ For the scale, following screws are required:
 
 | Metric | Type | l (mm) | Qty |
 | ------ | ---- | ------ | --- |
+| 4      | Flat | 10-15  | 2   |
 | 5      | Flat | 30     | 2   |
 
 I usually use a one stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
