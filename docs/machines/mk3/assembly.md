@@ -20,21 +20,21 @@ Insert the Bundler from top into the top tower using its profile and glue it in 
 
 ## Step 3 - Mount the Pumps
 
-Cut the tubing for the pump inlet, it should be a little longer than the distance from the base plate to the socket of the pump socket.
+Cut the tubing for the pump inlet, it should be a little longer than the distance from the base plate to the top of the pump socket.
 Connect the pump with the tubing, insert the tubing into one pump socket.
 Push another tube through the outlet and connect it to the pump.
 Place the pump into the socket, guide the outlet tube through the bundler.
 Cut the outlet tube, leaving some distance to the end of the bundler.
-Repeat this for all pumps, try to order outlet tube path to the position in the bundler, so they don't cross each other.
+Repeat this for all pumps, try to route each outlet tube to its position in the bundler, so they don't cross each other.
 
 When the tubes do not lay snugly, you can use the optional pump fixer to fix them in place, parallel to the bottom of the tower.
-You can use some tape to fix all tubes together at the machine outlet, so the can' slip back.
+You can use some tape to fix all tubes together at the machine outlet, so they can't slip back.
 Put the funnel to the bundler and use one screw to fix it in place, so it doesn't move.
 
 ## Step 4 - Mount Electronics
 
 Mount the CocktailBerry Board on the top tower (middle) using M2.5 nuts.
-Use as many distance as you need to not collide with the tubes.
+Use as much distance as you need to not collide with the tubes.
 Fix the board with more M2.5 nuts on the top, so it doesn't move.
 Do not use screws, since we add the Raspberry Pi on top of the board later.
 Do the same with the converter on the inner back side of the tower.
@@ -50,7 +50,7 @@ For all the screw terminals, you can use the crimp connectors to make the wire c
 
 The Power Jack needs to be connected to the 12V input of the CocktailBerry Board.
 The 12V output of the board should be connected to the input of the voltage converter, and the 5V output of the converter should be connected to Raspberry Pi.
-Connect each pump with an according +/- of the CocktailBerry Board for one pump.
+Connect each pump to a matching +/- pump output on the CocktailBerry Board.
 For easier setup, try to connect the pumps in order (for example, pump 1 to the first pump socket, pump 2 to the second, etc.).
 
 ## Step 7 - Mount the Touchscreen
@@ -69,7 +69,7 @@ You can also already go with step 9 here (GPIO connections) and then mount the R
 
 Connect the GPIO pins with the GND and pump 1-8 pins of the board using jumper wires.
 Some RPi pins have a high signal pulse at startup, or a pull-up (default high) pin, try to avoid these.
-Common used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and probably much more working ones).
+Commonly used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and probably much more working ones).
 If you experience issues with some GPIO, try another one first.
 Connect the HDMI and USB cables from the touchscreen to the Raspberry Pi.
 

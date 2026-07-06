@@ -22,11 +22,11 @@ Both of the power supply connections should be parallel to the long side of the 
 ## Step 3 - Mount the Main Board
 
 The main board is mounted on the top of the pump grid with two M3 screws.
-the long part should look into the direction of the pump outlet.
+The long part should point in the direction of the pump outlet.
 
 ## Step 4 - Connect the Tubing
 
-The pump in the grid are places in a "zig-zag" pattern, so the tubing can be connected in a way that the tubes do not cross each other.
+The pumps in the grid are placed in a "zig-zag" pattern, so the tubing can be connected in a way that the tubes do not cross each other.
 Use the first 4 pumps to connect to the left side, the second 4 to connect to the right side of the numbered inlets.
 The tubing should be long enough to reach the bottom of the bottle when the machine is assembled, keep it a little bit longer than needed.
 Try to use the right numbers of the inlets to the inlet of the according pump.
@@ -37,7 +37,7 @@ You can use some tape to fix all tubes together at the machine outlet, so they c
 
 Mount 8 hex standoffs (M2.5) on the main board, forming two rectangles, one for the CocktailBerry Slim board and one for the Raspberry Pi.
 Mount the CocktailBerry Slim board on the main board, screw only two inner corners.
-To the same with the Raspberry Pi, mount it on the main board with 4 hex standoffs (M2.5) and screw only two inner corners.
+Do the same with the Raspberry Pi, mount it on the main board with 4 hex standoffs (M2.5) and screw only two inner corners.
 Mount the converter onto the leg holder with the inserted threads.
 
 ## Step 6 - Connect the Pumps
@@ -45,7 +45,7 @@ Mount the converter onto the leg holder with the inserted threads.
 Solder the pump wires to the CocktailBerry Slim board, red to + and black to -.
 Connect the GPIO pins of the Raspberry Pi to the CocktailBerry Slim board with jumper wires.
 Some RPi pins have a high signal pulse at startup, or a pull-up (default high) pin, try to avoid these.
-Common used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and probably much more working ones).
+Commonly used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and probably much more working ones).
 If you experience issues with some GPIO, try another one first.
 
 ## Step 7 - Connect the Power

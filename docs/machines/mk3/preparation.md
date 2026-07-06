@@ -7,7 +7,7 @@ Steps to complete before assembly.
 ## Step A - Solder Inserts
 
 First, solder the threaded inserts into the printed parts that require them.
-Here is an overview which insert goes where:
+Here is an overview of which insert goes where:
 
 - Lid Tower: two M3 on the pads
 - Tower Bottom: two M3 on the top connecting point, one M5 on the bottom

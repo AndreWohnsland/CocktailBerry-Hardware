@@ -46,8 +46,8 @@ See also the [PCBAs](../../pcbas/index.md) section.
 
 ## Fasteners
 
-For more information on the inserted threads, see also according section below.
-Following threads are required for the assembly of the machine:
+For more information on the inserted threads, see the section below.
+The following threads are required for the assembly of the machine:
 
 | Metric | Qty |
 | ------ | --- |
@@ -56,7 +56,7 @@ Following threads are required for the assembly of the machine:
 | 4      | 6   |
 
 While the screw length might allow slight variations, stay within the size +5mm max.
-Following screws are recommended for the assembly of the machine:
+The following screws are recommended for the assembly of the machine:
 
 | Metric | Type       | l (mm) | Qty |
 | ------ | ---------- | ------ | --- |

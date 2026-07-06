@@ -1,6 +1,6 @@
 ## Printing the Parts
 
-This settings might differ a little bit, depending on your printer.
+These settings might differ a little bit, depending on your printer.
 The parts are designed to be printed without supports, but some printers might require them for certain parts.
 
 - Recommended material: PLA, PETG, or ABS (funnel should be food-safe)
@@ -11,7 +11,7 @@ The parts are designed to be printed without supports, but some printers might r
 ## Post-Processing
 
 Remove supports and clean up the parts as needed.
-Prepare Boards, electronics, and fasteners for assembly.
+Prepare boards, electronics, and fasteners for assembly.
 Pre-solder connections where possible to save time during assembly.
 
 ## Pre-Assembly Checks

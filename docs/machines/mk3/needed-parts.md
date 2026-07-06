@@ -49,12 +49,12 @@ See also the [PCBAs](../../pcbas/index.md) section.
 | {{extra.usb_cable_link}}            | 1      | need to be slim                               |
 | {{extra.micro_usb_open_cable_link}} | 1      |                                               |
 | (Wooden) Base Plate ~40x40 cm       | 1      |                                               |
-| {{extra.ring_led_12_link}}          | 2      | *Optional* if using led tower                 |
+| {{extra.ring_led_12_link}}          | 2      | *Optional* if using LED tower                 |
 
 ## Fasteners
 
-For more information on the inserted threads, see also according section below.
-Following threads are required for the assembly of the machine:
+For more information on the inserted threads, see the section below.
+The following threads are required for the assembly of the machine:
 
 | Metric | Qty |
 | ------ | --- |
@@ -64,7 +64,7 @@ Following threads are required for the assembly of the machine:
 | 5      | 1   |
 
 While the screw length might allow slight variations, stay within the size +5mm max.
-Following screws are recommended for the assembly of the machine:
+The following screws are recommended for the assembly of the machine:
 
 | Metric | Type       | l (mm) | Qty |
 | ------ | ---------- | ------ | --- |

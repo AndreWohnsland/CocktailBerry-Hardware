@@ -2,9 +2,9 @@
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.
 It replaces the loose jumper wires and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
-It is driving its outputs directly from the Raspberry Pi's I²C interface.
+It drives its outputs directly from the Raspberry Pi's I²C interface.
 
-It is still in concept phase, and not yet production-ready. It is not recommended to use it in a production environment yet.
+It is still in the concept phase and not yet production-ready. It is not recommended to use it in a production environment yet.
 
 --8<-- "board/alpha.md"
 
@@ -12,9 +12,9 @@ It is still in concept phase, and not yet production-ready. It is not recommende
 
 The board switches up to **10 circuits** through the Raspberry Pi's I²C interface and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
 Each output carries a built-in **flyback (backflow) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
-The I2C can also be daisy-chained to other devices, so you can use the same I2C bus for other devices as well (Pi only has one).
+The I²C bus can be daisy-chained to further devices, sharing the Pi's single bus.
 
-Although it was designed for the [MK IV](../machines/mk4/index.md), it works with any device that can be controlled from a GPIO output.
+Although it was designed for the [MK IV](../machines/mk4/index.md), it works with any device that can be controlled over I²C.
 
 ## Specifications
 

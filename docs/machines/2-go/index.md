@@ -2,7 +2,7 @@
 
 The **CocktailBerry 2-Go** is a portable, compact CocktailBerry machine.
 It might not be the prettiest, but it is designed to be easily built and used on the go.
-It uses a Euro Box enclosure and 3D printed parts to hold everything together, and it can be powered by a 12 battery pack for true portability.
+It uses a Euro Box enclosure and 3D printed parts to hold everything together, and it can be powered by a 12 V battery pack for true portability.
 You can also use a normal 12V power supply if you don't need to take it on the road.
 The legs can be detached for easier transport, and the whole thing can be stored in a backpack or small case.
 

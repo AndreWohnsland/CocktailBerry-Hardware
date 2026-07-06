@@ -5,76 +5,67 @@
 [![Support CocktailBerry](https://img.shields.io/badge/Support%20CocktailBerry-donate-yellow)](https://www.buymeacoffee.com/AndreWohnsland)
 
 CocktailBerry Hardware is the **official hardware repository** for the [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry) project.
-It features machine designs, custom PCB(A)s, STL files for 3D-printed parts, and bills of materials - everything you need to build your very own CocktailBerry machine.
+It holds the machine designs (FreeCAD sources) and custom PCB(A)s (KiCad projects) you need to build your own CocktailBerry machine.
 
 <a href="https://cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/websitebutton.png" alt="website" height="70"/></a>
-<a href="https://docs.cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/docbutton.png" alt="documentation" height="70"/></a>
+<a href="https://hardware.cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/docbutton.png" alt="hardware documentation" height="70"/></a>
 
-Whether you want to replicate an existing design or adapt it for your own setup, this repository is your starting point.
-For the full software, setup instructions, and configuration, head over to the [CocktailBerry main project](https://github.com/AndreWohnsland/CocktailBerry) and the [Official Documentation](https://docs.cocktailberry.org/hardware/).
+Build guides, parts lists, specifications, and downloadable fabrication files live in the
+**[Hardware Documentation](https://hardware.cocktailberry.org/)**. For the software, setup, and
+configuration, see the [main CocktailBerry project](https://github.com/AndreWohnsland/CocktailBerry)
+and the [Software Documentation](https://docs.cocktailberry.org/).
 
 Like this project? Give the main repo a star on GitHub! ⭐
 
-# ⚠️ Alpha Disclaimer
+# ⚠️ Beta Disclaimer
 
-> **This repository is currently in alpha and under active development.**
-> Designs, files, and documentation are subject to significant changes before the first official release.
-> The first release will mark the transition to **beta**.
-> Use with caution, and feel free to open an issue or reach out with feedback.
+> **This repository is in beta and under active development.**
+> The designs are functional and in use, but files and documentation may still receive
+> changes before the first stable release. Use at your own risk, and feel free to open an
+> issue or reach out with feedback.
 
-# PCB / PCBA Designs
+# Designs
 
-Custom PCBs are being developed to simplify wiring and component connections for CocktailBerry machines.
-The aim is to replace loose jumper wires and relay boards with a clean, dedicated PCB solution.
+Sources live in this repo; fabrication files (Gerbers/BOM/CPL for boards, STEP/STL for machines)
+are generated from them by the build pipeline. Full specs, parts, and downloads are on the
+[Hardware Documentation](https://hardware.cocktailberry.org/).
 
-> **Note:** PCB designs will be published as they reach a suitable state. Watch the repository for updates.
+**PCBAs** ([`pcb/`](pcb)) — control boards that replace relay arrays, switching pump circuits via MOSFETs:
 
-| Design               | Description                                          | Status         |
-| -------------------- | ---------------------------------------------------- | -------------- |
-| CocktailBerry PCB v1 | Main controller board for relay and pump connections | In Development |
+| Board | Description | Status |
+| ----- | ----------- | ------ |
+| [CocktailBerryBoard GPIO](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-gpio/) | GPIO-based, up to 10 circuits | Released |
+| [CocktailBerryBoard Slim](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-slim/) | Compact GPIO-based, up to 8 circuits | Released |
+| [CocktailBerryBoard I2C](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-i2c/) | I2C-based, up to 10 circuits | Alpha |
 
-# STL Files / 3D-Printed Parts
+**Machines** ([`cad/`](cad)) — 3D-printable machine builds:
 
-3D-printable parts are provided for enclosures, mounts, and other structural components.
-These are designed to complement the PCB designs and standard off-the-shelf hardware.
-
-> **Note:** STL files will be added as designs are finalized. Contributions of new designs are welcome.
-
-| Part           | Description                                  | Status         |
-| -------------- | -------------------------------------------- | -------------- |
-| Main Enclosure | Enclosure matching PCB v1 and display cutout | In Development |
-
-# Bill of Materials (BOM)
-
-A complete BOM for each machine variant and PCB design will be provided here alongside the corresponding files.
-For a general hardware overview and component recommendations in the meantime, see the [Hardware Documentation](https://docs.cocktailberry.org/hardware/).
-
-> **Note:** BOMs will be added together with their respective machine or PCB designs.
+| Machine | Description | Status |
+| ------- | ----------- | ------ |
+| [CocktailBerry MK III](https://hardware.cocktailberry.org/machines/mk3/) | Compact footprint with integrated touchscreen support | Released |
+| [CocktailBerry 2-Go](https://hardware.cocktailberry.org/machines/2-go/) | Portable Euro Box build with detachable legs | Released |
+| [CocktailBerry MK IV](https://hardware.cocktailberry.org/machines/mk4/) | v2 reference build, optional scale + peristaltic pumps | Beta |
 
 # Contributing / How to Help
 
-Contributions are very welcome!
-If you have a machine design, improved STL, or PCB layout you would like to share, feel free to open a pull request or issue.
+Contributions are very welcome - a new machine design, an improved model, or a PCB layout.
+Open an issue or pull request.
 
-**For PCB designs, please include:**
+**Please submit source files only:**
 
-- Schematic and project files (e.g., KiCad)
-- Gerber files for manufacturing
-- A brief description and BOM
+- PCBs: the KiCad project (`*.kicad_sch`, `*.kicad_pcb`, and any local symbols/footprints)
+- Machines: the FreeCAD sources (`*.FCStd`)
 
-**For STL files, please include:**
-
-- The STL file(s)
-- Source file (e.g., FreeCAD) if available
-- Recommended print settings and any relevant notes
-
-See the main project's [Contributing Guidelines](https://github.com/AndreWohnsland/CocktailBerry/blob/master/CONTRIBUTING.md) for general contribution rules.
+Do **not** commit generated fabrication artifacts (Gerbers, drill, CPL, STL, STEP) - those are
+built from the sources by the pipeline (see [`pcb/README.md`](pcb/README.md) and
+[`cad/README.md`](cad/README.md)). See the main project's
+[Contributing Guidelines](https://github.com/AndreWohnsland/CocktailBerry/blob/master/CONTRIBUTING.md)
+for general rules.
 
 # Related Projects
 
-| Project                                                                        | Description                                |
-| ------------------------------------------------------------------------------ | ------------------------------------------ |
-| [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry)               | The main software project (Python + React) |
-| [CocktailBerry Addons](https://github.com/AndreWohnsland/CocktailBerry-Addons) | Community addons and extensions            |
-| [Official Documentation](https://docs.cocktailberry.org/)                      | Full documentation and setup guides        |
-| [Hardware Docs](https://docs.cocktailberry.org/hardware/)                      | Hardware-specific documentation            |
+| Project | Description |
+| ------- | ----------- |
+| [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry) | The main software project (Python + React) |
+| [CocktailBerry Addons](https://github.com/AndreWohnsland/CocktailBerry-Addons) | Community addons and extensions |
+| [Software Documentation](https://docs.cocktailberry.org/) | Software setup and configuration guides |

@@ -7,7 +7,7 @@ Steps to complete before assembly.
 ## Step A - Solder Inserts
 
 First, solder the threaded inserts into the printed parts that require them.
-Here is an overview which insert goes where:
+Here is an overview of which insert goes where:
 
 - Funnel: One M2.5 on the top connecting point
 - Pump Grid: eight M2.5 on the pump mounting points, two M3 on the sides of the top, two M4 on the extensions coming from the grid

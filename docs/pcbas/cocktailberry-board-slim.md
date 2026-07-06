@@ -2,7 +2,7 @@
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.
 It replaces the loose jumper wires and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
-It is driving its outputs directly from the Raspberry Pi's GPIO pins.
+It drives its outputs directly from the Raspberry Pi's GPIO pins.
 This is a variant of the GPIO-based board (CBB-GPIO), with a smaller form factor and fewer channels, designed for compact builds.
 
 --8<-- "board/released.md"
@@ -33,7 +33,7 @@ Although it was designed for the [2-Go](../machines/2-go/index.md), it works wit
 - It is **not** a HAT - it does not plug onto the Pi's 40-pin header. Connections are
   made via **pin headers**: one signal pin per channel, plus 2 × GND, wired to the
   Pi's GPIO.
-- extra small, longer body than CBB-GPIO.
+- Smaller footprint but a longer body than the CBB-GPIO.
 
 ## Files
 

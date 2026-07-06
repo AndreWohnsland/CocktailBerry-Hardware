@@ -19,7 +19,7 @@ Everything required to build the CocktailBerry MK IV.
 | Funnel                      | 1   | Funnel                  | default funnel      |
 | Short Funnel                | 1   | ShortFunnel             | *variant* funnel    |
 | Long Funnel                 | 1   | LongFunnel              | *variant* funnel    |
-| Led Hole Plug               | 1   | LedHolePlug             | *optional* LED      |
+| LED Hole Plug               | 1   | LedHolePlug             | *optional* LED      |
 | Lid Top                     | 1   | LidTop                  |                     |
 | Peristaltic Holder          | 2   | PeristalticHolder       |                     |
 | Pump Tower Lid              | 2   | PumpTowerLid            |                     |
@@ -77,8 +77,8 @@ If you do not use a scale, the GPIO version is still a good fit.
 
 ## Fasteners
 
-For more information on the inserted threads, see also according section below.
-Following threads are required for the assembly of the machine:
+For more information on the inserted threads, see the section below.
+The following threads are required for the assembly of the machine:
 
 | Metric | Qty              |
 | ------ | ---------------- |
@@ -88,7 +88,7 @@ Following threads are required for the assembly of the machine:
 | 5      | 2                |
 
 While the screw length might allow slight variations, stay within the size +5mm max.
-Following screws are recommended for the assembly of the machine:
+The following screws are recommended for the assembly of the machine:
 
 | Metric | Type       | l (mm) | Qty |
 | ------ | ---------- | ------ | --- |
@@ -99,14 +99,14 @@ Following screws are recommended for the assembly of the machine:
 | 4      | Socket cap | 25     | 3   |
 | 5      | Flat       | 25     | 2   |
 
-For the scale, following screws are required:
+For the scale, the following screws are required:
 
 | Metric | Type | l (mm) | Qty |
 | ------ | ---- | ------ | --- |
 | 4      | Flat | 10-15  | 2   |
 | 5      | Flat | 30     | 2   |
 
-I usually use a one stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
+I usually use a one-stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
 
 --8<-- "inserted_threads.md"
 

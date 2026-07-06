@@ -2,7 +2,7 @@
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.
 It replaces the loose jumper wires and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
-It is driving its outputs directly from the Raspberry Pi's GPIO pins.
+It drives its outputs directly from the Raspberry Pi's GPIO pins.
 
 --8<-- "board/released.md"
 
