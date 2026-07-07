@@ -6,6 +6,11 @@ It drives its outputs directly from the Raspberry Pi's GPIO pins.
 
 --8<-- "board/released.md"
 
+<figure markdown>
+  ![Top view](../../img/cbb-gpio/board_top.jpeg)
+  <figcaption>Top view of the board</figcaption>
+</figure>
+
 ## Overview
 
 The board switches up to **10 circuits** through the Raspberry Pi's GPIO pins and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
@@ -21,7 +26,7 @@ Although it was designed for the [MK III](../machines/mk3/index.md), it works wi
 | Channels          | Up to 10 independently switched circuits                  |
 | Switching         | MOSFET, driven from Raspberry Pi GPIO                     |
 | Per-channel diode | Built-in flyback / backflow protection                    |
-| Wiring            | One signal header pin per channel + 2 × GND               |
+| Wiring            | One signal header pin per channel + 2×GND                 |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |
 | Protection        | Input fuse and per-channel flyback diodes                 |

@@ -24,7 +24,7 @@ Although it was designed for the [MK IV](../machines/mk4/index.md), it works wit
 | Channels          | Up to 10 independently switched circuits                  |
 | Switching         | MOSFET, driven from Raspberry Pi I²C                      |
 | Per-channel diode | Built-in flyback / backflow protection                    |
-| Wiring            | 4 Pin Headers, SH, PH 4 pin (SDA, SCL, GND, VCC)          |
+| Wiring            | 2×4 Pin Headers, 2×SH 4 pin (SDA, SCL, GND, VCC)          |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |
 | Protection        | Input fuse and per-channel flyback diodes                 |

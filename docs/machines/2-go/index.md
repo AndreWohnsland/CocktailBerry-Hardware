@@ -8,12 +8,17 @@ The legs can be detached for easier transport, and the whole thing can be stored
 
 --8<-- "machine/released.md"
 
+<figure markdown>
+  ![CocktailBerry 2-Go](../../img/2-go/cb2go.jpg)
+  <figcaption>Front view machine with touchscreen</figcaption>
+</figure>
+
 ## Specifications
 
 | Property   | Value                                            |
 | ---------- | ------------------------------------------------ |
 | Dispensers | 8 × membrane pumps                               |
-| Display    | 7" integrated LED touchscreen or Smartphone      |
+| Display    | 5" integrated LED touchscreen or Smartphone      |
 | Controller | Raspberry Pi 3 Model B+ (newer models also work) |
 | Power      | 12 V input; internal transformer powers the Pi   |
 | Software   | CocktailBerry v1 or v2 (no Touch)                |

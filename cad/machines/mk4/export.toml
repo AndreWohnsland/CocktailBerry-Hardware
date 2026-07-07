@@ -1,6 +1,12 @@
 [DripTray]
 objects = ["DripTrayNoScale", "DripTrayWithScale"]
 
+[MainBody]
+objects = ["TowerBottomNoScale", "TowerBottomNoScaleLED", "TowerBottomWithScale", "TowerBottomWithScaleLED", "TowerMiddle", "TowerTop"]
+
+[Funnel]
+objects = ["ShortFunnel", "Funnel", "LongFunnel"]
+
 # This is the parameter file, it does not contain any objects, but it is required for the export to work.
 [Parameters]
 objects = []

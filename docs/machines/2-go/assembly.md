@@ -65,6 +65,11 @@ Put the electric lid on the casing and fix it with the M2.5 screws.
 The funnel can be attached to the main board, fixing with one M2.5 screw, so it doesn't move.
 It can be removed the same way for transportation or cleaning.
 
+<figure markdown>
+  ![Mounting inside the casing](../../img/2-go/assembly_bottom.jpeg)
+  <figcaption>Mounting inside the casing (no screen)</figcaption>
+</figure>
+
 ## Step 9 - Installation of Software
 
 Follow the instructions in the [CocktailBerry docs](https://docs.cocktailberry.org/installation/) to install the software on the Raspberry Pi.

@@ -7,6 +7,11 @@ This is a variant of the GPIO-based board (CBB-GPIO), with a smaller form factor
 
 --8<-- "board/released.md"
 
+<figure markdown>
+  ![Top view](../../img/cbb-slim/board_top.jpeg)
+  <figcaption>Top view of the board</figcaption>
+</figure>
+
 ## Overview
 
 The board switches up to **8 circuits** through the Raspberry Pi's GPIO pins and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
@@ -22,7 +27,7 @@ Although it was designed for the [2-Go](../machines/2-go/index.md), it works wit
 | Channels          | Up to 8 independently switched circuits                   |
 | Switching         | MOSFET, driven from Raspberry Pi GPIO                     |
 | Per-channel diode | Built-in flyback / backflow protection                    |
-| Wiring            | One signal header pin per channel + 2 × GND               |
+| Wiring            | One signal header pin per channel + 2×GND                 |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |
 | Protection        | Input fuse and per-channel flyback diodes                 |

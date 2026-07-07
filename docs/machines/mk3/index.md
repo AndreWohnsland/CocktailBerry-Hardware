@@ -7,6 +7,11 @@ It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
 
 --8<-- "machine/released.md"
 
+<figure markdown>
+  ![CocktailBerry MK III](../../img/mk3/cbmk3.jpg)
+  <figcaption>Side view machine</figcaption>
+</figure>
+
 ## Specifications
 
 | Property   | Value                                            |

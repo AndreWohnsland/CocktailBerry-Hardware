@@ -73,6 +73,11 @@ Commonly used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and prob
 If you experience issues with some GPIO, try another one first.
 Connect the HDMI and USB cables from the touchscreen to the Raspberry Pi.
 
+<figure markdown>
+  ![Top view](../../img/mk3/inside_top.jpeg)
+  <figcaption>Top view inside the machine</figcaption>
+</figure>
+
 ## Step 10 - Installation of Software
 
 Follow the instructions in the [CocktailBerry docs](https://docs.cocktailberry.org/installation/) to install the software on the Raspberry Pi.
