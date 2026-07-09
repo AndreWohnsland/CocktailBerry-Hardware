@@ -35,26 +35,26 @@ See also the [PCBAs](../../pcbas/index.md) section.
 
 | Item                                | Qty    | Notes                                         |
 | ----------------------------------- | ------ | --------------------------------------------- |
-| {{extra.pi_3bplus_link}}            | 1      | if using 4 or 5, need other HDMI              |
+| {{extra.pi_3bplus_link}}            | 1      | Pi 4/5 needs a different HDMI cable           |
 | {{extra.sd_card_link}}              | 1      |                                               |
 | {{extra.touch_7in_link}}            | 1      | Case designed for this                        |
 | {{extra.power_jack_2_5_mm_link}}    | 1      |                                               |
 | {{extra.voltage_converter_link}}    | 1      |                                               |
 | {{extra.power_supply_12v_link}}     | 1      |                                               |
 | {{extra.membrane_pump_link}}        | 8      | {{extra.membrane_pump_alt_link}} is also fine |
-| {{extra.tubing_link}}               | 5-10 m | 5x8mm                                         |
-| {{extra.jumper_wires_link}}         | 1      | 10cm is long enough                           |
+| {{extra.tubing_link}}               | 5-10 m | 5×8 mm                                        |
+| {{extra.jumper_wires_link}}         | 1      | 10 cm is long enough                          |
 | {{extra.hex_standoffs_link}}        | 16     | can use other height                          |
-| {{extra.hdmi_cable_link}}           | 1      | need to be slim                               |
-| {{extra.usb_cable_link}}            | 1      | need to be slim                               |
+| {{extra.hdmi_cable_link}}           | 1      | needs to be slim                              |
+| {{extra.usb_cable_link}}            | 1      | needs to be slim                              |
 | {{extra.micro_usb_open_cable_link}} | 1      |                                               |
-| (Wooden) Base Plate ~40x40 cm       | 1      |                                               |
+| (Wooden) Base Plate ~40×40 cm       | 1      |                                               |
 | {{extra.ring_led_12_link}}          | 2      | *Optional* if using LED tower                 |
 
 ## Fasteners
 
-For more information on the inserted threads, see the section below.
-The following threads are required for the assembly of the machine:
+For more information on the threaded inserts, see the section below.
+The following inserts are required for the assembly of the machine:
 
 | Metric | Qty |
 | ------ | --- |
@@ -63,7 +63,7 @@ The following threads are required for the assembly of the machine:
 | 4      | 3   |
 | 5      | 1   |
 
-While the screw length might allow slight variations, stay within the size +5mm max.
+The screw length allows slight variations, but stay within +5 mm of the given size.
 The following screws are recommended for the assembly of the machine:
 
 | Metric | Type       | l (mm) | Qty |
@@ -75,7 +75,7 @@ The following screws are recommended for the assembly of the machine:
 | 4      | socket cap | 10     | 3   |
 | 5      | flat       | 25     | 2   |
 
-I usually use a one stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
+I usually use a one-stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
 
 --8<-- "inserted_threads.md"
 

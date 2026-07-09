@@ -1,8 +1,8 @@
 Parts might have different variants; you will find the default under *default*.
-Variants have the belonging information (scale, LED, funnel, ...) in the notes column.
+Variants have the corresponding information (scale, LED, funnel, ...) in the notes column.
 Optional parts are marked as such; you can skip them if you do not need them.
 
-Also, naming tries to hint the purpose, e.g.:
+Also, the naming hints at the purpose, e.g.:
 
 - PartWithoutX and PartWithX
 - Part and PartX

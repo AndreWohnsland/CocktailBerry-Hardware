@@ -1,6 +1,6 @@
 # CocktailBerry MK III
 
-The **MK III** is the successor to the MK II and the current reference build for CocktailBerry.
+The **MK III** is the successor to the MK II and the reference build for the CocktailBerry **v1** software; the [MK IV](../mk4/index.md) is the reference build for **v2**.
 By moving the wiring onto the [CocktailBerryBoard](../../pcbas/cocktailberry-board-gpio.md), it achieves a noticeably smaller footprint while keeping the full feature set of its predecessor.
 
 It is fully 3D-printed and designed to be produced on a common **250 × 250 mm** print bed.
@@ -9,7 +9,7 @@ It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
 
 <figure markdown>
   ![CocktailBerry MK III](../../img/mk3/cbmk3.jpg)
-  <figcaption>Side view machine</figcaption>
+  <figcaption>Side view of the machine</figcaption>
 </figure>
 
 ## Specifications
@@ -17,7 +17,7 @@ It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
 | Property   | Value                                            |
 | ---------- | ------------------------------------------------ |
 | Dispensers | 8 × membrane pumps                               |
-| Display    | 7" integrated LED touchscreen                    |
+| Display    | 7" integrated LCD touchscreen                    |
 | Controller | Raspberry Pi 3 Model B+ (newer models also work) |
 | Power      | 12 V input; internal transformer powers the Pi   |
 | Software   | CocktailBerry v1 (Qt); also runs v2              |

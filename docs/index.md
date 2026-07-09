@@ -26,3 +26,12 @@ Related project sites:
     3D models (STLs), part list, preparation, and assembly guides.
 
 </div>
+
+!!! heart "Support CocktailBerry"
+
+    CocktailBerry is free and open source.
+    Developing the hardware, though, takes real time and money:
+    every design goes through many iterations, and parts that don't fit end up in the bin.
+
+    If this project brought you joy or saved you effort, [see how you can support CocktailBerry](https://docs.cocktailberry.org/support/)
+    - there are many ways to help, and most cost nothing but a little time.

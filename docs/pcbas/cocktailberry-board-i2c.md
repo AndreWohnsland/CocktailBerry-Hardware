@@ -4,8 +4,6 @@ The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machin
 It replaces the loose jumper wires and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
 It drives its outputs directly from the Raspberry Pi's I²C interface.
 
-It is still in the concept phase and not yet production-ready. It is not recommended to use it in a production environment yet.
-
 --8<-- "board/alpha.md"
 
 ## Overview

@@ -9,7 +9,7 @@ dependencies = []
 
 [dependency-groups]
 docs = [
-    "zensical>=0.0.45",
+    "zensical>=0.0.47",
 ]
 
 [tool.uv]

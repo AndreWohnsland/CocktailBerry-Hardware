@@ -6,17 +6,17 @@ Step-by-step assembly of the CocktailBerry MK III.
 
 ## Step 1 - Prepare the Base Plate
 
-You need to drill one 5 (+0.1)mm hole into the center of the base plate and one 15mm away from the center in direction to the back of the plate.
+You need to drill one 5 (+0.1) mm hole into the center of the base plate and one 15 mm away from the center, toward the back of the plate.
 
 ## Step 2 - Assemble the Tower
 
-Solder the power jack to some wires long enough to reach from the middle back hole for the jack into the middle of the top tower.
+Solder wires to the power jack; they need to be long enough to reach from the jack hole in the back of the middle tower up into the top tower.
 Mount the jack into the middle tower, put the wires through the top hole into the tower.
 
-Start by screwing the Tower Bottom to the base plate using the M5 insert and a M5 screw.
+Start by screwing the Tower Bottom to the base plate using the M5 insert and an M5 screw.
 Then stack the Tower Middle and screw it to the bottom part using M3 screws.
 Put the Tower Top on and screw it to the middle part using M4 screws.
-Insert the Bundler from top into the top tower using its profile and glue it in place.
+Insert the Bundler from the top into the top tower using its profile and glue it in place.
 
 ## Step 3 - Mount the Pumps
 
@@ -33,23 +33,23 @@ Put the funnel to the bundler and use one screw to fix it in place, so it doesn'
 
 ## Step 4 - Mount Electronics
 
-Mount the CocktailBerry Board on the top tower (middle) using M2.5 nuts.
+Mount the CocktailBerry Board on the top tower (middle) using M2.5 hex standoffs.
 Use as much distance as you need to not collide with the tubes.
-Fix the board with more M2.5 nuts on the top, so it doesn't move.
+Fix the board with more M2.5 standoffs on the top, so it doesn't move.
 Do not use screws, since we add the Raspberry Pi on top of the board later.
 Do the same with the converter on the inner back side of the tower.
 
 ## Step 5 - Solder the Pumps
 
-If the pump is not soldered to the wires, they need to be soldered, otherwise skip this step.
-Make sure the wire from each pump is long enough to reach the board, and solder the wires to the according pump socket on the board.
+If the pumps do not come with wires attached, solder them on; otherwise skip this step.
+Make sure the wire from each pump is long enough to reach the board, and solder the wires to the corresponding pump socket on the board.
 
 ## Step 6 - Wiring of Electronics
 
 For all the screw terminals, you can use the crimp connectors to make the wire connection easier and more secure, but this is an optional step.
 
-The Power Jack needs to be connected to the 12V input of the CocktailBerry Board.
-The 12V output of the board should be connected to the input of the voltage converter, and the 5V output of the converter should be connected to Raspberry Pi.
+The Power Jack needs to be connected to the 12 V input of the CocktailBerry Board.
+The 12 V output of the board should be connected to the input of the voltage converter, and the 5 V output of the converter should be connected to the Raspberry Pi.
 Connect each pump to a matching +/- pump output on the CocktailBerry Board.
 For easier setup, try to connect the pumps in order (for example, pump 1 to the first pump socket, pump 2 to the second, etc.).
 
@@ -61,16 +61,16 @@ You can use the bottom screws for the monitor to achieve this.
 
 ## Step 8 - Mount the RPi
 
-Mount the Raspberry Pi on top of the CocktailBerry Board using the M2.5 nuts and screws.
-Extend the nuts with a second nut in case you have too short nuts.
+Mount the Raspberry Pi on top of the CocktailBerry Board using the M2.5 hex standoffs and screws.
+If the standoffs are too short, stack a second one on top.
 You can also already go with step 9 here (GPIO connections) and then mount the RPi, since the GPIO connections are easier to access without the RPi in place.
 
 ## Step 9 - Connect Signals
 
 Connect the GPIO pins with the GND and pump 1-8 pins of the board using jumper wires.
-Some RPi pins have a high signal pulse at startup, or a pull-up (default high) pin, try to avoid these.
-Commonly used pins here are GPIO 18, 23, 24, 26, 17, 15, 9, 10, 22, 27 (and probably much more working ones).
-If you experience issues with some GPIO, try another one first.
+
+--8<-- "machine/gpio_pins.md"
+
 Connect the HDMI and USB cables from the touchscreen to the Raspberry Pi.
 
 <figure markdown>
@@ -80,12 +80,6 @@ Connect the HDMI and USB cables from the touchscreen to the Raspberry Pi.
 
 ## Step 10 - Installation of Software
 
-Follow the instructions in the [CocktailBerry docs](https://docs.cocktailberry.org/installation/) to install the software on the Raspberry Pi.
-Be sure that you uncheck the pins inverted option at the first program start, since the board is inverted to a normal relay board.
-This will cause all pumps to run at first program start.
+--8<-- "machine/software_install.md"
 
-## Final Checks
-
-- All connections secure
-- Pumps run in the correct direction
-- First test run with water completed
+--8<-- "machine/final_checks.md"

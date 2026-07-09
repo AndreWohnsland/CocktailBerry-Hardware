@@ -32,7 +32,7 @@ Everything required to build the CocktailBerry MK IV.
 | Tower Bottom With Scale LED | 1   | TowerBottomWithScaleLED | *variant* scale LED |
 
 Note that the tower comes in different variants, most notably at the bottom section.
-You have up to 4 different variants:
+There are 4 variants:
 
 - plain
 - with LED
@@ -62,14 +62,14 @@ If you do not use a scale, the GPIO version is still a good fit.
 | {{extra.power_supply_12v_link}}   | 1      |                                               |
 | {{extra.membrane_pump_link}}      | 8      | {{extra.membrane_pump_alt_link}} is also fine |
 | {{extra.peristaltic_pump_link}}   | 2      |                                               |
-| {{extra.tubing_link}}             | 5-10 m | 5x8mm                                         |
-| {{extra.tubing_link}}             | 2 m    | 3x5mm                                         |
-| {{extra.jumper_wires_link}}       | 1      | 10cm is long enough                           |
+| {{extra.tubing_link}}             | 5-10 m | 5×8 mm                                        |
+| {{extra.tubing_link}}             | 2 m    | 3×5 mm                                        |
+| {{extra.jumper_wires_link}}       | 1      | 10 cm is long enough                          |
 | {{extra.hex_standoffs_link}}      | 16     | can use other height                          |
 | {{extra.usb_c_open_cable_link}}   | 1      |                                               |
 | {{extra.lenovo_tab_link}}         | 1      | Can use your phone instead                    |
 | {{extra.magnet_6x3_link}}         | 2      |                                               |
-| (Wooden) Base Plate ~40x40 cm     | 1      |                                               |
+| (Wooden) Base Plate ~40×40 cm     | 1      |                                               |
 | {{extra.strip_led_link}}          | 1      | *Optional* if using LED                       |
 | {{extra.led_3pin_connector_link}} | 1      | *Optional* if using LED                       |
 | {{extra.load_cell_link}}          | 1      | *Optional* if using scale                     |
@@ -77,8 +77,8 @@ If you do not use a scale, the GPIO version is still a good fit.
 
 ## Fasteners
 
-For more information on the inserted threads, see the section below.
-The following threads are required for the assembly of the machine:
+For more information on the threaded inserts, see the section below.
+The following inserts are required for the assembly of the machine:
 
 | Metric | Qty              |
 | ------ | ---------------- |
@@ -87,7 +87,7 @@ The following threads are required for the assembly of the machine:
 | 4      | 3                |
 | 5      | 2                |
 
-While the screw length might allow slight variations, stay within the size +5mm max.
+The screw length allows slight variations, but stay within +5 mm of the given size.
 The following screws are recommended for the assembly of the machine:
 
 | Metric | Type       | l (mm) | Qty |

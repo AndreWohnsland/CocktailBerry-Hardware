@@ -38,7 +38,7 @@ Although it was designed for the [2-Go](../machines/2-go/index.md), it works wit
 - It is **not** a HAT - it does not plug onto the Pi's 40-pin header. Connections are
   made via **pin headers**: one signal pin per channel, plus 2 × GND, wired to the
   Pi's GPIO.
-- Smaller footprint but a longer body than the CBB-GPIO.
+- Narrower than the CBB-GPIO, but with a longer body.
 
 ## Files
 
@@ -47,6 +47,8 @@ Production files are attached to each [release][releases] as a single archive, g
 - **Fabrication package (JLCPCB):**
   [`cbb-slim.zip`]({{extra.repo_url}}/releases/latest/download/cbb-slim.zip)
   - Gerbers, BOM, and positions (pick-and-place).
+
+All parts (SMD, THT) are included in the package, so you can order the board and all parts from JLCPCB directly.
 
 [releases]: {{extra.repo_url}}/releases
 

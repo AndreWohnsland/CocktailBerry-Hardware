@@ -43,7 +43,7 @@ extra_javascript = [
 ]
 
 [project.theme]
-variant = "classic"
+variant = "modern"
 custom_dir = "docs/overrides"
 logo = "img/berry.svg"
 favicon = "img/favicon.ico"

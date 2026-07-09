@@ -2,15 +2,15 @@
 
 The **CocktailBerry 2-Go** is a portable, compact CocktailBerry machine.
 It might not be the prettiest, but it is designed to be easily built and used on the go.
-It uses a Euro Box enclosure and 3D printed parts to hold everything together, and it can be powered by a 12 V battery pack for true portability.
-You can also use a normal 12V power supply if you don't need to take it on the road.
+It uses a Euro Box enclosure and 3D-printed parts to hold everything together, and it can be powered by a 12 V battery pack for true portability.
+You can also use a normal 12 V power supply if you don't need to take it on the road.
 The legs can be detached for easier transport, and the whole thing can be stored in a backpack or small case.
 
 --8<-- "machine/released.md"
 
 <figure markdown>
   ![CocktailBerry 2-Go](../../img/2-go/cb2go.jpg)
-  <figcaption>Front view machine with touchscreen</figcaption>
+  <figcaption>Front view of the machine with touchscreen</figcaption>
 </figure>
 
 ## Specifications
@@ -18,12 +18,12 @@ The legs can be detached for easier transport, and the whole thing can be stored
 | Property   | Value                                            |
 | ---------- | ------------------------------------------------ |
 | Dispensers | 8 × membrane pumps                               |
-| Display    | 5" integrated LED touchscreen or Smartphone      |
+| Display    | 5" integrated LCD touchscreen or smartphone      |
 | Controller | Raspberry Pi 3 Model B+ (newer models also work) |
 | Power      | 12 V input; internal transformer powers the Pi   |
-| Software   | CocktailBerry v1 or v2 (no Touch)                |
-| Enclosure  | Using a Euro Box, 3D printed inside              |
-| Dimensions | 30x20x12 cm (box) or h=50 with legs              |
+| Software   | CocktailBerry v1  or v2 (no touchscreen)         |
+| Enclosure  | Euro Box, 3D-printed parts inside                |
+| Dimensions | 30×20×12 cm (box), ~50 cm high with legs         |
 
 ## Downloads
 

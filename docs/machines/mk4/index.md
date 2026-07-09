@@ -1,9 +1,9 @@
 # CocktailBerry MK IV
 
-The **MK IV** is the latest CocktailBerry reference build, designed around the CocktailBerry **v2** software.
+The **MK IV** is the reference build for the CocktailBerry **v2** software (the [MK III](../mk3/index.md) remains the reference for **v1**).
 Like the MK III, it moves the wiring onto the [CocktailBerryBoard](../../pcbas/cocktailberry-board-gpio.md).
-It tries to be more streamlined and visually appealing, while also adding the option to use a scale.
-Two peristaltic pumps are also included in the base build, also allowing the use of syrup in the machine.
+It is more streamlined and visually appealing, and adds the option to use a scale.
+The base build also includes two peristaltic pumps, allowing the use of syrup in the machine.
 
 It is fully 3D-printed and designed to be produced on a common **250 × 250 mm** print bed.
 

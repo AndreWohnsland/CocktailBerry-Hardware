@@ -4,7 +4,7 @@ These settings might differ a little bit, depending on your printer.
 The parts are designed to be printed without supports, but some printers might require them for certain parts.
 
 - Recommended material: PLA, PETG, or ABS (funnel should be food-safe)
-- Layer height: 0.2
+- Layer height: 0.2 mm
 - Infill: 10-20 %
 - Supports: where needed
 
@@ -19,4 +19,4 @@ Pre-solder connections where possible to save time during assembly.
 - All parts printed and cleaned
 - Electronics tested
 - Fasteners and tools ready
-- Measure converter output voltage to ensure it's set to 5V before connecting to the Pi
+- Measure converter output voltage to ensure it's set to 5 V before connecting to the Pi

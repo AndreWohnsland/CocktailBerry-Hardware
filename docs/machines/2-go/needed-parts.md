@@ -35,19 +35,19 @@ See also the [PCBAs](../../pcbas/index.md) section.
 | {{extra.voltage_converter_link}}    | 1      |                                               |
 | {{extra.power_supply_12v_link}}     | 1      |                                               |
 | {{extra.membrane_pump_link}}        | 8      | {{extra.membrane_pump_alt_link}} is also fine |
-| {{extra.tubing_link}}               | 5-10 m | 5x8mm                                         |
-| {{extra.jumper_wires_link}}         | 1      | 10cm is long enough                           |
+| {{extra.tubing_link}}               | 5-10 m | 5×8 mm                                        |
+| {{extra.jumper_wires_link}}         | 1      | 10 cm is long enough                          |
 | {{extra.hex_standoffs_link}}        | 16     | can use other height                          |
 | {{extra.hdmi_cable_link}}           | 1      | If you need screen (v1)                       |
 | {{extra.usb_cable_link}}            | 1      | If you need screen (v1)                       |
 | {{extra.micro_usb_open_cable_link}} | 1      | For the RPi 3                                 |
 | {{extra.usb_c_open_cable_link}}     | 1      | For the RPi 4 or 5                            |
-| ⌀10cm pipe, 55cm                    | 4      |                                               |
+| ⌀ 10 mm pipe, 55 cm                 | 4      |                                               |
 
 ## Fasteners
 
-For more information on the inserted threads, see the section below.
-The following threads are required for the assembly of the machine:
+For more information on the threaded inserts, see the section below.
+The following inserts are required for the assembly of the machine:
 
 | Metric | Qty |
 | ------ | --- |
@@ -55,7 +55,7 @@ The following threads are required for the assembly of the machine:
 | 3      | 3   |
 | 4      | 6   |
 
-While the screw length might allow slight variations, stay within the size +5mm max.
+The screw length allows slight variations, but stay within +5 mm of the given size.
 The following screws are recommended for the assembly of the machine:
 
 | Metric | Type       | l (mm) | Qty |
@@ -67,7 +67,7 @@ The following screws are recommended for the assembly of the machine:
 | 4      | socket cap | 5      | 4   |
 | 4      | socket cap | 15-30  | 2   |
 
-I usually use a one stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
+I usually use a one-stop shop for all screws and fasteners, like {{extra.screw_shop_link}}.
 
 --8<-- "inserted_threads.md"
 

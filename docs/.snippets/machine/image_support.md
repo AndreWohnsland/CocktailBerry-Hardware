@@ -1,5 +1,4 @@
 !!! info "Visual Instructions"
-    Some of those steps are visually explained by images.
+    Some of these steps are visually explained by images.
     If you think you created some helpful instructional images during your build, please share them with us so we can add them here.
-    In case you are missing images, the MK series is quite similar in the build concept.
-    MK IV should have the most detailed images.
+    If images are missing for your machine, the MK series shares a similar build concept - the MK IV has the most detailed images.

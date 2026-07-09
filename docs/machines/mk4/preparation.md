@@ -9,9 +9,9 @@ Steps to complete before assembly.
   <figcaption>All parts of the CocktailBerry MK IV</figcaption>
 </figure>
 
-## Step A - Solder Inserts
+## Step A - Heat-Set Inserts
 
-First, solder the threaded inserts into the printed parts that require them.
+First, heat-set the threaded inserts (using a soldering iron) into the printed parts that require them.
 Here is an overview of which insert goes where:
 
 - Lid Tower: two M3 on the pads
@@ -23,7 +23,7 @@ Here is an overview of which insert goes where:
 
 <figure markdown>
   ![Plates Position](../../img/mk4/inserts.jpeg)
-  <figcaption>All parts of the CocktailBerry MK IV with inserts soldered</figcaption>
+  <figcaption>All parts of the CocktailBerry MK IV with inserts installed</figcaption>
 </figure>
 
 ## Step B - Insert Magnets
