@@ -26,7 +26,6 @@ Although it was designed for the [2-Go](../machines/2-go/index.md), it works wit
 | Variant           | GPIO (CBB-Slim)                                           |
 | Channels          | Up to 8 independently switched circuits                   |
 | Switching         | MOSFET, driven from Raspberry Pi GPIO                     |
-| Per-channel diode | Built-in flyback / backflow protection                    |
 | Wiring            | One signal header pin per channel + 2×GND                 |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |

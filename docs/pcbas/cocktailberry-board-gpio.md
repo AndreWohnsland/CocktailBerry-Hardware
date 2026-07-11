@@ -1,7 +1,7 @@
 # CocktailBerryBoard GPIO
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.
-It replaces the loose jumper wires and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
+It replaces the extensive wiring and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
 It drives its outputs directly from the Raspberry Pi's GPIO pins.
 
 --8<-- "board/released.md"
@@ -25,7 +25,6 @@ Although it was designed for the [MK III](../machines/mk3/index.md), it works wi
 | Variant           | GPIO (CBB-GPIO)                                           |
 | Channels          | Up to 10 independently switched circuits                  |
 | Switching         | MOSFET, driven from Raspberry Pi GPIO                     |
-| Per-channel diode | Built-in flyback / backflow protection                    |
 | Wiring            | One signal header pin per channel + 2×GND                 |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |

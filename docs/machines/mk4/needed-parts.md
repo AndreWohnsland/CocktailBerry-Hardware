@@ -23,7 +23,7 @@ Everything required to build the CocktailBerry MK IV.
 | Lid Top                     | 1   | LidTop                  |                     |
 | Peristaltic Holder          | 2   | PeristalticHolder       |                     |
 | Pump Tower Lid              | 2   | PumpTowerLid            |                     |
-| Tube Fixer                  | 1   | TubeFixer               | *optional*          |
+| Tube Fixer                  | 2   | TubeFixer               | *optional*          |
 | Tower Top                   | 1   | TowerTop                |                     |
 | Tower Middle                | 1   | TowerMiddle             |                     |
 | Tower Bottom No Scale       | 1   | TowerBottomNoScale      | default bottom      |

@@ -9,6 +9,7 @@ It holds the machine designs (FreeCAD sources) and custom PCB(A)s (KiCad project
 
 <a href="https://cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/websitebutton.png" alt="website" height="70"/></a>
 <a href="https://hardware.cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/docbutton.png" alt="hardware documentation" height="70"/></a>
+<a href="https://docs.cocktailberry.org/"><img src="https://raw.githubusercontent.com/AndreWohnsland/CocktailBerry/master/docs/pictures/softwarebutton.png" alt="software documentation" height="70"/></a>
 
 Build guides, parts lists, specifications, and downloadable fabrication files live in the
 **[Hardware Documentation](https://hardware.cocktailberry.org/)**. For the software, setup, and
@@ -16,13 +17,6 @@ configuration, see the [main CocktailBerry project](https://github.com/AndreWohn
 and the [Software Documentation](https://docs.cocktailberry.org/).
 
 Like this project? Give the main repo a star on GitHub! ⭐
-
-# ⚠️ Beta Disclaimer
-
-> **This repository is in beta and under active development.**
-> The designs are functional and in use, but files and documentation may still receive
-> changes before the first stable release. Use at your own risk, and feel free to open an
-> issue or reach out with feedback.
 
 # Designs
 
@@ -32,19 +26,19 @@ are generated from them by the build pipeline. Full specs, parts, and downloads 
 
 **PCBAs** ([`pcb/`](pcb)) — control boards that replace relay arrays, switching pump circuits via MOSFETs:
 
-| Board | Description | Status |
-| ----- | ----------- | ------ |
-| [CocktailBerryBoard GPIO](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-gpio/) | GPIO-based, up to 10 circuits | Released |
+| Board                                                                                         | Description                          | Status   |
+| --------------------------------------------------------------------------------------------- | ------------------------------------ | -------- |
+| [CocktailBerryBoard GPIO](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-gpio/) | GPIO-based, up to 10 circuits        | Released |
 | [CocktailBerryBoard Slim](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-slim/) | Compact GPIO-based, up to 8 circuits | Released |
-| [CocktailBerryBoard I2C](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-i2c/) | I2C-based, up to 10 circuits | Alpha |
+| [CocktailBerryBoard I2C](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-i2c/)   | I2C-based, up to 10 circuits         | Alpha    |
 
 **Machines** ([`cad/`](cad)) — 3D-printable machine builds:
 
-| Machine | Description | Status |
-| ------- | ----------- | ------ |
-| [CocktailBerry MK III](https://hardware.cocktailberry.org/machines/mk3/) | Compact footprint with integrated touchscreen support | Released |
-| [CocktailBerry 2-Go](https://hardware.cocktailberry.org/machines/2-go/) | Portable Euro Box build with detachable legs | Released |
-| [CocktailBerry MK IV](https://hardware.cocktailberry.org/machines/mk4/) | v2 reference build, optional scale + peristaltic pumps | Beta |
+| Machine                                                                  | Description                                            | Status   |
+| ------------------------------------------------------------------------ | ------------------------------------------------------ | -------- |
+| [CocktailBerry MK III](https://hardware.cocktailberry.org/machines/mk3/) | Compact footprint with integrated touchscreen support  | Released |
+| [CocktailBerry 2-Go](https://hardware.cocktailberry.org/machines/2-go/)  | Portable Euro Box build with detachable legs           | Released |
+| [CocktailBerry MK IV](https://hardware.cocktailberry.org/machines/mk4/)  | v2 reference build, optional scale + peristaltic pumps | Beta     |
 
 # Contributing / How to Help
 
@@ -64,8 +58,8 @@ for general rules.
 
 # Related Projects
 
-| Project | Description |
-| ------- | ----------- |
-| [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry) | The main software project (Python + React) |
-| [CocktailBerry Addons](https://github.com/AndreWohnsland/CocktailBerry-Addons) | Community addons and extensions |
-| [Software Documentation](https://docs.cocktailberry.org/) | Software setup and configuration guides |
+| Project                                                                        | Description                                |
+| ------------------------------------------------------------------------------ | ------------------------------------------ |
+| [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry)               | The main software project (Python + React) |
+| [CocktailBerry Addons](https://github.com/AndreWohnsland/CocktailBerry-Addons) | Community addons and extensions            |
+| [Software Documentation](https://docs.cocktailberry.org/)                      | Software setup and configuration guides    |
