@@ -159,10 +159,10 @@ motor_shield_azdelivery_link = "[Motor Shield (AZDelivery)](https://amzn.to/3SbQ
 motor_shield_adafruit_link = "[Motor Shield (Adafruit)](https://amzn.to/4vE6uaf)"
 # Power supplies
 power_jack_2_5_mm_link = "[2.5mm Power Jack](https://amzn.to/4uTvkC1)"
-pi3_power_supply_link = "[5V Power Supply (Raspberry Pi 3)](https://amzn.to/3XbImwj)"
-pi4_power_supply_link = "[5V Power Supply (Raspberry Pi 4)](https://amzn.to/48axtjp)"
-pi5_power_supply_link = "[5V Power Supply (Raspberry Pi 5)](https://amzn.to/4885zEN)"
-power_supply_12v_link = "[12V Power Supply](https://amzn.to/49w0fgP)"
+pi3_power_supply_link = "[5 V Power Supply (Raspberry Pi 3)](https://amzn.to/3XbImwj)"
+pi4_power_supply_link = "[5 V Power Supply (Raspberry Pi 4)](https://amzn.to/48axtjp)"
+pi5_power_supply_link = "[5 V Power Supply (Raspberry Pi 5)](https://amzn.to/4885zEN)"
+power_supply_12v_link = "[12 V Power Supply](https://amzn.to/49w0fgP)"
 voltage_converter_link = "[Voltage Converter](https://amzn.to/4qT18oW)"
 # Tubing, cables & fasteners
 tubing_link = "[Food-Safe Tubing](https://amzn.to/4ppufj3)"

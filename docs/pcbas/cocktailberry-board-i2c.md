@@ -4,7 +4,12 @@ The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machin
 It replaces the extensive wiring and generic relay arrays normally used to switch the pumps, giving you clean, repeatable wiring on a single board.
 It drives its outputs directly from the Raspberry Pi's I²C interface.
 
---8<-- "board/alpha.md"
+--8<-- "board/beta.md"
+
+<figure markdown>
+  ![Top view](../../img/cbb-i2c/board_top.jpeg)
+  <figcaption>Top view of the board</figcaption>
+</figure>
 
 ## Overview
 
@@ -34,6 +39,12 @@ Although it was designed for the [MK IV](../machines/mk4/index.md), it works wit
 - It is **not** a HAT - it does not plug onto the Pi's 40-pin header. Connections are
   made via **pin headers**: one 4-pin header per channel, wired to the
   Pi's I²C interface.
+
+## Extender Mapping
+
+Currently, the default I2C address is `0x27`, and the board can be configured to use addresses down to `0x20` by soldering the appropriate jumpers (A0, A1, A2) on the board.
+The pumps are mapped to the channels as follows: *0 to 1, 1 to 2, ..., 9 to 10* (Pump - 1 = Pin/Channel).
+Use this number for the CocktailBerry software as the pin number of the pump.
 
 ## Files
 

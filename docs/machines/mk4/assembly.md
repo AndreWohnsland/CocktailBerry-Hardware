@@ -135,7 +135,7 @@ You can also already go with step 8 here (CocktailBerry Board connections) and t
 
 ## Step 8 - Connect Signals
 
-If you use the I2C version of the CocktailBerry Board, just connect the I2C (5 V, GND, SDA, SCL) of the Raspberry Pi to the I2C of the CocktailBerry Board.
+If you use the I2C version of the CocktailBerry Board, just connect the I2C (3V3, GND, SDA, SCL) of the Raspberry Pi to the I2C of the CocktailBerry Board.
 
 Otherwise, connect the GPIO pins with the GND and pump 1-10 pins of the board using jumper wires.
 
