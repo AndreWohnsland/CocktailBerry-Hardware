@@ -78,7 +78,7 @@ name = "CocktailBerry"
 
 [[project.extra.social]]
 icon = "material/book-open-variant"
-link = "https://docs.cocktailberry.org"
+link = "https://software.cocktailberry.org"
 name = "CocktailBerry Documentation"
 
 # Since we customize superfences and tabbed, we must explicitly define all extensions

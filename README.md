@@ -14,7 +14,7 @@ It holds the machine designs (FreeCAD sources) and custom PCB(A)s (KiCad project
 Build guides, parts lists, specifications, and downloadable fabrication files live in the
 **[Hardware Documentation](https://hardware.cocktailberry.org/)**. For the software, setup, and
 configuration, see the [main CocktailBerry project](https://github.com/AndreWohnsland/CocktailBerry)
-and the [Software Documentation](https://docs.cocktailberry.org/).
+and the [Software Documentation](https://software.cocktailberry.org/).
 
 Like this project? Give the main repo a star on GitHub! ⭐
 
@@ -62,4 +62,4 @@ for general rules.
 | ------------------------------------------------------------------------------ | ------------------------------------------ |
 | [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry)               | The main software project (Python + React) |
 | [CocktailBerry Addons](https://github.com/AndreWohnsland/CocktailBerry-Addons) | Community addons and extensions            |
-| [Software Documentation](https://docs.cocktailberry.org/)                      | Software setup and configuration guides    |
+| [Software Documentation](https://software.cocktailberry.org/)                  | Software setup and configuration guides    |
