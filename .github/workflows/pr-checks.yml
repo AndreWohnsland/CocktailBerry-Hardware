@@ -1,0 +1,171 @@
+name: PR Checks
+run-name: 🔍 PR checks — ${{ github.event.pull_request.title || 'manual build' }}
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      machines:
+        description: "Machine folders to build, space-separated (e.g. 'mk3 mk4')"
+        required: false
+        default: ""
+      boards:
+        description: "Board folders to build, space-separated (e.g. 'cbb-slim')"
+        required: false
+        default: ""
+      docs:
+        description: "Check the docs build"
+        type: boolean
+        default: false
+
+concurrency:
+  group: pr-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write # PCBA Review Bot comment (read-only on fork PRs; the comment step tolerates that)
+
+jobs:
+  changes:
+    name: Detect changed hardware
+    runs-on: ubuntu-latest
+    outputs:
+      machines: ${{ steps.detect.outputs.machines }}
+      boards: ${{ steps.detect.outputs.boards }}
+      docs: ${{ steps.detect.outputs.docs }}
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - name: Map changed files to build targets
+        id: detect
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Folder names double as build-script arguments, so targets derive
+        # straight from the changed paths -- no lookup table to maintain.
+        # Build-script changes trigger one cheap smoke target instead of a
+        # full rebuild; pcb/shared feeds every board, so it fans out to all.
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            {
+              echo "machines=${{ inputs.machines }}"
+              echo "boards=${{ inputs.boards }}"
+              echo "docs=${{ inputs.docs == true && 'true' || '' }}"
+            } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          gh pr diff "${{ github.event.pull_request.number }}" --name-only > /tmp/changed.txt
+          python3 - <<'EOF'
+          import os
+          from pathlib import Path
+
+          changed = Path("/tmp/changed.txt").read_text().split()
+          all_boards = sorted(
+              p.name for p in Path("pcb").iterdir() if p.is_dir() and p.name != "shared"
+          )
+          machines, boards, docs = set(), set(), False
+          for f in changed:
+              parts = f.split("/")
+              if f.startswith("cad/machines/") and len(parts) > 3:
+                  machines.add(parts[2])
+              elif f.startswith("pcb/shared/"):
+                  boards.update(all_boards)
+              elif f.startswith("pcb/") and len(parts) > 2:
+                  boards.add(parts[1])
+              elif f in ("scripts/build_artifacts.py", "scripts/export_freecad.py"):
+                  machines.add("2go")  # smoke target for CAD tooling changes
+              elif f == "scripts/build_fab.py":
+                  boards.add("cbb-slim")  # smoke target for fab tooling changes
+              elif f.startswith("docs/") or f == "zensical.toml":
+                  docs = True
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"machines={' '.join(sorted(machines))}\n")
+              out.write(f"boards={' '.join(sorted(boards))}\n")
+              out.write(f"docs={'true' if docs else ''}\n")
+          EOF
+          echo "machines: [$(grep ^machines= "$GITHUB_OUTPUT" | cut -d= -f2)]"
+          echo "boards: [$(grep ^boards= "$GITHUB_OUTPUT" | cut -d= -f2)]"
+
+  cad:
+    name: Build changed machines
+    needs: changes
+    if: needs.changes.outputs.machines != ''
+    runs-on: ubuntu-latest
+    env:
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Install FreeCAD 1.1
+        # Same recipe as release-artifacts.yml (see there for the AppImage
+        # unsquashfs and symlink rationale).
+        env:
+          FREECAD_VERSION: "1.1.1"
+        run: |
+          set -euo pipefail
+          curl -fSL -o /tmp/freecad.AppImage \
+            "https://github.com/FreeCAD/FreeCAD/releases/download/${FREECAD_VERSION}/FreeCAD_${FREECAD_VERSION}-Linux-x86_64-py311.AppImage"
+          sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends squashfs-tools
+          offset=$(python3 -c 'import struct;d=open("/tmp/freecad.AppImage","rb").read(64);print(struct.unpack_from("<Q",d,0x28)[0]+struct.unpack_from("<H",d,0x3a)[0]*struct.unpack_from("<H",d,0x3c)[0])')
+          unsquashfs -o "$offset" -d /tmp/freecad /tmp/freecad.AppImage >/dev/null
+          sudo ln -sf "$(find /tmp/freecad -type f -name freecadcmd | head -1)" /usr/local/bin/freecadcmd
+          freecadcmd --version
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990 # v8.3.2
+
+      - name: Build changed machines
+        run: uv run python scripts/build_artifacts.py ${{ needs.changes.outputs.machines }}
+
+  board:
+    name: Build changed boards
+    needs: changes
+    if: needs.changes.outputs.boards != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Install KiCad + KiKit
+        # Same pinned pair as release-artifacts.yml.
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
+          sudo python3 -m pip install --break-system-packages "kikit==1.8.0"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990 # v8.3.2
+
+      - name: Build changed boards
+        run: uv run python scripts/build_fab.py ${{ needs.changes.outputs.boards }}
+
+      - name: Run DRC on changed boards
+        # No --exit-code-violations: the boards carry known, accepted
+        # violations, so DRC here is informational and never fails the job.
+        run: |
+          for b in ${{ needs.changes.outputs.boards }}; do
+            kicad-cli pcb drc --format json -o "dist/drc-$b.json" pcb/"$b"/*.kicad_pcb
+          done
+          uv run python scripts/drc_report.py ${{ needs.changes.outputs.boards }} > drc-report.md
+          cat drc-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Post PCBA Review Bot comment
+        # Fork PRs get a read-only token, so posting can fail -- the report is
+        # always in the job summary above regardless.
+        continue-on-error: true
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
+        with:
+          header: pcba-review
+          path: drc-report.md
+
+  docs:
+    name: Check docs build
+    needs: changes
+    if: needs.changes.outputs.docs != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - name: Install uv
+        uses: astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990 # v8.3.2
+      - name: Build docs (strict)
+        run: uv run zensical build --strict
