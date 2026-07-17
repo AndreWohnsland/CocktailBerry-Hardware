@@ -1,3 +1,8 @@
+---
+tags: [PCBA]
+icon: material/memory
+---
+
 # PCBAs
 
 Printed circuit board assemblies for CocktailBerry.

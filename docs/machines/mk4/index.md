@@ -1,3 +1,7 @@
+---
+tags: [Machine]
+---
+
 # CocktailBerry MK IV
 
 The **MK IV** is the reference build for the CocktailBerry **v2** software (the [MK III](../mk3/index.md) remains the reference for **v1**).

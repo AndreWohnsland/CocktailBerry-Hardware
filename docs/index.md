@@ -1,3 +1,7 @@
+---
+icon: material/home-outline
+---
+
 # CocktailBerry Hardware
 
 Welcome to the official **hardware** documentation for [CocktailBerry](https://cocktailberry.org) - the open-source software to easily build your own automated cocktail machine.

@@ -2,7 +2,7 @@
 
 <br/>
 
-[![Support CocktailBerry](https://img.shields.io/badge/Support%20CocktailBerry-donate-yellow)](https://www.buymeacoffee.com/AndreWohnsland)
+[![Support CocktailBerry](https://img.shields.io/badge/Support%20CocktailBerry-learn%20how-yellow)](https://software.cocktailberry.org/support/)
 
 CocktailBerry Hardware is the **official hardware repository** for the [CocktailBerry](https://github.com/AndreWohnsland/CocktailBerry) project.
 It holds the machine designs (FreeCAD sources) and custom PCB(A)s (KiCad projects) you need to build your own CocktailBerry machine.
