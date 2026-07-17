@@ -1,3 +1,8 @@
+---
+tags: [Machine]
+icon: material/glass-cocktail
+---
+
 # Machines
 
 Everything needed to build a CocktailBerry machine: 3D-printable parts (STLs), preparation steps, and assembly guides.

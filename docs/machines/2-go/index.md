@@ -1,3 +1,7 @@
+---
+tags: [Machine]
+---
+
 # CocktailBerry 2-Go
 
 The **CocktailBerry 2-Go** is a portable, compact CocktailBerry machine.

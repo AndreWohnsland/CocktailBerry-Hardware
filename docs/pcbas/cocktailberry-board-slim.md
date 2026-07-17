@@ -1,3 +1,7 @@
+---
+tags: [PCBA]
+---
+
 # CocktailBerryBoard Slim
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.

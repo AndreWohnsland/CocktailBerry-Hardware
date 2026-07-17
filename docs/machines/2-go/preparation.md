@@ -1,3 +1,7 @@
+---
+tags: [Machine]
+---
+
 # Preparation
 
 Steps to complete before assembly.

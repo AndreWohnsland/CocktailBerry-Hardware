@@ -1,3 +1,7 @@
+---
+tags: [PCBA]
+---
+
 # CocktailBerryBoard I2C
 
 The **CocktailBerryBoard** is a dedicated control board for CocktailBerry machines.

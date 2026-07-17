@@ -1,3 +1,7 @@
+---
+tags: [Machine]
+---
+
 # Needed Parts
 
 Everything required to build the CocktailBerry MK III.

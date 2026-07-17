@@ -58,6 +58,15 @@ features = [
   "content.tooltips",
 ]
 
+[project.extra.tags]
+PCBA = "pcba"
+Machine = "machine"
+
+[project.theme.icon.tag]
+default = "material/tag-outline"
+pcba = "material/memory"
+machine = "material/glass-cocktail"
+
 [[project.theme.palette]]
 scheme = "default"
 primary = "custom"

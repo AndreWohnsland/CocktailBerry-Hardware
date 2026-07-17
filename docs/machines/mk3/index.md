@@ -1,3 +1,7 @@
+---
+tags: [Machine]
+---
+
 # CocktailBerry MK III
 
 The **MK III** is the successor to the MK II and the reference build for the CocktailBerry **v1** software; the [MK IV](../mk4/index.md) is the reference build for **v2**.

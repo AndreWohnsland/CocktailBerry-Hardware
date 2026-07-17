@@ -1,3 +1,7 @@
+---
+tags: [Machine]
+---
+
 # Assembly
 
 Step-by-step assembly of the CocktailBerry MK IV.
