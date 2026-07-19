@@ -13,11 +13,16 @@ It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
 
 --8<-- "machine/beta.md"
 
+<figure markdown>
+  ![CocktailBerry MK IV](../../img/mk4/cbmk4.jpeg)
+  <figcaption>Side view of the machine</figcaption>
+</figure>
+
 ## Specifications
 
 | Property   | Value                                          |
 | ---------- | ---------------------------------------------- |
-| Dispensers | 8 × membrane pumps + 2 × peristaltic pumps      |
+| Dispensers | 8 × membrane pumps + 2 × peristaltic pumps     |
 | Display    | Tablet or Smartphone                           |
 | Controller | Raspberry Pi 4 or 5                            |
 | Power      | 12 V input; internal transformer powers the Pi |

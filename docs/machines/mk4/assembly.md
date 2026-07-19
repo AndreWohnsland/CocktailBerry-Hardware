@@ -84,6 +84,7 @@ Mount the pump holder into the tower using the M3 screws.
 ### Wrap-Up
 
 You can use some tape to fix all tubes together at the machine outlet, so they can't slip back.
+Then you can cut the outlet tubes short and in identical length, so they do not block the funnel.
 
 <figure markdown>
   ![Outlet Tubes Bundled](../../img/mk4/outlet_tubes_bundled.jpeg)
@@ -101,6 +102,7 @@ Fix the membrane pumps with the pump tower lid (see figure "*Membrane pump assem
 ## Step 4 - Mount Electronics
 
 Mount the voltage converter in the back between the pumps using M2.5 hex standoffs and screws.
+You can use shorter standoffs for the converter and longer for the CocktailBerry Board, so the converter is lower than the board.
 You can already connect the Raspberry Pi power cable, as well as one cable long enough to reach the CocktailBerry Board power output.
 This is easier to do now, while the tower is still mostly empty.
 
@@ -128,6 +130,7 @@ The Power Jack needs to be connected to the 12 V input of the CocktailBerry Boar
 The 12 V output of the board should be connected to the input of the voltage converter, and the 5 V output of the converter should be connected to the Raspberry Pi.
 Connect each pump to a matching +/- pump output on the CocktailBerry Board.
 For easier setup, try to connect the pumps in order (for example, pump 1 to the first pump socket, pump 2 to the second, etc.).
+It is recommended to first connect everything to the CocktailBerry Board before mounting it into the tower, since it is easier to access the screw terminals without the tower in the way.
 
 If you use a scale, connect it either to the I2C of the CocktailBerry Board or to the GPIO of the Raspberry Pi (next step), depending on which board you have.
 
@@ -147,9 +150,32 @@ Otherwise, connect the GPIO pins with the GND and pump 1-10 pins of the board us
 
 If you have an LED, connect it to the GND, 5 V and GPIO (10 preferred) of the Raspberry Pi.
 
-## Step 9 - Installation of Software
+<figure markdown>
+  ![Inner Finished](../../img/mk4/inner_finished.jpeg)
+  <figcaption>Inner finished, top view</figcaption>
+</figure>
+
+## Step 9 - Glue the Plate
+
+Apply some glue to the front of the top tower to fix the tablet holder plate in place.
+It should be symmetrically aligned with the tower, so the tablet can be placed in the middle of the tower.
+You can let it overlap as much as you want on the top, 5 mm are recommended, but it is not critical.
+
+<figure markdown>
+  ![Tablet Holder](../../img/mk4/tablet_plate.jpeg)
+  <figcaption>Tablet holder plate, front view</figcaption>
+</figure>
+
+## Step 10 - Installation of Software
 
 --8<-- "machine/software_install.md"
+
+## Step 11 - Finalization
+
+Now you can put the tower lid on top of the tower and screw it in place using M3 screws.
+Put the drip tray with the draining rack in the corresponding cutout at the bottom tower.
+Place a bottle to each slot and adjust the length of the inlet tubing to reach the bottom of the bottles.
+The machine is now ready to be connected to the power supply and can be used.
 
 ## *Optional* Scale Wiring
 
