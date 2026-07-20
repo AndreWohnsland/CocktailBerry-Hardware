@@ -18,6 +18,8 @@ cad/accessories/ # shared extra hardware - same conventions, own export unit
 
 - **File selection:** every `*.FCStd` in a machine-folder **root** is exported.
   Put helper or imported documents in a **subfolder** (e.g. `lib/`) to skip them.
+- **Prebuilt files:** `*.3mf` in a folder root are copied into the zip as-is
+  (no CAD source needed; pattern list in `build_artifacts.py`).
 - **Object selection** per file:
   - One result body in the file → exported automatically, no config needed.
   - Multiple candidates (e.g. a base that forks into variants) → the run fails
