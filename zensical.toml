@@ -33,6 +33,7 @@ nav = [
       { "Assembly" = "machines/2-go/assembly.md" },
     ]},
   ]},
+  { "Accessories" = "accessories.md" },
 ]
 
 extra_css = ["stylesheets/extra.css"]
@@ -61,11 +62,13 @@ features = [
 [project.extra.tags]
 PCBA = "pcba"
 Machine = "machine"
+Accessory = "accessory"
 
 [project.theme.icon.tag]
 default = "material/tag-outline"
 pcba = "material/memory"
 machine = "material/glass-cocktail"
+accessory = "material/puzzle"
 
 [[project.theme.palette]]
 scheme = "default"

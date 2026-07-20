@@ -13,6 +13,7 @@ cad/machines/<machine>/
   *.FCStd        # exported  (files in the folder ROOT)
   lib/           # helpers / imported sources - NOT exported (any subfolder)
   export.toml    # optional: pin which objects to export per file
+cad/accessories/ # shared extra hardware - same conventions, own export unit
 ```
 
 - **File selection:** every `*.FCStd` in a machine-folder **root** is exported.
@@ -35,6 +36,6 @@ FreeCAD is **not** a uv dependency; install it separately (`apt-get install
 freecad` on CI). Then:
 
 ```bash
-uv run python scripts/build_artifacts.py          # all machines -> dist/<machine>.zip
-uv run python scripts/build_artifacts.py mk3       # a single machine
+uv run python scripts/build_artifacts.py                # all units -> dist/<unit>.zip
+uv run python scripts/build_artifacts.py mk3 accessories # selected units
 ```
