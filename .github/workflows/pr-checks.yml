@@ -67,6 +67,8 @@ jobs:
               parts = f.split("/")
               if f.startswith("cad/machines/") and len(parts) > 3:
                   machines.add(parts[2])
+              elif f.startswith("cad/accessories/"):
+                  machines.add("accessories")  # own export unit, same build script
               elif f.startswith("pcb/shared/"):
                   boards.update(all_boards)
               elif f.startswith("pcb/") and len(parts) > 2:

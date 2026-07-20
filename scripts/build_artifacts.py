@@ -26,6 +26,11 @@ ACCESSORIES_DIR = ROOT / "cad" / "accessories"
 DIST_DIR = ROOT / "dist"
 EXPORT_SCRIPT = ROOT / "scripts" / "export_freecad.py"
 
+# Prebuilt files shipped as-is: copied from a unit folder's ROOT into its dist
+# output after the FreeCAD export, so they land in the release zip alongside
+# the generated STEP/STL (e.g. hand-tuned print profiles with no CAD source).
+PREBUILT_PATTERNS = ["*.3mf"]
+
 
 def find_freecadcmd() -> str:
     for name in ("freecadcmd", "FreeCADCmd"):
@@ -83,6 +88,11 @@ def main(argv: list[str]) -> None:
         print("::endgroup::", flush=True)
         if proc.returncode != 0:
             sys.exit(f"freecadcmd failed for {name} (exit code {proc.returncode})")
+
+        for pattern in PREBUILT_PATTERNS:
+            for f in sorted(unit_dir.glob(pattern)):
+                shutil.copy2(f, out_dir / f.name)
+                print(f"  copied prebuilt {f.name}", flush=True)
 
         if not any(f.is_file() for f in out_dir.rglob("*")):
             # Nothing exported (e.g. accessories/ holds no .FCStd yet) -- don't
