@@ -23,7 +23,7 @@ The printable and CAD files are attached to each [release]({{extra.repo_url}}/re
 
 If you want to spread the word about CocktailBerry, you can print a small plate with the QR code to the official site.
 It also includes a small space box, printed in vase/spiral mode to hold the cards.
-Print it twice, the second one just roughly 4% larger so you can fit them together.
+Print it twice, the second one just roughly 3-4% larger so you can fit them together.
 The cards are just stored within the box, and can be printed on a standard printer.
 Use a color change at a certain height to print the QR code in a different color, or just paint it afterwards.
 
