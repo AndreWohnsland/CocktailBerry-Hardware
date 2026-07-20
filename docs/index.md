@@ -29,6 +29,10 @@ Related project sites:
 
     3D models (STLs), part list, preparation, and assembly guides.
 
+- :material-puzzle: **[Accessories](accessories.md)**
+
+    Additional hardware to extend your machine.
+
 </div>
 
 !!! heart "Support CocktailBerry"
