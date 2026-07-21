@@ -1,5 +1,12 @@
 [DripTray]
-objects = ["DripTrayNoScale", "DripTrayWithScale"]
+objects = ["DripTrayNoScale"]
+
+# a copy of the DripTray, but we need a smaller base body, so we change this parameter here 
+# Basically we copy this file, adjust the value. In case of changes, we need to recopy other file -> adjust
+# Need to change all 3 (base, cutout, holder) measurements that it fits (if copied)
+# The DripTray has all features, this is just a workaround because CAD cant do this otherwise
+[DripTrayWithScale]
+objects = ["DripTrayWithScale"]
 
 [MainBody]
 objects = ["TowerBottomNoScale", "TowerBottomNoScaleLED", "TowerBottomWithScale", "TowerBottomWithScaleLED", "TowerMiddle", "TowerTop"]

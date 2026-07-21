@@ -13,7 +13,8 @@ Everything required to build the CocktailBerry MK IV.
 | Part                        | Qty | File                    | Notes               |
 | --------------------------- | --- | ----------------------- | ------------------- |
 | Bundler                     | 1   | Bundler                 |                     |
-| Draining Rack               | 1   | DrainingRack            |                     |
+| Draining Rack No Scale      | 1   | DrainingRackNoScale     | default rack        |
+| Draining Rack With Scale    | 1   | DrainingRackWithScale   | *variant* scale     |
 | Drip Tray No Scale          | 1   | DripTrayNoScale         | default tray        |
 | Drip Tray With Scale        | 1   | DripTrayWithScale       | *variant* scale     |
 | Load Cell Bottom Holder     | 1   | LoadCellBottomHolder    | *optional* scale    |
