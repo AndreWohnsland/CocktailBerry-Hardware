@@ -35,6 +35,7 @@ Everything required to build the CocktailBerry MK IV.
 | Tower Bottom No Scale LED   | 1   | TowerBottomNoScaleLED   | *variant* LED       |
 | Tower Bottom With Scale     | 1   | TowerBottomWithScale    | *variant* scale     |
 | Tower Bottom With Scale LED | 1   | TowerBottomWithScaleLED | *variant* scale LED |
+| Power Cable Clip            | 1   | PowerCableClip          | *optional*          |
 
 Note that the tower comes in different variants, most notably at the bottom section.
 There are 4 variants:
