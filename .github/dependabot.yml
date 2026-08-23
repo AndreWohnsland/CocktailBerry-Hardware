@@ -4,6 +4,7 @@ updates:
     directory: /
     labels:
       - dependencies
+      - skip-changelog
     schedule:
       interval: weekly
     groups:
