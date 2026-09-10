@@ -140,7 +140,6 @@ custom_checkbox = true
 # Enable the macros plugin so pages can interpolate shared values from extra.*
 # (Jinja2). Use in any page as, e.g., {{ extra.repo_url }}/releases.
 [project.plugins.macros]
-config = {}
 
 [project.extra]
 # Single source of truth for the GitHub repository base URL. Reused across pages
