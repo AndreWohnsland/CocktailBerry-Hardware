@@ -1325,7 +1325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -1361,7 +1361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 99.06 88.9 90)
 			(effects
 				(font
@@ -1377,6 +1377,12 @@
 			(uuid "9b1b3556-df81-4c0d-afad-04f2cfe3d090")
 		)
 		(instances
+			(project ""
+				(path "/08e8e2b9-5c8d-4651-bb52-679dee8728f5"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/5575e3e9-07ff-42ca-b261-f5e11b540bc9/3509e54a-7fe2-4c9a-a501-131594e610ec"
 					(reference "R16")
@@ -2085,6 +2091,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
