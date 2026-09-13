@@ -20191,7 +20191,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CocktailBerryBoard\nv0.5\n07/2026"
+	(gr_text "CocktailBerryBoard\nv1.0\n09/2026"
 		(at 213.233 66.675 0)
 		(layer "B.SilkS")
 		(uuid "04892a6b-08d6-4964-ab28-f1f9e13789d4")
