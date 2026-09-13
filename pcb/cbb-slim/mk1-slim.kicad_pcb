@@ -17681,7 +17681,7 @@
 		(layer "Edge.Cuts")
 		(uuid "f9a2396c-eb76-460f-bf11-0870dde89e31")
 	)
-	(gr_text "CocktailBerryBoard\nslim-v0.3\n07/2026"
+	(gr_text "CocktailBerryBoard\nslim-v1.0\n09/2026"
 		(at 191.456823 62.668503 0)
 		(layer "B.SilkS")
 		(uuid "04892a6b-08d6-4964-ab28-f1f9e13789d4")
