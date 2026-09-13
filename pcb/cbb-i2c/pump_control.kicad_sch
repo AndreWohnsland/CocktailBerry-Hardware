@@ -1325,7 +1325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -1361,7 +1361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 99.06 88.9 90)
 			(effects
 				(font
