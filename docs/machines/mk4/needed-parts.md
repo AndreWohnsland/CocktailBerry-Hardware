@@ -51,7 +51,7 @@ See also the [PCBAs](../../pcbas/index.md) section.
 
 | Component | Qty | Notes                            |
 | --------- | --- | -------------------------------- |
-| CBB-I2C   | 1   | GPIO Variant is fine if no scale |
+| CBB-I2C   | 1   | GPIO variant is fine if no scale |
 
 Note that the I2C board version is easier to install and integrate with the rest of the components.
 You can always use the GPIO version if you prefer, but it will require more wiring.

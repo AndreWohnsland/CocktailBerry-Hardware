@@ -31,7 +31,7 @@ Place the pump into the socket, guide the outlet tube through the bundler.
 Cut the outlet tube, leaving some distance to the end of the bundler.
 Repeat this for all pumps, try to route each outlet tube to its position in the bundler, so they don't cross each other.
 
-When the tubes do not lay snugly, you can use the optional pump fixer to fix them in place, parallel to the bottom of the tower.
+When the tubes do not lie snugly, you can use the optional pump fixer to fix them in place, parallel to the bottom of the tower.
 You can use some tape to fix all tubes together at the machine outlet, so they can't slip back.
 Put the funnel to the bundler and use one screw to fix it in place, so it doesn't move.
 
@@ -67,7 +67,7 @@ You can use the bottom screws for the monitor to achieve this.
 
 Mount the Raspberry Pi on top of the CocktailBerry Board using the M2.5 hex standoffs and screws.
 If the standoffs are too short, stack a second one on top.
-You can also already go with step 9 here (GPIO connections) and then mount the RPi, since the GPIO connections are easier to access without the RPi in place.
+You can also do step 9 first (GPIO connections) and then mount the RPi, since the GPIO connections are easier to access without the RPi in place.
 
 ## Step 9 - Connect Signals
 

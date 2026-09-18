@@ -59,7 +59,7 @@ Repeat this for all membrane pumps, try to route each outlet tube to its positio
   <figcaption>Membrane pump assembly, top view</figcaption>
 </figure>
 
-When the tubes do not lay snugly, you can use the optional tube fixer to fix them in place, parallel to the bottom of the tower (should only concern membrane pumps).
+When the tubes do not lie snugly, you can use the optional tube fixer to fix them in place, parallel to the bottom of the tower (should only concern membrane pumps).
 
 <figure markdown>
   ![Tube Fixer](../../img/mk4/tube_fixer.jpeg)
@@ -138,7 +138,7 @@ If you use a scale, connect it either to the I2C of the CocktailBerry Board or t
 
 Mount the Raspberry Pi on top of the CocktailBerry Board using the M2.5 hex standoffs and screws.
 If the standoffs are too short, stack a second one on top.
-You can also already go with step 8 here (CocktailBerry Board connections) and then mount the RPi, since the GPIO connections are easier to access without the RPi in place.
+You can also do step 8 first (CocktailBerry Board connections) and then mount the RPi, since the GPIO connections are easier to access without the RPi in place.
 
 ## Step 8 - Connect Signals
 
@@ -159,7 +159,7 @@ If you have an LED, connect it to the GND, 5 V and GPIO (10 preferred) of the Ra
 
 Apply some glue to the front of the top tower to fix the tablet holder plate in place.
 It should be symmetrically aligned with the tower, so the tablet can be placed in the middle of the tower.
-You can let it overlap as much as you want on the top, 5 mm are recommended, but it is not critical.
+You can let it overlap as much as you want on the top, 5 mm is recommended, but it is not critical.
 
 <figure markdown>
   ![Tablet Holder](../../img/mk4/tablet_plate.jpeg)
@@ -172,7 +172,7 @@ You can let it overlap as much as you want on the top, 5 mm are recommended, but
 
 ## Step 11 - Finalization
 
-Now you can put the tower lid on top of the tower and screw it in place using M3 screws.
+Now you can put the Lid Top on top of the tower and screw it in place using M3 screws.
 Put the drip tray with the draining rack in the corresponding cutout at the bottom tower.
 Place a bottle to each slot and adjust the length of the inlet tubing to reach the bottom of the bottles.
 The machine is now ready to be connected to the power supply and can be used.

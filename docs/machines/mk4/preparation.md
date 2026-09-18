@@ -18,7 +18,7 @@ Steps to complete before assembly.
 First, heat-set the threaded inserts (using a soldering iron) into the printed parts that require them.
 Here is an overview of which insert goes where:
 
-- Lid Tower: two M3 on the pads
+- Lid Top: two M3 on the pads
 - Tower Bottom: two M3 on the top connecting point, two M5 on the bottom
 - Tower Middle: three M4 on the top connecting point
 - Tower Top: eight M2.5 on the electric mounting points, three M3 each side on the pump sockets, two M3 each side on the peristaltic holders (front)

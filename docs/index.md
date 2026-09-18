@@ -23,7 +23,7 @@ Related project sites:
 
 - :material-chip: **[PCBAs](pcbas/index.md)**
 
-    Printed circuit board to power your custom machine, ready to use.
+    Printed circuit boards to power your custom machine, ready to use.
 
 - :material-printer-3d: **[Machines](machines/index.md)**
 

@@ -20,17 +20,17 @@ It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
 
 ## Specifications
 
-| Property   | Value                                          |
-| ---------- | ---------------------------------------------- |
-| Dispensers | 8 × membrane pumps + 2 × peristaltic pumps     |
-| Display    | Tablet or Smartphone                           |
-| Controller | Raspberry Pi 4 or 5                            |
-| Power      | 12 V input; internal transformer powers the Pi |
-| Software   | CocktailBerry v2                               |
-| Enclosure  | Fully 3D-printed                               |
-| Dimensions | ⌀ ~240 mm × ~500 mm (H)                        |
-| Scale      | Optional, below the Draining Rack              |
-| LEDs       | Optional, behind the glass                     |
+| Property   | Value                                              |
+| ---------- | -------------------------------------------------- |
+| Dispensers | 8 × membrane pumps + 2 × peristaltic pumps         |
+| Display    | Tablet or Smartphone                               |
+| Controller | Raspberry Pi 4 or 5                                |
+| Power      | 12 V input; internal DC-DC converter powers the Pi |
+| Software   | CocktailBerry v2                                   |
+| Enclosure  | Fully 3D-printed                                   |
+| Dimensions | ⌀ ~240 mm × ~500 mm (H)                            |
+| Scale      | Optional, below the Draining Rack                  |
+| LEDs       | Optional, behind the glass                         |
 
 ## Downloads
 

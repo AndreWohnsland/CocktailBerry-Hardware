@@ -8,17 +8,17 @@ Everything required to build the CocktailBerry 2-Go.
 
 ## Printed Parts (STLs)
 
-| Part           | Qty | File           | Notes      |
-| -------------- | --- | -------------- | ---------- |
-| Pump Grid      | 1   | PumpGrid       |            |
-| Leg Holder     | 2   | LegHolder      |            |
-| Leg Stabilizer | 2   | LegStabilizers |            |
-| Main Board     | 1   | MainBoard      |            |
-| Electric Lid   | 1   | ElectricLid    |            |
-| Funnel         | 1   | Funnel         |            |
-| Foot Plug      | 4   | FootPlugs      | *optional* |
-| Foot Transport | 2   | FootTransport  | *optional* |
-| Machine Logo   | 1   | MachineLogo    | *optional* |
+| Part            | Qty | File           | Notes      |
+| --------------- | --- | -------------- | ---------- |
+| Pump Grid       | 1   | PumpGrid       |            |
+| Leg Holder      | 2   | LegHolder      |            |
+| Leg Stabilizers | 2   | LegStabilizers |            |
+| Main Board      | 1   | MainBoard      |            |
+| Electric Lid    | 1   | ElectricLid    |            |
+| Funnel          | 1   | Funnel         |            |
+| Foot Plugs      | 4   | FootPlugs      | *optional* |
+| Foot Transport  | 2   | FootTransport  | *optional* |
+| Machine Logo    | 1   | MachineLogo    | *optional* |
 
 ## Electronics
 

@@ -18,7 +18,7 @@ It drives its outputs directly from the Raspberry Pi's I²C interface.
 ## Overview
 
 The board switches up to **10 circuits** through the Raspberry Pi's I²C interface and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
-Each output carries a built-in **flyback (backflow) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
+Each output carries a built-in **flyback (freewheeling) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
 The I²C bus can be daisy-chained to further devices, sharing the Pi's single bus.
 
 Although it was designed for the [MK IV](../machines/mk4/index.md), it works with any device that can be controlled over I²C.
@@ -46,8 +46,8 @@ Although it was designed for the [MK IV](../machines/mk4/index.md), it works wit
 
 ## Extender Mapping
 
-Currently, the default I2C address is `0x27`, and the board can be configured to use addresses down to `0x20` by soldering the appropriate jumpers (A0, A1, A2) on the board.
-The pumps are mapped to the channels as follows: *0 to 1, 1 to 2, ..., 9 to 10* (Pump - 1 = Pin/Channel).
+Currently, the default I²C address is `0x27`, and the board can be configured to use addresses down to `0x20` by soldering the appropriate jumpers (A0, A1, A2) on the board.
+The channels are mapped to the pumps as follows: *0 to 1, 1 to 2, ..., 9 to 10* (Pump - 1 = Pin/Channel).
 Use this number for the CocktailBerry software as the pin number of the pump.
 
 ## Files

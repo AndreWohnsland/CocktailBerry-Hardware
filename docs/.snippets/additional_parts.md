@@ -1,7 +1,7 @@
 ## Additional Parts
 
 In addition, you will need some "consumable" parts for a general build or other tools.
-You might already have them laying around, but it's good to have them on the list for reference.
+You might already have them lying around, but it's good to have them on the list for reference.
 
 | Item                                         | Qty     |
 | -------------------------------------------- | ------- |
