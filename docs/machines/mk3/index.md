@@ -18,15 +18,15 @@ It is fully 3D-printed and designed to be produced on a common **250 × 250 mm**
 
 ## Specifications
 
-| Property   | Value                                            |
-| ---------- | ------------------------------------------------ |
-| Dispensers | 8 × membrane pumps                               |
-| Display    | 7" integrated LCD touchscreen                    |
-| Controller | Raspberry Pi 3 Model B+ (newer models also work) |
-| Power      | 12 V input; internal transformer powers the Pi   |
-| Software   | CocktailBerry v1 (Qt); also runs v2              |
-| Enclosure  | Fully 3D-printed (fits a 250 × 250 bed)          |
-| Dimensions | ⌀ ~240 mm × ~550 mm (H)                          |
+| Property   | Value                                              |
+| ---------- | -------------------------------------------------- |
+| Dispensers | 8 × membrane pumps                                 |
+| Display    | 7" integrated LCD touchscreen                      |
+| Controller | Raspberry Pi 3 Model B+ (newer models also work)   |
+| Power      | 12 V input; internal DC-DC converter powers the Pi |
+| Software   | CocktailBerry v1 (Qt); also runs v2                |
+| Enclosure  | Fully 3D-printed (fits a 250 × 250 bed)            |
+| Dimensions | ⌀ ~240 mm × ~550 mm (H)                            |
 
 Because the touchscreen is built in, the **v1** app is the natural fit, but the machine can also be run with **v2**.
 

@@ -1,7 +1,7 @@
 ## Threaded Inserts
 
 You will need threaded inserts in a variety of sizes, mostly M2.5, 3, 4, 5, maybe 6 (short versions also work). Make sure your inserts fit the following hole diameters.
-I used [CNC Kitchen Inserts](https://cnckitchen.store/collections/threaded-inserts) products and their dimensions for the machine.
+I used [CNC Kitchen inserts](https://cnckitchen.store/collections/threaded-inserts) and their dimensions for the machine.
 
 | Insert Size | Material Hole Diameter (mm) |
 | ----------- | --------------------------- |
@@ -16,4 +16,4 @@ I recommend either checking your dimensions, or going with CNC Kitchen products,
 These [threaded inserts](https://amzn.to/4xFULJX) come close to the CNC ones.
 When using something [like those](https://amzn.to/4oJ0DOu), you will probably need smaller holes.
 If your inserts require different hole sizes, you will need to adjust the STL files accordingly.
-You can find them in the parameter file.
+The hole diameters are defined in the parameter file.

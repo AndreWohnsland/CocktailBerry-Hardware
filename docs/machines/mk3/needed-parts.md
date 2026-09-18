@@ -10,7 +10,7 @@ Everything required to build the CocktailBerry MK III.
 
 --8<-- "machine/variants.md"
 
-| Part                 | Qty | File Name          | Notes           |
+| Part                 | Qty | File               | Notes           |
 | -------------------- | --- | ------------------ | --------------- |
 | Bundler              | 1   | Bundler            |                 |
 | Draining Rack        | 1   | DrainingRack       |                 |
@@ -27,13 +27,13 @@ Everything required to build the CocktailBerry MK III.
 | Tube Fixer 40mm      | 2   | TubeFixer40mm      | optional        |
 | Tube Fixer 50mm      | 2   | TubeFixer50mm      | optional        |
 
-## Custom Boards
+## Electronics
 
 See also the [PCBAs](../../pcbas/index.md) section.
 
 | Component | Qty | Notes                       |
 | --------- | --- | --------------------------- |
-| CBB-GPIO  | 1   | I2C Variant is fine as well |
+| CBB-GPIO  | 1   | I2C variant is fine as well |
 
 ## Hardware
 

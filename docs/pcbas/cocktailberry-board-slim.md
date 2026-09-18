@@ -19,7 +19,7 @@ This is a variant of the GPIO-based board (CBB-GPIO), with a smaller form factor
 ## Overview
 
 The board switches up to **8 circuits** through the Raspberry Pi's GPIO pins and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
-Each output carries a built-in **flyback (backflow) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
+Each output carries a built-in **flyback (freewheeling) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
 
 Although it was designed for the [2-Go](../machines/2-go/index.md), it works with any device that can be controlled from a GPIO output.
 

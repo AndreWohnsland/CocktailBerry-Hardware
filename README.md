@@ -30,7 +30,7 @@ are generated from them by the build pipeline. Full specs, parts, and downloads 
 | --------------------------------------------------------------------------------------------- | ------------------------------------ | -------- |
 | [CocktailBerryBoard GPIO](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-gpio/) | GPIO-based, up to 10 circuits        | Released |
 | [CocktailBerryBoard Slim](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-slim/) | Compact GPIO-based, up to 8 circuits | Released |
-| [CocktailBerryBoard I2C](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-i2c/)   | I2C-based, up to 10 circuits         | Alpha    |
+| [CocktailBerryBoard I2C](https://hardware.cocktailberry.org/pcbas/cocktailberry-board-i2c/)   | I2C-based, up to 10 circuits         | Beta     |
 
 **Machines** ([`cad/`](cad)) — 3D-printable machine builds:
 

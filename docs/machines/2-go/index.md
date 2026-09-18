@@ -19,15 +19,15 @@ The legs can be detached for easier transport, and the whole thing can be stored
 
 ## Specifications
 
-| Property   | Value                                            |
-| ---------- | ------------------------------------------------ |
-| Dispensers | 8 × membrane pumps                               |
-| Display    | 5" integrated LCD touchscreen or smartphone      |
-| Controller | Raspberry Pi 3 Model B+ (newer models also work) |
-| Power      | 12 V input; internal transformer powers the Pi   |
-| Software   | CocktailBerry v1  or v2 (no touchscreen)         |
-| Enclosure  | Euro Box, 3D-printed parts inside                |
-| Dimensions | 30×20×12 cm (box), ~50 cm high with legs         |
+| Property   | Value                                              |
+| ---------- | -------------------------------------------------- |
+| Dispensers | 8 × membrane pumps                                 |
+| Display    | 5" integrated LCD touchscreen or smartphone        |
+| Controller | Raspberry Pi 3 Model B+ (newer models also work)   |
+| Power      | 12 V input; internal DC-DC converter powers the Pi |
+| Software   | CocktailBerry v1 or v2 (no touchscreen)            |
+| Enclosure  | Euro Box, 3D-printed parts inside                  |
+| Dimensions | 30×20×12 cm (box), ~50 cm high with legs           |
 
 ## Downloads
 

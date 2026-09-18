@@ -18,7 +18,7 @@ It drives its outputs directly from the Raspberry Pi's GPIO pins.
 ## Overview
 
 The board switches up to **10 circuits** through the Raspberry Pi's GPIO pins and on-board **MOSFETs**, replacing relay arrays with a quieter and more compact solution.
-Each output carries a built-in **flyback (backflow) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
+Each output carries a built-in **flyback (freewheeling) diode**, and the 12 V supply can be **daisy-chained** onward, which keeps wiring across the machine simple.
 
 Although it was designed for the [MK III](../machines/mk3/index.md), it works with any device that can be controlled from a GPIO output.
 

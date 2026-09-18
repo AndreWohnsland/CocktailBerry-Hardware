@@ -19,7 +19,7 @@ Drill a hole on the back side for the power jack (12 V), at the side where the c
 
 ## Step 2 - Mount the Pumps
 
-Put all 8 pumps in the pump grid, power connection facing to the extensions with the M4 threads.
+Put all 8 pumps in the pump grid, power connection facing the extensions with the M4 threads.
 Use the M2.5 grub screws to fix the pumps in the grid.
 Both of the power supply connections should be parallel to the long side of the grid.
 
