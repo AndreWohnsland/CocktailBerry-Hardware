@@ -13,3 +13,7 @@ Each PCBA has its own page with its capabilities, specifications, and (where ava
 - [CocktailBerryBoard GPIO](cocktailberry-board-gpio.md): GPIO-based control board that replaces relay arrays, switching up to 10 circuits via MOSFETs.
 - [CocktailBerryBoard I2C](cocktailberry-board-i2c.md): I2C-based control board that replaces relay arrays, switching up to 10 circuits via MOSFETs.
 - [CocktailBerryBoard Slim](cocktailberry-board-slim.md): Compact GPIO-based control board that replaces relay arrays, switching up to 8 circuits via MOSFETs.
+
+## Ordering
+
+Boards can be ordered fully assembled - the [ordering guide](ordering.md) walks through a JLCPCB order step by step.

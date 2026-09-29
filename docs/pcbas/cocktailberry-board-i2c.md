@@ -62,4 +62,6 @@ All parts (SMD, THT) are included in the package, so you can order the board and
 
 [releases]: {{extra.repo_url}}/releases
 
+--8<-- "board/ordering.md"
+
 --8<-- "disclaimer.md"
