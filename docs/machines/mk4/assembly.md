@@ -132,7 +132,7 @@ Connect each pump to a matching +/- pump output on the CocktailBerry Board.
 For easier setup, try to connect the pumps in order (for example, pump 1 to the first pump socket, pump 2 to the second, etc.).
 It is recommended to first connect everything to the CocktailBerry Board before mounting it into the tower, since it is easier to access the screw terminals without the tower in the way.
 
-If you use a scale, connect it either to the I2C of the CocktailBerry Board or to the GPIO of the Raspberry Pi (next step), depending on which board you have.
+If you use a scale, connect it either to the I2C of the CocktailBerry Board or to the GPIO of the Raspberry Pi (next step), depending on which board you have (see [scale wiring](#optional-scale-wiring)).
 
 ## Step 7 - Mount the RPi
 
@@ -199,6 +199,42 @@ It will be guided through the tower to the top later, so it can be connected to 
   ![Scale Electrics](../../img/mk4/load_cell_electrics.jpeg)
   <figcaption>Electrics in tower</figcaption>
 </figure>
+
+The NAU7802 communicates over I2C (default address `0x2A`), so the connection cable only needs four wires: VCC, GND, SDA and SCL.
+The DRDY pin of the scale board is not used and can stay unconnected.
+Depending on your CocktailBerry Board, the cable goes either to the Raspberry Pi or to the I2C version of the CocktailBerry Board.
+
+**GPIO version of the CocktailBerry Board:** Connect the scale board directly to the I2C pins of the Raspberry Pi.
+
+| NAU7802    | Raspberry Pi | Physical Pin |
+| ---------- | ------------ | ------------ |
+| VCC or VIN | 3V3          | 1            |
+| GND        | GND          | 6            |
+| SDA        | GPIO 2 (SDA) | 3            |
+| SCL        | GPIO 3 (SCL) | 5            |
+
+**[I2C version of the CocktailBerry Board](../../pcbas/cocktailberry-board-i2c.md):** The I2C pins of the Raspberry Pi are already used by the board (see [step 8](#step-8-connect-signals)).
+The board passes the I2C bus through, so connect the scale board to the CocktailBerry Board instead of the Raspberry Pi.
+You can use either of the two SH 1.0 mm 4-pin sockets (pin order GND, 3V3, SDA, SCL, compatible with Qwiic/STEMMA QT cables) or the free pins of the 2×4 I2C header.
+The header has two pins for each signal, one is used for the Raspberry Pi and the other one for the scale.
+
+| NAU7802    | CocktailBerry Board I2C |
+| ---------- | ----------------------- |
+| VCC or VIN | 3V3                     |
+| GND        | GND                     |
+| SDA        | SDA                     |
+| SCL        | SCL                     |
+
+The I/O expander of the board uses address `0x27`, so both devices can share the bus without changing any address.
+
+!!! warning "Use 3.3 V, not 5 V"
+    Most NAU7802 boards have pull-up resistors from SDA and SCL to VCC.
+    Powering the board with 5 V puts 5 V on the I2C lines, which can damage the Raspberry Pi.
+
+The CocktailBerry setup script enables I2C on the Raspberry Pi.
+If you installed the software another way, enable it with `sudo raspi-config nonint do_i2c 0`.
+After a reboot, `i2cdetect -y 1` should list the scale board at address `2a`.
+In the CocktailBerry settings, enable the scale in `SCALE_CONFIG`, select `NAU7802` as driver and keep the address `2A`.
 
 ## *Optional* LED Wiring
 
