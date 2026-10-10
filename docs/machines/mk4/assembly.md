@@ -148,7 +148,7 @@ Otherwise, connect the GPIO pins with the GND and pump 1-10 pins of the board us
 
 --8<-- "machine/gpio_pins.md"
 
-If you have an LED, connect it to the GND, 5 V and GPIO (10 preferred) of the Raspberry Pi.
+If you have an LED, connect it to the GND, 5 V and GPIO (10 preferred) of the Raspberry Pi (see [LED wiring](#optional-led-wiring)).
 
 <figure markdown>
   ![Inner Finished](../../img/mk4/inner_finished.jpeg)
@@ -251,5 +251,46 @@ It can be guided through the tower to the top, so it can be connected to the boa
   ![LED Assembly](../../img/mk4/led_assembly_bottom.jpeg)
   <figcaption>LED assembly, bottom view</figcaption>
 </figure>
+
+The LED strip is an addressable WS281x strip with three wires: 5 V, GND and data (DIN).
+The data wire always goes to GPIO 10 (physical pin 19) of the Raspberry Pi.
+GPIO 10 uses SPI and works on every Raspberry Pi, including the Pi 5.
+The GPIOs 12, 18 and 21 also work, but not on the Pi 5.
+
+The power source for the 5 V wire depends on the number of LEDs.
+Each LED draws up to 60 mA at full brightness and white color.
+For a rough estimate, multiply the number of LEDs by 60 mA and by the brightness you set in the software.
+For example, 24 LEDs at 100 % brightness draw up to 1.44 A, and at 30 % brightness up to about 0.43 A.
+
+**Up to about 0.5 A (few LEDs or reduced brightness):** Power the strip directly from the Raspberry Pi.
+
+| LED Strip | Raspberry Pi  | Physical Pin |
+| --------- | ------------- | ------------ |
+| 5 V       | 5 V           | 2 or 4       |
+| GND       | GND           | 6 or 9       |
+| DIN       | GPIO 10 (SPI) | 19           |
+
+**More than about 0.5 A (more LEDs or full brightness):** Power the strip directly from the 5 V output of the step-down converter.
+Connect the 5 V and GND wires of the strip to the converter output, next to the cable that powers the Raspberry Pi.
+Use wires that are thick enough for the current, for example 0.5 mm² (20 AWG).
+Connect only the data wire to the Raspberry Pi.
+The converter and the Raspberry Pi share the same GND, so the data signal has a common reference.
+
+| LED Strip | Connected to                          |
+| --------- | ------------------------------------- |
+| 5 V       | 5 V output of the step-down converter |
+| GND       | GND output of the step-down converter |
+| DIN       | GPIO 10 (physical pin 19) of the Pi   |
+
+!!! warning "Check the converter rating"
+    The step-down converter must supply the Raspberry Pi and the LEDs at the same time.
+    The Raspberry Pi 5 alone needs up to 3 A under load, the Raspberry Pi 4 up to 2.5 A.
+    Add the estimated LED current and make sure the converter rating is higher than the sum.
+
+The CocktailBerry setup script enables SPI on the Raspberry Pi.
+If you installed the software another way, enable it with `sudo raspi-config nonint do_spi 0`.
+In the CocktailBerry settings, add an entry to `LED_CONFIG`, select `WSLED` as type and pin `10`.
+Set `count` to the number of LEDs on the strip.
+If you power the strip from the Raspberry Pi, use `brightness` to keep the current below 0.5 A.
 
 --8<-- "machine/final_checks.md"
