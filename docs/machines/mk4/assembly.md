@@ -148,7 +148,7 @@ Otherwise, connect the GPIO pins with the GND and pump 1-10 pins of the board us
 
 --8<-- "machine/gpio_pins.md"
 
-If you have an LED, connect it to the GND, 5 V and GPIO (10 preferred) of the Raspberry Pi (see [LED wiring](#optional-led-wiring)).
+If you have an LED, connect it to the GND, 5 V and GPIO 18 (Raspberry Pi 5: GPIO 10) of the Raspberry Pi (see [LED wiring](#optional-led-wiring)).
 
 <figure markdown>
   ![Inner Finished](../../img/mk4/inner_finished.jpeg)
@@ -253,9 +253,13 @@ It can be guided through the tower to the top, so it can be connected to the boa
 </figure>
 
 The LED strip is an addressable WS281x strip with three wires: 5 V, GND and data (DIN).
-The data wire always goes to GPIO 10 (physical pin 19) of the Raspberry Pi.
-GPIO 10 uses SPI and works on every Raspberry Pi, including the Pi 5.
-The GPIOs 12, 18 and 21 also work, but not on the Pi 5.
+The data wire goes to GPIO 18 (physical pin 12) of the Raspberry Pi.
+GPIO 18 uses the PWM hardware of the Raspberry Pi and works on the Raspberry Pi 4 and older models.
+
+!!! note "Raspberry Pi 5"
+    The Raspberry Pi 5 has no PWM hardware that the LED driver can use, so GPIO 18 does not work there.
+    On the Pi 5, connect the data wire to GPIO 10 (SPI MOSI, physical pin 19) instead.
+    CocktailBerry drives the strip over SPI on this pin.
 
 The power source for the 5 V wire depends on the number of LEDs.
 Each LED draws up to 60 mA at full brightness and white color.
@@ -268,7 +272,8 @@ For example, 24 LEDs at 100 % brightness draw up to 1.44 A, and at 30 % brightne
 | --------- | ------------- | ------------ |
 | 5 V       | 5 V           | 2 or 4       |
 | GND       | GND           | 6 or 9       |
-| DIN       | GPIO 10 (SPI) | 19           |
+| DIN       | GPIO 18       | 12           |
+| DIN (Pi 5)| GPIO 10       | 19           |
 
 **More than about 0.5 A (more LEDs or full brightness):** Power the strip directly from the 5 V output of the step-down converter.
 Connect the 5 V and GND wires of the strip to the converter output, next to the cable that powers the Raspberry Pi.
@@ -280,17 +285,56 @@ The converter and the Raspberry Pi share the same GND, so the data signal has a 
 | --------- | ------------------------------------- |
 | 5 V       | 5 V output of the step-down converter |
 | GND       | GND output of the step-down converter |
-| DIN       | GPIO 10 (physical pin 19) of the Pi   |
+| DIN       | GPIO 18 (physical pin 12) of the Pi   |
+| DIN (Pi 5)| GPIO 10 (physical pin 19) of the Pi   |
 
 !!! warning "Check the converter rating"
     The step-down converter must supply the Raspberry Pi and the LEDs at the same time.
     The Raspberry Pi 5 alone needs up to 3 A under load, the Raspberry Pi 4 up to 2.5 A.
     Add the estimated LED current and make sure the converter rating is higher than the sum.
 
+GPIO 18 shares the PWM hardware with the analog audio output of the Raspberry Pi.
+Disable the onboard audio by setting `dtparam=audio=off` in `/boot/firmware/config.txt` and reboot the Raspberry Pi.
+In the CocktailBerry settings, add an entry to `LED_CONFIG`, select `WSLED` as type and pin `18`.
+
+**Raspberry Pi 5:** The onboard audio does not need to be disabled, but SPI must be enabled.
 The CocktailBerry setup script enables SPI on the Raspberry Pi.
 If you installed the software another way, enable it with `sudo raspi-config nonint do_spi 0`.
-In the CocktailBerry settings, add an entry to `LED_CONFIG`, select `WSLED` as type and pin `10`.
+In `LED_CONFIG`, select `WSLED` as type and pin `10`.
+
 Set `count` to the number of LEDs on the strip.
 If you power the strip from the Raspberry Pi, use `brightness` to keep the current below 0.5 A.
+
+### Test the LEDs without CocktailBerry
+
+You can check the wiring of the strip independently of CocktailBerry with the test script `led_test.py`.
+It is located in the `~/CocktailBerry/scripts` folder on the Raspberry Pi.
+Stop CocktailBerry before running the test, otherwise both programs try to control the strip at the same time.
+The script uses the Python environment of CocktailBerry, which already contains the LED library.
+
+!!! warning "Raspberry Pi 4 and older only"
+    The test script uses the `rpi_ws281x` library, which does not work on the Raspberry Pi 5.
+    On a Pi 5, test the LEDs directly in CocktailBerry instead.
+
+GPIO pin and number of LEDs are required:
+
+```bash
+sudo ~/CocktailBerry/.venv/bin/python ~/CocktailBerry/scripts/led_test.py --pin 18 --count 5
+```
+
+Replace `5` with the number of LEDs on the strip.
+Optionally, set the brightness with `--brightness` (0-255, default 50).
+The script runs the following steps and switches all LEDs off at the end, or when you abort it with `Ctrl+C`:
+
+1. Each LED lights up individually in red, green and blue.
+2. All LEDs light up together in red, green, blue and white.
+3. A rainbow runs along the strip.
+
+!!! tip "Interpreting the result"
+    - **Nothing lights up:** Check the common GND between the strip and the Raspberry Pi, and that the data wire is connected to DIN (the end the arrows point away from).
+    - **Wrong colors**, for example green instead of red: The color order of your strip differs from GRB.
+    - **Only the first LEDs work or they flicker:** The 3.3 V data signal of the Raspberry Pi is too weak for the strip. A level shifter (e.g. 74AHCT125) or a 330 Ω resistor in the data line helps.
+
+If the test works, but the LEDs stay dark in CocktailBerry, check the pin and count in `LED_CONFIG`.
 
 --8<-- "machine/final_checks.md"
