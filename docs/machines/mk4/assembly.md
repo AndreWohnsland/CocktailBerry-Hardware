@@ -327,7 +327,42 @@ The script runs the following steps and switches all LEDs off at the end, or whe
     - **Wrong colors**, for example green instead of red: The color order of your strip differs from GRB.
     - **Only the first LEDs work or they flicker:** The 3.3 V data signal of the Raspberry Pi is too weak for the strip. A level shifter (e.g. 74AHCT125) or a 330 Ω resistor in the data line helps.
 
-If the script reports that it could not open `/dev/spidev0.0`, SPI is not enabled (see above).
-If the test works, but the LEDs stay dark in CocktailBerry, check the pin and count in `LED_CONFIG`.
+### Troubleshooting the LEDs
+
+**The script reports that it could not open `/dev/spidev0.0`:**
+SPI is not enabled, see above.
+
+**The test works, but the LEDs stay dark in CocktailBerry:**
+Check the pin and count in `LED_CONFIG` and stop the test script before starting CocktailBerry.
+
+**The colors are correct at first, but after a few changes the whole strip lights up white (Raspberry Pi 4):**
+On the Raspberry Pi 4, the SPI clock is derived from the core clock of the Pi.
+When the Pi is idle, it lowers the core clock to save power, which also slows down the SPI signal.
+The strip then reads every bit as a 1, so all LEDs show full white.
+You can watch this happen in a second terminal while the test is running:
+
+```bash
+watch -n 0.5 vcgencmd measure_clock core
+```
+
+If the value jumps between about 250 and 500 MHz at the moment the strip turns white, fix the core clock.
+Open the boot configuration:
+
+```bash
+sudo nano /boot/firmware/config.txt
+```
+
+Add these two lines at the end of the file, save it and reboot:
+
+```
+core_freq=500
+core_freq_min=500
+```
+
+After the reboot, the core clock stays at 500 MHz and the strip shows the correct colors.
+
+!!! note "Check for undervoltage as well"
+    An unstable or too weak power supply also makes the Raspberry Pi lower its clock.
+    Run `vcgencmd get_throttled`. Any result other than `throttled=0x0` points to a power problem that you should fix first.
 
 --8<-- "machine/final_checks.md"
