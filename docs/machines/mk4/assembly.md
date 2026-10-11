@@ -307,7 +307,15 @@ uv run --no-dev scripts/led_test.py --count 5
 ```
 
 Replace `5` with the number of LEDs on the strip.
-Optionally, set the brightness with `--brightness` (0-255, default 50).
+Optionally, set the brightness in percent with `--brightness` (0-100, default 20), the same scale as `brightness` in `LED_CONFIG`:
+
+```bash
+uv run --no-dev scripts/led_test.py --count 5 --brightness 60
+```
+
+The short forms `-c` and `-b` work as well, and `--help` lists all options.
+If you power the strip from the Raspberry Pi, keep the brightness low enough to stay below 0.5 A (see above).
+
 The script runs the following steps and switches all LEDs off at the end, or when you abort it with `Ctrl+C`:
 
 1. Each LED lights up individually in red, green and blue.
