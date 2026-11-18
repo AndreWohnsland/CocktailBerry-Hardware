@@ -6199,7 +6199,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "T6.3A 250V"
 			(at 2.35 3.1 0)
 			(layer "F.Fab")
 			(uuid "0bbe14ea-ef25-415f-83c1-f1b2ec23795e")
@@ -6246,7 +6246,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22396288"
+		(property "MPN" "C354907"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23547,7 +23547,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CocktailBerryBoard\nI2C v1.0\n09/2026"
+	(gr_text "CocktailBerryBoard\nI2C v1.2\n11/2026"
 		(at 187.75 64.75 0)
 		(layer "B.SilkS")
 		(uuid "04892a6b-08d6-4964-ab28-f1f9e13789d4")

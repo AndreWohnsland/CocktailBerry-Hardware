@@ -33,7 +33,7 @@ Although it was designed for the [2-Go](../machines/2-go/index.md), it works wit
 | Wiring            | One signal header pin per channel + 2×GND                 |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |
-| Protection        | Input fuse and per-channel flyback diodes                 |
+| Protection        | Input fuse (T6.3A, time-lag) and per-channel flyback diodes |
 | Indication        | On/off status LED                                         |
 
 ## Mechanical

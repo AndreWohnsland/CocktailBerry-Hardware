@@ -5854,7 +5854,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "T6.3A 250V"
 			(at 55.88 49.53 90)
 			(effects
 				(font
@@ -5889,7 +5889,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C22396288"
+		(property "MPN" "C354907"
 			(at 55.88 53.34 90)
 			(effects
 				(font
