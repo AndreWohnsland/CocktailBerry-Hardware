@@ -33,7 +33,7 @@ Although it was designed for the [MK IV](../machines/mk4/index.md), it works wit
 | Wiring            | 2×4 Pin Headers, 2×SH 4 pin (SDA, SCL, GND, VCC)          |
 | Power             | 12 V input **and** output connector (PSU daisy-chain)     |
 | Dispenser outputs | One (+/–) connector per dispenser - no voltage conversion |
-| Protection        | Input fuse and per-channel flyback diodes                 |
+| Protection        | Input fuse (T6.3A, time-lag) and per-channel flyback diodes |
 | Indication        | On/off status LED                                         |
 
 ## Mechanical

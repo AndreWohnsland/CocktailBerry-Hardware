@@ -181,7 +181,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6bc1ace6-57cd-496d-b8dc-b6918107752d")
@@ -228,7 +228,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -405,7 +405,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "cc4715e7-17b9-4c7f-870c-15392715d48a")
@@ -452,7 +452,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -629,7 +629,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4c029715-8473-4c38-b9a3-930c8071a1c3")
@@ -676,7 +676,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5261,7 +5261,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "T6.3A 250V"
 			(at 2.35 3.1 0)
 			(layer "F.Fab")
 			(uuid "0bbe14ea-ef25-415f-83c1-f1b2ec23795e")
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22396288"
+		(property "MPN" "C354907"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "24135cc9-a261-4e4b-868f-877b3e3268f9")
@@ -6698,7 +6698,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9669,7 +9669,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fa67c854-e518-46f4-808e-bbeaf0f07abb")
@@ -9716,7 +9716,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11419,7 +11419,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "914d14e3-47a8-4c4d-8b2c-fe1c91b706a1")
@@ -11466,7 +11466,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13031,7 +13031,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e3607d27-3160-44a0-8259-3e43e512d2d5")
@@ -13078,7 +13078,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14247,7 +14247,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "afb817e4-0871-498f-ac35-fd4c078d6940")
@@ -14294,7 +14294,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15719,7 +15719,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cf643656-e32c-4587-8789-c40fd5e3d92a")
@@ -15766,7 +15766,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17179,7 +17179,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "093efead-b646-436b-ba8e-f8cb42d2df73")
@@ -17226,7 +17226,7 @@
 				)
 			)
 		)
-		(property "MPN" "C22962"
+		(property "MPN" "C23228"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20191,7 +20191,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CocktailBerryBoard\nv1.0\n09/2026"
+	(gr_text "CocktailBerryBoard\nv1.2\n11/2026"
 		(at 213.233 66.675 0)
 		(layer "B.SilkS")
 		(uuid "04892a6b-08d6-4964-ab28-f1f9e13789d4")
