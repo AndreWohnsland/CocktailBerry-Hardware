@@ -4,3 +4,9 @@ fp-info-cache
 */production/*
 _autosave*
 fabrication-toolkit-options.json
+
+# Netlist / BOM intermediates. KiCad regenerates these on demand and KiKit reads
+# the .kicad_sch directly, so committed copies only go stale (they did: they still
+# held the pre-1.1 220R LED resistors long after the schematics moved to 680R).
+*.net
+*.xml
